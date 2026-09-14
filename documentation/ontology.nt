@@ -1,19 +1,21 @@
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales> <http://www.w3.org/2002/07/owl#versionIRI> <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales/0.1.0> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales> <http://purl.org/dc/terms/created> "2026-04-15" .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales> <http://purl.org/dc/terms/creator> "Daniel Doña" .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales> <http://purl.org/dc/terms/creator> "Edna Ruckhaus" .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales> <http://purl.org/dc/terms/creator> "Lucía Sánchez" .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales> <http://purl.org/dc/terms/creator> "Oscar Corcho" .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales> <http://purl.org/dc/terms/creator> "Socorro Bernardos" .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales> <http://purl.org/dc/terms/description> "El propósito de esta ontología es proporcionar un vocabulario común para la representación de las entidades y los datos principales relacionados con los establecimientos comerciales de un municipio y sus licencias."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales> <http://purl.org/dc/terms/description> "The purpose of this ontology is to provide a common vocabulary for representing the main entities and data related to a municipality's commecial spaces and their permits."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales> <http://purl.org/dc/terms/title> "Ontología de Establecimiento Comercial"@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales> <http://purl.org/dc/terms/title> "The Commercial Establishment Ontology"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales> <http://purl.org/vocab/vann/preferredNamespacePrefix> "edintcom" .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales> <http://purl.org/vocab/vann/preferredNamespaceUri> <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+<https://edint.es/def/censo-locales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://edint.es/def/censo-locales> <http://www.w3.org/2002/07/owl#versionIRI> <https://edint.es/def/censo-locales> .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/created> "2026-04-15" .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/creator> "Daniel Doña" .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/creator> "Edna Ruckhaus" .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/creator> "Lucía Sánchez" .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/creator> "Oscar Corcho" .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/creator> "Socorro Bernardos" .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/description> "El propósito de esta ontología es proporcionar un vocabulario común para la representación de las entidades y los datos principales relacionados con los establecimientos comerciales de un municipio y sus licencias."@es .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/description> "The purpose of this ontology is to provide a common vocabulary for representing the main entities and data related to a municipality's commecial spaces and their permits."@en .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/issued> "2026-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/title> "Ontología de Establecimiento Comercial"@es .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/title> "The Commercial Establishment Ontology"@en .
+<https://edint.es/def/censo-locales> <http://purl.org/vocab/vann/preferredNamespacePrefix> "edintcom" .
+<https://edint.es/def/censo-locales> <http://purl.org/vocab/vann/preferredNamespaceUri> <https://edint.es/def/censo-locales#> .
+<https://edint.es/def/censo-locales> <http://www.w3.org/2002/07/owl#priorVersion> <https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/releases/tag/v0.2.0> .
+<https://edint.es/def/censo-locales> <http://www.w3.org/2002/07/owl#versionInfo> "0..2.1" .
 # 
 # 
 # #################################################################
@@ -86,6 +88,9 @@
 # #################################################################
 # 
 # 
+# http://www.w3.org/2001/XMLSchema#date
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
 # http://www.w3.org/2001/XMLSchema#gYearMonth
 <http://www.w3.org/2001/XMLSchema#gYearMonth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
 # 
@@ -124,164 +129,6 @@
 <http://vocab.ciudadesabiertas.es/def/transporte/trafico#inicioTramo> <http://www.w3.org/2000/01/rdf-schema#label> "Inicio del Tramo"@es .
 <http://vocab.ciudadesabiertas.es/def/transporte/trafico#inicioTramo> <http://www.w3.org/2000/01/rdf-schema#label> "Section start"@en .
 # 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#appliedTo
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#appliedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#appliedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entity, especially a commercial permit, to the entity, especially a commercial space, to which it is applied."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#appliedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente una licencia comercial, con la entidad, principalmente un espacio comercial, a la que se aplica."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#appliedTo> <http://www.w3.org/2000/01/rdf-schema#label> "aplicada a"@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#appliedTo> <http://www.w3.org/2000/01/rdf-schema#label> "applied to"@en .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#belongsToCommercialAggregation
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#belongsToCommercialAggregation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#belongsToCommercialAggregation> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#CommercialAggregation> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#belongsToCommercialAggregation> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entity, especially a commercial space, to the commercial aggregation, to which it belongs."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#belongsToCommercialAggregation> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente un espacio comercial, con la agrupación comercial a la que pertenece."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#belongsToCommercialAggregation> <http://www.w3.org/2000/01/rdf-schema#label> "belongs to commercial aggregation"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#belongsToCommercialAggregation> <http://www.w3.org/2000/01/rdf-schema#label> "pertenece a agrupación comercial"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCNAECode
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCNAECode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCNAECode> <http://www.w3.org/2000/01/rdf-schema#range> _:genid1 .
-_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid1 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid4 .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid3 .
-_:genid3 <http://www.w3.org/2002/07/owl#hasValue> <http://lod.ine.es/clasificaciones/cnae/CNAE-2025> .
-_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCNAECode> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entity, especially a commercial entity or permit, to a skos concept that is in the CNAE taxonomy."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCNAECode> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente una entidad o licencia comercial, con un concepto skos que está en la taxonomía de códigos CNAE."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCNAECode> <http://www.w3.org/2000/01/rdf-schema#label> "has CNAE code"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCNAECode> <http://www.w3.org/2000/01/rdf-schema#label> "tiene código CNAE"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCommercialPermitStatus
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCommercialPermitStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCommercialPermitStatus> <http://www.w3.org/2000/01/rdf-schema#range> _:genid5 .
-_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid5 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid8 .
-_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid7 .
-_:genid7 <http://www.w3.org/2002/07/owl#hasValue> <http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitStatus> .
-_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
-_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
-_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCommercialPermitStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entity, especially a commercial permit, to a skos concept that is in the commercial permit status taxonomy."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCommercialPermitStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente una licencia comercial, con un concepto skos que está en la taxonomía de estado de la licencia comercial."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCommercialPermitStatus> <http://www.w3.org/2000/01/rdf-schema#label> "has commercial permit status"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCommercialPermitStatus> <http://www.w3.org/2000/01/rdf-schema#label> "tiene estado de la licencia comercial"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCommercialPermitType
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCommercialPermitType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCommercialPermitType> <http://www.w3.org/2000/01/rdf-schema#range> _:genid9 .
-_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid9 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid12 .
-_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
-_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid11 .
-_:genid11 <http://www.w3.org/2002/07/owl#hasValue> <http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitType> .
-_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
-_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
-_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCommercialPermitType> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entity, especially a commercial permit, to a skos concept that is in the commercial permit type taxonomy."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCommercialPermitType> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente una licencia comercial, con un concepto skos que está en la taxonomía de tipo de licencia comercial."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCommercialPermitType> <http://www.w3.org/2000/01/rdf-schema#label> "has commercial permit type"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCommercialPermitType> <http://www.w3.org/2000/01/rdf-schema#label> "tiene tipo de licencia comercial"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCommercialSpaceStatus
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCommercialSpaceStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCommercialSpaceStatus> <http://www.w3.org/2000/01/rdf-schema#range> _:genid13 .
-_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid13 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid16 .
-_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
-_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid15 .
-_:genid15 <http://www.w3.org/2002/07/owl#hasValue> <http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialSpaceStatus> .
-_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
-_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
-_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCommercialSpaceStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entity, especially a commercial space, to a skos concept that is in the commercial space status taxonomy."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCommercialSpaceStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente un espacio comercial, con un concepto skos que está en la taxonomía de situación del espacio comercial."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCommercialSpaceStatus> <http://www.w3.org/2000/01/rdf-schema#label> "has commercial space status"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasCommercialSpaceStatus> <http://www.w3.org/2000/01/rdf-schema#label> "tiene situación del espacio comercial"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasIAECode
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasIAECode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasIAECode> <http://www.w3.org/2000/01/rdf-schema#range> _:genid17 .
-_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid17 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid20 .
-_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid18 .
-_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid19 .
-_:genid19 <http://www.w3.org/2002/07/owl#hasValue> <http://vocab.linkeddata.es/datosabiertos/kos/edint/IAE> .
-_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
-_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
-_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasIAECode> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente una entidad o licencia comercial, con un concepto skos que está en la taxonomía de códigos IAE."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasIAECode> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entity, especially a commercial entity or permit, to a skos concept that is in the IAE taxonomy." .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasIAECode> <http://www.w3.org/2000/01/rdf-schema#label> "has IAE code"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasIAECode> <http://www.w3.org/2000/01/rdf-schema#label> "tiene código IAE"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasTerrace
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasTerrace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasTerrace> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Terrace> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasTerrace> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entity, especially a commercial space, to a terrace it has."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasTerrace> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente un espacio comercial, con una terraza que tiene."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasTerrace> <http://www.w3.org/2000/01/rdf-schema#label> "has terrace"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasTerrace> <http://www.w3.org/2000/01/rdf-schema#label> "tiene terraza"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasTerracePeriod
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasTerracePeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasTerracePeriod> <http://www.w3.org/2000/01/rdf-schema#range> _:genid21 .
-_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid21 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid24 .
-_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
-_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid23 .
-_:genid23 <http://www.w3.org/2002/07/owl#hasValue> <http://vocab.linkeddata.es/datosabiertos/kos/edint/TerracePeriod> .
-_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
-_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
-_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasTerracePeriod> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entity, especially a terrace, to a skos concept that is in the terrace period taxonomy."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasTerracePeriod> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente una terrazal, con un concepto skos que está en la taxonomía de periodo de funcionamiento de la terraza."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasTerracePeriod> <http://www.w3.org/2000/01/rdf-schema#label> "has terrace period"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#hasTerracePeriod> <http://www.w3.org/2000/01/rdf-schema#label> "tiene periodo de funcionamiento de la terraza"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#issuedTo
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#issuedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#issuedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entity, especially a commercial permit, to the entity, especially a commercial entity, to which (or whom) it is issued."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#issuedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente una licencia comercial, con la entidad, principalmente una entidad comercial, para la que se emite."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#issuedTo> <http://www.w3.org/2000/01/rdf-schema#label> "emitida para"@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#issuedTo> <http://www.w3.org/2000/01/rdf-schema#label> "issued to"@en .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#locatedInZone
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#locatedInZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#locatedInZone> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates en entity, especially a commercial space, event or campaign, to the zone where it is."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#locatedInZone> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente un espacio, campaña o evento comercial, con la zona en la que está."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#locatedInZone> <http://www.w3.org/2000/01/rdf-schema#label> "located in zone"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#locatedInZone> <http://www.w3.org/2000/01/rdf-schema#label> "situado en zona"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#usesSpace
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#usesSpace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#usesSpace> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entity, especially a commercial entity, to a commercial space it uses."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#usesSpace> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente una entidad comercial, con un espacio comercial que emplea."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#usesSpace> <http://www.w3.org/2000/01/rdf-schema#label> "usa espacio"@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#usesSpace> <http://www.w3.org/2000/01/rdf-schema#label> "uses space"@en .
-# 
 # http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#municipio
 <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#municipio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#municipio> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Municipio> .
@@ -304,22 +151,6 @@ _:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#contieneVia> <http://www.w3.org/2000/01/rdf-schema#comment> "Vía que un fenómeno geográfico contiene (por ejemplo, un barrio, distrito, ciudad, etc.)"@es .
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#contieneVia> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero> .
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#contieneVia> <http://www.w3.org/2000/01/rdf-schema#label> "contiene vía"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#hasInfrastructureType
-<http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#hasInfrastructureType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#hasInfrastructureType> <http://www.w3.org/2000/01/rdf-schema#range> _:genid25 .
-_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid25 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid28 .
-_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid26 .
-_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid27 .
-_:genid27 <http://www.w3.org/2002/07/owl#hasValue> <http://vocab.linkeddata.es/datosabiertos/kos/edint/InfrastructureType> .
-_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
-_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
-_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-<http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#hasInfrastructureType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/infraestructura#> .
 # 
 # http://www.geonames.org/ontology#featureClass
 <http://www.geonames.org/ontology#featureClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -366,6 +197,180 @@ _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 # http://www.w3.org/2006/time#hasTime
 <http://www.w3.org/2006/time#hasTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
+# https://edint.es/def/censo-locales#appliedTo
+<https://edint.es/def/censo-locales#appliedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://edint.es/def/censo-locales#appliedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entity, especially a commercial permit, to the entity, especially a commercial space, to which it is applied."@en .
+<https://edint.es/def/censo-locales#appliedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente una licencia comercial, con la entidad, principalmente un espacio comercial, a la que se aplica."@es .
+<https://edint.es/def/censo-locales#appliedTo> <http://www.w3.org/2000/01/rdf-schema#label> "aplicada a"@es .
+<https://edint.es/def/censo-locales#appliedTo> <http://www.w3.org/2000/01/rdf-schema#label> "applied to"@en .
+# 
+# https://edint.es/def/censo-locales#belongsToCommercialAggregation
+<https://edint.es/def/censo-locales#belongsToCommercialAggregation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://edint.es/def/censo-locales#belongsToCommercialAggregation> <http://www.w3.org/2000/01/rdf-schema#range> <https://edint.es/def/censo-locales#CommercialAggregation> .
+<https://edint.es/def/censo-locales#belongsToCommercialAggregation> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entity, especially a commercial space, to the commercial aggregation, to which it belongs."@en .
+<https://edint.es/def/censo-locales#belongsToCommercialAggregation> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente un espacio comercial, con la agrupación comercial a la que pertenece."@es .
+<https://edint.es/def/censo-locales#belongsToCommercialAggregation> <http://www.w3.org/2000/01/rdf-schema#label> "belongs to commercial aggregation"@en .
+<https://edint.es/def/censo-locales#belongsToCommercialAggregation> <http://www.w3.org/2000/01/rdf-schema#label> "pertenece a agrupación comercial"@es .
+# 
+# https://edint.es/def/censo-locales#hasCNAECode
+<https://edint.es/def/censo-locales#hasCNAECode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://edint.es/def/censo-locales#hasCNAECode> <http://www.w3.org/2000/01/rdf-schema#range> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid1 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#hasValue> <http://lod.ine.es/clasificaciones/cnae/CNAE-2025> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://edint.es/def/censo-locales#hasCNAECode> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entity, especially a commercial entity or permit, to a skos concept that is in the CNAE taxonomy."@en .
+<https://edint.es/def/censo-locales#hasCNAECode> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente una entidad o licencia comercial, con un concepto skos que está en la taxonomía de códigos CNAE."@es .
+<https://edint.es/def/censo-locales#hasCNAECode> <http://www.w3.org/2000/01/rdf-schema#label> "has CNAE code"@en .
+<https://edint.es/def/censo-locales#hasCNAECode> <http://www.w3.org/2000/01/rdf-schema#label> "tiene código CNAE"@es .
+# 
+# https://edint.es/def/censo-locales#hasCommercialPermitStatus
+<https://edint.es/def/censo-locales#hasCommercialPermitStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://edint.es/def/censo-locales#hasCommercialPermitStatus> <http://www.w3.org/2000/01/rdf-schema#range> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid5 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#hasValue> <https://edint.es/kos/CommercialPermitStatus> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://edint.es/def/censo-locales#hasCommercialPermitStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entity, especially a commercial permit, to a skos concept that is in the commercial permit status taxonomy."@en .
+<https://edint.es/def/censo-locales#hasCommercialPermitStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente una licencia comercial, con un concepto skos que está en la taxonomía de estado de la licencia comercial."@es .
+<https://edint.es/def/censo-locales#hasCommercialPermitStatus> <http://www.w3.org/2000/01/rdf-schema#label> "has commercial permit status"@en .
+<https://edint.es/def/censo-locales#hasCommercialPermitStatus> <http://www.w3.org/2000/01/rdf-schema#label> "tiene estado de la licencia comercial"@es .
+# 
+# https://edint.es/def/censo-locales#hasCommercialPermitType
+<https://edint.es/def/censo-locales#hasCommercialPermitType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://edint.es/def/censo-locales#hasCommercialPermitType> <http://www.w3.org/2000/01/rdf-schema#range> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid9 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#hasValue> <https://edint.es/kos/CommercialPermitType> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://edint.es/def/censo-locales#hasCommercialPermitType> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entity, especially a commercial permit, to a skos concept that is in the commercial permit type taxonomy."@en .
+<https://edint.es/def/censo-locales#hasCommercialPermitType> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente una licencia comercial, con un concepto skos que está en la taxonomía de tipo de licencia comercial."@es .
+<https://edint.es/def/censo-locales#hasCommercialPermitType> <http://www.w3.org/2000/01/rdf-schema#label> "has commercial permit type"@en .
+<https://edint.es/def/censo-locales#hasCommercialPermitType> <http://www.w3.org/2000/01/rdf-schema#label> "tiene tipo de licencia comercial"@es .
+# 
+# https://edint.es/def/censo-locales#hasCommercialSpaceStatus
+<https://edint.es/def/censo-locales#hasCommercialSpaceStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://edint.es/def/censo-locales#hasCommercialSpaceStatus> <http://www.w3.org/2000/01/rdf-schema#range> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid13 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#hasValue> <https://edint.es/kos/CommercialSpaceStatus> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://edint.es/def/censo-locales#hasCommercialSpaceStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entity, especially a commercial space, to a skos concept that is in the commercial space status taxonomy."@en .
+<https://edint.es/def/censo-locales#hasCommercialSpaceStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente un espacio comercial, con un concepto skos que está en la taxonomía de situación del espacio comercial."@es .
+<https://edint.es/def/censo-locales#hasCommercialSpaceStatus> <http://www.w3.org/2000/01/rdf-schema#label> "has commercial space status"@en .
+<https://edint.es/def/censo-locales#hasCommercialSpaceStatus> <http://www.w3.org/2000/01/rdf-schema#label> "tiene situación del espacio comercial"@es .
+# 
+# https://edint.es/def/censo-locales#hasIAECode
+<https://edint.es/def/censo-locales#hasIAECode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://edint.es/def/censo-locales#hasIAECode> <http://www.w3.org/2000/01/rdf-schema#range> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid17 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid19 .
+_:genid19 <http://www.w3.org/2002/07/owl#hasValue> <https://edint.es/kos/IAE> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://edint.es/def/censo-locales#hasIAECode> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente una entidad o licencia comercial, con un concepto skos que está en la taxonomía de códigos IAE."@es .
+<https://edint.es/def/censo-locales#hasIAECode> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entity, especially a commercial entity or permit, to a skos concept that is in the IAE taxonomy." .
+<https://edint.es/def/censo-locales#hasIAECode> <http://www.w3.org/2000/01/rdf-schema#label> "has IAE code"@en .
+<https://edint.es/def/censo-locales#hasIAECode> <http://www.w3.org/2000/01/rdf-schema#label> "tiene código IAE"@es .
+# 
+# https://edint.es/def/censo-locales#hasTerrace
+<https://edint.es/def/censo-locales#hasTerrace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://edint.es/def/censo-locales#hasTerrace> <http://www.w3.org/2000/01/rdf-schema#range> <https://edint.es/def/censo-locales#Terrace> .
+<https://edint.es/def/censo-locales#hasTerrace> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entity, especially a commercial space, to a terrace it has."@en .
+<https://edint.es/def/censo-locales#hasTerrace> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente un espacio comercial, con una terraza que tiene."@es .
+<https://edint.es/def/censo-locales#hasTerrace> <http://www.w3.org/2000/01/rdf-schema#label> "has terrace"@en .
+<https://edint.es/def/censo-locales#hasTerrace> <http://www.w3.org/2000/01/rdf-schema#label> "tiene terraza"@es .
+# 
+# https://edint.es/def/censo-locales#hasTerracePeriod
+<https://edint.es/def/censo-locales#hasTerracePeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://edint.es/def/censo-locales#hasTerracePeriod> <http://www.w3.org/2000/01/rdf-schema#range> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid21 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid23 .
+_:genid23 <http://www.w3.org/2002/07/owl#hasValue> <https://edint.es/kos/TerracePeriod> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://edint.es/def/censo-locales#hasTerracePeriod> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entity, especially a terrace, to a skos concept that is in the terrace period taxonomy."@en .
+<https://edint.es/def/censo-locales#hasTerracePeriod> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente una terrazal, con un concepto skos que está en la taxonomía de periodo de funcionamiento de la terraza."@es .
+<https://edint.es/def/censo-locales#hasTerracePeriod> <http://www.w3.org/2000/01/rdf-schema#label> "has terrace period"@en .
+<https://edint.es/def/censo-locales#hasTerracePeriod> <http://www.w3.org/2000/01/rdf-schema#label> "tiene periodo de funcionamiento de la terraza"@es .
+# 
+# https://edint.es/def/censo-locales#issuedTo
+<https://edint.es/def/censo-locales#issuedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://edint.es/def/censo-locales#issuedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entity, especially a commercial permit, to the entity, especially a commercial entity, to which (or whom) it is issued."@en .
+<https://edint.es/def/censo-locales#issuedTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente una licencia comercial, con la entidad, principalmente una entidad comercial, para la que se emite."@es .
+<https://edint.es/def/censo-locales#issuedTo> <http://www.w3.org/2000/01/rdf-schema#label> "emitida para"@es .
+<https://edint.es/def/censo-locales#issuedTo> <http://www.w3.org/2000/01/rdf-schema#label> "issued to"@en .
+# 
+# https://edint.es/def/censo-locales#locatedInZone
+<https://edint.es/def/censo-locales#locatedInZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://edint.es/def/censo-locales#locatedInZone> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates en entity, especially a commercial space, event or campaign, to the zone where it is."@en .
+<https://edint.es/def/censo-locales#locatedInZone> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente un espacio, campaña o evento comercial, con la zona en la que está."@es .
+<https://edint.es/def/censo-locales#locatedInZone> <http://www.w3.org/2000/01/rdf-schema#label> "located in zone"@en .
+<https://edint.es/def/censo-locales#locatedInZone> <http://www.w3.org/2000/01/rdf-schema#label> "situado en zona"@es .
+# 
+# https://edint.es/def/censo-locales#usesSpace
+<https://edint.es/def/censo-locales#usesSpace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://edint.es/def/censo-locales#usesSpace> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates an entity, especially a commercial entity, to a commercial space it uses."@en .
+<https://edint.es/def/censo-locales#usesSpace> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente una entidad comercial, con un espacio comercial que emplea."@es .
+<https://edint.es/def/censo-locales#usesSpace> <http://www.w3.org/2000/01/rdf-schema#label> "usa espacio"@es .
+<https://edint.es/def/censo-locales#usesSpace> <http://www.w3.org/2000/01/rdf-schema#label> "uses space"@en .
+# 
+# https://edint.es/def/infraestructura#hasInfrastructureType
+<https://edint.es/def/infraestructura#hasInfrastructureType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://edint.es/def/infraestructura#hasInfrastructureType> <http://www.w3.org/2000/01/rdf-schema#range> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid25 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid27 .
+_:genid27 <http://www.w3.org/2002/07/owl#hasValue> <https://edint.es/kos/InfrastructureType> .
+_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://edint.es/def/infraestructura#hasInfrastructureType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://edint.es/def/infraestructura#> .
+# 
 # 
 # 
 # #################################################################
@@ -403,7 +408,7 @@ _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 # 
 # http://schema.org/openingHours
 <http://schema.org/openingHours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://schema.org/openingHours> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Facility> .
+<http://schema.org/openingHours> <http://www.w3.org/2000/01/rdf-schema#domain> <https://edint.es/def/censo-locales#Facility> .
 <http://schema.org/openingHours> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://schema.org/openingHours> <http://www.w3.org/2000/01/rdf-schema#comment> "Horario general de apertura de un negocio. El horario se puede especificar como un rango semanal, comenzando por días y luego por horas al día. Se pueden indicar varios días separados por comas (\",\"). Los rangos de días u horas se especifican con un guion (-)."@es .
 <http://schema.org/openingHours> <http://www.w3.org/2000/01/rdf-schema#comment> "The general opening hours for a business. Opening hours can be specified as a weekly time range, starting with days, then times per day. Multiple days can be listed with commas ',' separating each day. Day or time ranges are specified using a hyphen '-'."@en .
@@ -419,53 +424,6 @@ _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <http://schema.org/startDate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://schema.org> .
 <http://schema.org/startDate> <http://www.w3.org/2000/01/rdf-schema#label> "fecha de inicio"@es .
 <http://schema.org/startDate> <http://www.w3.org/2000/01/rdf-schema#label> "start date"@en .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#fileCode
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#fileCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#fileCode> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica el código del expediente de una entidad, especialmente una licencia."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#fileCode> <http://www.w3.org/2000/01/rdf-schema#comment> "It captures the file code of  an entity, especilly a permit."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#fileCode> <http://www.w3.org/2000/01/rdf-schema#label> "código del expediente"@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#fileCode> <http://www.w3.org/2000/01/rdf-schema#label> "file code"@en .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#installationDate
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#installationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#installationDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#UrbanElement> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#installationDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#installationDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date when an entity, especially a device, was installed."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#installationDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Fecha en la que se instaló una entidad, especialmente un dispositivo"@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#installationDate> <http://www.w3.org/2000/01/rdf-schema#label> "fecha de instalación"@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#installationDate> <http://www.w3.org/2000/01/rdf-schema#label> "installation date"@en .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#maintenanceDate
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#maintenanceDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#maintenanceDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#UrbanElement> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#maintenanceDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#maintenanceDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date when an entity was last maintained, especially an urban element."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#maintenanceDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Fecha en la que se hizo mantenimiento de una entidad por última vez, especialmente un elemento urbano."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#maintenanceDate> <http://www.w3.org/2000/01/rdf-schema#label> "fecha de mantenimiento"@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#maintenanceDate> <http://www.w3.org/2000/01/rdf-schema#label> "maintenance date"@en .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#numberOfPermitedChairs
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#numberOfPermitedChairs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#numberOfPermitedChairs> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica el número máximo de sillas que puede tener una entidad, principalmente una terraza."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#numberOfPermitedChairs> <http://www.w3.org/2000/01/rdf-schema#comment> "It captures the maximum number of chairs an entity, especially a terrace, can have."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#numberOfPermitedChairs> <http://www.w3.org/2000/01/rdf-schema#label> "number of permited chairs"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#numberOfPermitedChairs> <http://www.w3.org/2000/01/rdf-schema#label> "número de sillas autorizadas"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#numberOfPermitedTables
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#numberOfPermitedTables> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#numberOfPermitedTables> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica el número máximo de mesas que puede tener una entidad, principalmente una terraza."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#numberOfPermitedTables> <http://www.w3.org/2000/01/rdf-schema#comment> "It captures the maximun number of tables an entity, especially a terrace, can have."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#numberOfPermitedTables> <http://www.w3.org/2000/01/rdf-schema#label> "number of permited tables"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#numberOfPermitedTables> <http://www.w3.org/2000/01/rdf-schema#label> "número de mesas autorizadas"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#public
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#public> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#public> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#public> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica si una entidad del censo de locales comerciales es pública o no."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#public> <http://www.w3.org/2000/01/rdf-schema#comment> "It points out whether an entity in the commerce census is public or not"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#public> <http://www.w3.org/2000/01/rdf-schema#label> "public"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#public> <http://www.w3.org/2000/01/rdf-schema#label> "público"@es .
 # 
 # http://www.w3.org/2006/time#inXSDgYearMonth
 <http://www.w3.org/2006/time#inXSDgYearMonth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -498,6 +456,53 @@ _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <https://datos.ign.es/def/geo_core#yETRS89> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://datos.ign.es/def/geo_core#> .
 <https://datos.ign.es/def/geo_core#yETRS89> <http://www.w3.org/2000/01/rdf-schema#label> "yETRS89" .
 # 
+# https://edint.es/def/censo-locales#fileCode
+<https://edint.es/def/censo-locales#fileCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://edint.es/def/censo-locales#fileCode> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica el código del expediente de una entidad, especialmente una licencia."@es .
+<https://edint.es/def/censo-locales#fileCode> <http://www.w3.org/2000/01/rdf-schema#comment> "It captures the file code of  an entity, especilly a permit."@en .
+<https://edint.es/def/censo-locales#fileCode> <http://www.w3.org/2000/01/rdf-schema#label> "código del expediente"@es .
+<https://edint.es/def/censo-locales#fileCode> <http://www.w3.org/2000/01/rdf-schema#label> "file code"@en .
+# 
+# https://edint.es/def/censo-locales#installationDate
+<https://edint.es/def/censo-locales#installationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://edint.es/def/censo-locales#installationDate> <http://www.w3.org/2000/01/rdf-schema#domain> <https://edint.es/def/censo-locales#UrbanElement> .
+<https://edint.es/def/censo-locales#installationDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://edint.es/def/censo-locales#installationDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date when an entity, especially a device, was installed."@en .
+<https://edint.es/def/censo-locales#installationDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Fecha en la que se instaló una entidad, especialmente un dispositivo"@es .
+<https://edint.es/def/censo-locales#installationDate> <http://www.w3.org/2000/01/rdf-schema#label> "fecha de instalación"@es .
+<https://edint.es/def/censo-locales#installationDate> <http://www.w3.org/2000/01/rdf-schema#label> "installation date"@en .
+# 
+# https://edint.es/def/censo-locales#maintenanceDate
+<https://edint.es/def/censo-locales#maintenanceDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://edint.es/def/censo-locales#maintenanceDate> <http://www.w3.org/2000/01/rdf-schema#domain> <https://edint.es/def/censo-locales#UrbanElement> .
+<https://edint.es/def/censo-locales#maintenanceDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://edint.es/def/censo-locales#maintenanceDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date when an entity was last maintained, especially an urban element."@en .
+<https://edint.es/def/censo-locales#maintenanceDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Fecha en la que se hizo mantenimiento de una entidad por última vez, especialmente un elemento urbano."@es .
+<https://edint.es/def/censo-locales#maintenanceDate> <http://www.w3.org/2000/01/rdf-schema#label> "fecha de mantenimiento"@es .
+<https://edint.es/def/censo-locales#maintenanceDate> <http://www.w3.org/2000/01/rdf-schema#label> "maintenance date"@en .
+# 
+# https://edint.es/def/censo-locales#numberOfPermitedChairs
+<https://edint.es/def/censo-locales#numberOfPermitedChairs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://edint.es/def/censo-locales#numberOfPermitedChairs> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica el número máximo de sillas que puede tener una entidad, principalmente una terraza."@es .
+<https://edint.es/def/censo-locales#numberOfPermitedChairs> <http://www.w3.org/2000/01/rdf-schema#comment> "It captures the maximum number of chairs an entity, especially a terrace, can have."@en .
+<https://edint.es/def/censo-locales#numberOfPermitedChairs> <http://www.w3.org/2000/01/rdf-schema#label> "number of permited chairs"@en .
+<https://edint.es/def/censo-locales#numberOfPermitedChairs> <http://www.w3.org/2000/01/rdf-schema#label> "número de sillas autorizadas"@es .
+# 
+# https://edint.es/def/censo-locales#numberOfPermitedTables
+<https://edint.es/def/censo-locales#numberOfPermitedTables> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://edint.es/def/censo-locales#numberOfPermitedTables> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica el número máximo de mesas que puede tener una entidad, principalmente una terraza."@es .
+<https://edint.es/def/censo-locales#numberOfPermitedTables> <http://www.w3.org/2000/01/rdf-schema#comment> "It captures the maximun number of tables an entity, especially a terrace, can have."@en .
+<https://edint.es/def/censo-locales#numberOfPermitedTables> <http://www.w3.org/2000/01/rdf-schema#label> "number of permited tables"@en .
+<https://edint.es/def/censo-locales#numberOfPermitedTables> <http://www.w3.org/2000/01/rdf-schema#label> "número de mesas autorizadas"@es .
+# 
+# https://edint.es/def/censo-locales#public
+<https://edint.es/def/censo-locales#public> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://edint.es/def/censo-locales#public> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://edint.es/def/censo-locales#public> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica si una entidad del censo de locales comerciales es pública o no."@es .
+<https://edint.es/def/censo-locales#public> <http://www.w3.org/2000/01/rdf-schema#comment> "It points out whether an entity in the commerce census is public or not"@en .
+<https://edint.es/def/censo-locales#public> <http://www.w3.org/2000/01/rdf-schema#label> "public"@en .
+<https://edint.es/def/censo-locales#public> <http://www.w3.org/2000/01/rdf-schema#label> "público"@es .
+# 
 # 
 # 
 # #################################################################
@@ -515,7 +520,7 @@ _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 # 
 # http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta
 <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Facility> .
+<http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://edint.es/def/censo-locales#Facility> .
 <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta> <http://www.w3.org/2000/01/rdf-schema#comment> "Lugar donde se puede tanto dejar como recoger las bicicletas. Está compuesto de anclajes"@es .
 <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> .
 <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica#EstacionBicicleta> <http://www.w3.org/2000/01/rdf-schema#label> "Estación de bicicletas"@es .
@@ -528,105 +533,6 @@ _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <http://vocab.ciudadesabiertas.es/def/transporte/trafico#Tramo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.ciudadesabiertas.es/def/transporte/trafico> .
 <http://vocab.ciudadesabiertas.es/def/transporte/trafico#Tramo> <http://www.w3.org/2000/01/rdf-schema#label> "Section of Track"@en .
 <http://vocab.ciudadesabiertas.es/def/transporte/trafico#Tramo> <http://www.w3.org/2000/01/rdf-schema#label> "Tramo"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#CommercialAggregation
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#CommercialAggregation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#CommercialAggregation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Facility> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#CommercialAggregation> <http://www.w3.org/2000/01/rdf-schema#comment> "La integración de varios establecimientos o puntos de venta en un mismo espacio físico, como centros comerciales o mercados."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#CommercialAggregation> <http://www.w3.org/2000/01/rdf-schema#comment> "The integration of several establishments or points of sale in the same physical space, such as shopping centers or markets."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#CommercialAggregation> <http://www.w3.org/2000/01/rdf-schema#label> "Agrupación comercial"@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#CommercialAggregation> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial Aggregation"@en .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#CommercialEntity
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#CommercialEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#CommercialEntity> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid29 .
-_:genid29 <http://www.w3.org/2002/07/owl#unionOf> _:genid31 .
-_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
-_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://schema.org/Organization> .
-_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://schema.org/Person> .
-_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#CommercialEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "Person and/or organization that plays an economic activity and that is assigned the permit of a commercial space."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#CommercialEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "Ppersona u organización que realiza una actividad económica y a quien se asigna la licencia de un espacio comercial"@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#CommercialEntity> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial entity"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#CommercialEntity> <http://www.w3.org/2000/01/rdf-schema#label> "Entidad comercial"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#CommercialSpace
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#CommercialSpace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#CommercialSpace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Facility> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#CommercialSpace> <http://www.w3.org/2000/01/rdf-schema#comment> "Lugar físico preparado para la venta de productos, prestación de servicios o atención al cliente, tales como tiendas, locales u oficinas."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#CommercialSpace> <http://www.w3.org/2000/01/rdf-schema#comment> "Physical place prepared for the sale of products, provision of services or customer service, such as stores or  offices." .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#CommercialSpace> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial space"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#CommercialSpace> <http://www.w3.org/2000/01/rdf-schema#label> "Espacio comercial"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Facility
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Facility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Facility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#InfrastructureElement> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Facility> <http://www.w3.org/2000/01/rdf-schema#comment> "Hace referencia a edificios de servicios (públicos o privados), zonas de ocio, zonas comerciales o cualquier otro elemento  que afecte directamente a la movilidad, actuando como un foco de atracción de personas o vehículos."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Facility> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to service buildings (public or private), leisure areas, commercial areas or any other element that directly affects mobility, acting as a focus of attraction for persons or vehicles."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Facility> <http://www.w3.org/2000/01/rdf-schema#label> "Equipamiento"@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Facility> <http://www.w3.org/2000/01/rdf-schema#label> "Facility"@en .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#InfrastructureElement
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#InfrastructureElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#InfrastructureElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/geosparql#Feature> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#InfrastructureElement> <http://www.w3.org/2000/01/rdf-schema#comment> "Representa el conjunto de todos los elementos de la infraestructura que generan movilidad y elementos urbanos tales como semáforos, señales viales, pilonas, etc."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#InfrastructureElement> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the set of all infrastructure elements that generate mobility and urban elements such as traffic lights, road signs, bollards, etc."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#InfrastructureElement> <http://www.w3.org/2000/01/rdf-schema#label> "Elemento de la infraestructura"@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#InfrastructureElement> <http://www.w3.org/2000/01/rdf-schema#label> "Infrastructure element"@en .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Permit
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Permit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Permit> <http://www.w3.org/2000/01/rdf-schema#comment> "It stands for the license of a commercial space"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Permit> <http://www.w3.org/2000/01/rdf-schema#comment> "Representa la autorización de un espacio comercial"@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Permit> <http://www.w3.org/2000/01/rdf-schema#label> "Licencia"@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Permit> <http://www.w3.org/2000/01/rdf-schema#label> "Permit"@en .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Terrace
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Terrace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Terrace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Facility> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Terrace> <http://www.w3.org/2000/01/rdf-schema#comment> "An open area connected to a bar, restaurant, etc., and serving as an outdoor sitting area for clients"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Terrace> <http://www.w3.org/2000/01/rdf-schema#comment> "Terreno situado delante de un café, bar, restaurante, etcétera, acotado para que los clientes puedan sentarse al aire libre."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Terrace> <http://www.w3.org/2000/01/rdf-schema#label> "Terrace"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Terrace> <http://www.w3.org/2000/01/rdf-schema#label> "Terraza"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#UrbanElement
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#UrbanElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#UrbanElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#InfrastructureElement> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#UrbanElement> <http://www.w3.org/2000/01/rdf-schema#comment> "Comprende el inventario de elementos urbanos tales como señales viales, semáforos, pilonas, etc."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#UrbanElement> <http://www.w3.org/2000/01/rdf-schema#comment> "It includes the inventory of urban elements such as road signs, traffic lights, bollards, etc."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#UrbanElement> <http://www.w3.org/2000/01/rdf-schema#label> "Elemento urbano"@es .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#UrbanElement> <http://www.w3.org/2000/01/rdf-schema#label> "Urban element"@en .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/common/zone#CommercialZone
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#CommercialZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#CommercialZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://vocab.linkeddata.es/datosabiertos/def/common/zone#EconomicInterestZone> .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/common/zone#EconomicInterestZone
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#EconomicInterestZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#EconomicInterestZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://vocab.linkeddata.es/datosabiertos/def/common/zone#RegulatedZone> .
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#EconomicInterestZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/common/zone#> .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/common/zone#IndustrialZone
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#IndustrialZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#IndustrialZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://vocab.linkeddata.es/datosabiertos/def/common/zone#EconomicInterestZone> .
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#IndustrialZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/common/zone#> .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/common/zone#LeisureZone
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#LeisureZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#LeisureZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://vocab.linkeddata.es/datosabiertos/def/common/zone#RegulatedZone> .
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#LeisureZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/common/zone#> .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/common/zone#RegulatedZone
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#RegulatedZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#RegulatedZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/common/zone#> .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/common/zone#StreetVendingZone
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#StreetVendingZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#StreetVendingZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://vocab.linkeddata.es/datosabiertos/def/common/zone#EconomicInterestZone> .
-<http://vocab.linkeddata.es/datosabiertos/def/common/zone#StreetVendingZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/common/zone#> .
 # 
 # http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Autonomia
 <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Autonomia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -670,14 +576,6 @@ _:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Provincia> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio> .
 <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Provincia> <http://www.w3.org/2000/01/rdf-schema#label> "Provincia" .
 # 
-# http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/aparcamiento#Parking
-<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/aparcamiento#Parking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/aparcamiento#Parking> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#Facility> .
-<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/aparcamiento#Parking> <http://www.w3.org/2000/01/rdf-schema#comment> "Aparcamiento para diferentes tipos de vehículo que incluye instalaciones o superficies de aparcamiento fuera de la vía pública o zonas de aparcamiento en la vía pública para residentes, no residentes o libres."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/aparcamiento#Parking> <http://www.w3.org/2000/01/rdf-schema#comment> "Parking for different types of vehicles, including off-street parking facilities or on-street parking zones for residents, non-residents, or free parking."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/aparcamiento#Parking> <http://www.w3.org/2000/01/rdf-schema#label> "Aparcamiento"@es .
-<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/aparcamiento#Parking> <http://www.w3.org/2000/01/rdf-schema#label> "Parking"@en .
-# 
 # http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Portal
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Portal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Portal> <http://www.w3.org/2002/07/owl#disjointWith> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> .
@@ -688,14 +586,14 @@ _:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
-<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid32 .
-_:genid32 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#R> .
-_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureClass> .
-_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid33 .
-_:genid33 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#R.ST> .
-_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureCode> .
-_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid29 .
+_:genid29 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#R> .
+_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureClass> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid30 .
+_:genid30 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#R.ST> .
+_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureCode> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://purl.org/dc/terms/issued> "2013-03-28"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://www.w3.org/2000/01/rdf-schema#comment> "Vía de comunicación construida para la circulación. \nEn su definición según el modelo de direcciones de la Administración General del Estado, Incluye calles, carreteras de todo tipo, caminos, vías de agua, pantalanes, etc. Asimismo, incluye la pseudovía., es decir todo aquello que complementa o sustituye a la vía.\nEn nuestro caso, este término se utiliza para hacer referencia a las vías urbanas.\n\nPor esta razón, se utiliza geonames:R.ST como valor principal de la propiedad geonames:featureCode, dejando de lado otras opciones como R.PRMN (promenade), R.TRL (trail). Quizás en el futuro haya que relajar un poco esta opción, sobre todo, por ejemplo, para ciudades con costa y paseo marítimo."@es .
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero> .
@@ -735,6 +633,113 @@ _:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2004/02/skos/core#> .
 # 
+# https://edint.es/def/aparcamiento#Parking
+<https://edint.es/def/aparcamiento#Parking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/aparcamiento#Parking> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://edint.es/def/censo-locales#Facility> .
+<https://edint.es/def/aparcamiento#Parking> <http://www.w3.org/2000/01/rdf-schema#comment> "Aparcamiento para diferentes tipos de vehículo que incluye instalaciones o superficies de aparcamiento fuera de la vía pública o zonas de aparcamiento en la vía pública para residentes, no residentes o libres."@es .
+<https://edint.es/def/aparcamiento#Parking> <http://www.w3.org/2000/01/rdf-schema#comment> "Parking for different types of vehicles, including off-street parking facilities or on-street parking zones for residents, non-residents, or free parking."@en .
+<https://edint.es/def/aparcamiento#Parking> <http://www.w3.org/2000/01/rdf-schema#label> "Aparcamiento"@es .
+<https://edint.es/def/aparcamiento#Parking> <http://www.w3.org/2000/01/rdf-schema#label> "Parking"@en .
+# 
+# https://edint.es/def/censo-locales#CommercialAggregation
+<https://edint.es/def/censo-locales#CommercialAggregation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/censo-locales#CommercialAggregation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://edint.es/def/censo-locales#Facility> .
+<https://edint.es/def/censo-locales#CommercialAggregation> <http://www.w3.org/2000/01/rdf-schema#comment> "La integración de varios establecimientos o puntos de venta en un mismo espacio físico, como centros comerciales o mercados."@es .
+<https://edint.es/def/censo-locales#CommercialAggregation> <http://www.w3.org/2000/01/rdf-schema#comment> "The integration of several establishments or points of sale in the same physical space, such as shopping centers or markets."@en .
+<https://edint.es/def/censo-locales#CommercialAggregation> <http://www.w3.org/2000/01/rdf-schema#label> "Agrupación comercial"@es .
+<https://edint.es/def/censo-locales#CommercialAggregation> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial Aggregation"@en .
+# 
+# https://edint.es/def/censo-locales#CommercialEntity
+<https://edint.es/def/censo-locales#CommercialEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/censo-locales#CommercialEntity> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid31 .
+_:genid31 <http://www.w3.org/2002/07/owl#unionOf> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://schema.org/Organization> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://schema.org/Person> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/censo-locales#CommercialEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "Person and/or organization that plays an economic activity and that is assigned the permit of a commercial space."@en .
+<https://edint.es/def/censo-locales#CommercialEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "Ppersona u organización que realiza una actividad económica y a quien se asigna la licencia de un espacio comercial"@es .
+<https://edint.es/def/censo-locales#CommercialEntity> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial entity"@en .
+<https://edint.es/def/censo-locales#CommercialEntity> <http://www.w3.org/2000/01/rdf-schema#label> "Entidad comercial"@es .
+# 
+# https://edint.es/def/censo-locales#CommercialSpace
+<https://edint.es/def/censo-locales#CommercialSpace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/censo-locales#CommercialSpace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://edint.es/def/censo-locales#Facility> .
+<https://edint.es/def/censo-locales#CommercialSpace> <http://www.w3.org/2000/01/rdf-schema#comment> "Lugar físico preparado para la venta de productos, prestación de servicios o atención al cliente, tales como tiendas, locales u oficinas."@es .
+<https://edint.es/def/censo-locales#CommercialSpace> <http://www.w3.org/2000/01/rdf-schema#comment> "Physical place prepared for the sale of products, provision of services or customer service, such as stores or  offices." .
+<https://edint.es/def/censo-locales#CommercialSpace> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial space"@en .
+<https://edint.es/def/censo-locales#CommercialSpace> <http://www.w3.org/2000/01/rdf-schema#label> "Espacio comercial"@es .
+# 
+# https://edint.es/def/censo-locales#Facility
+<https://edint.es/def/censo-locales#Facility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/censo-locales#Facility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://edint.es/def/censo-locales#InfrastructureElement> .
+<https://edint.es/def/censo-locales#Facility> <http://www.w3.org/2000/01/rdf-schema#comment> "Hace referencia a edificios de servicios (públicos o privados), zonas de ocio, zonas comerciales o cualquier otro elemento  que afecte directamente a la movilidad, actuando como un foco de atracción de personas o vehículos."@es .
+<https://edint.es/def/censo-locales#Facility> <http://www.w3.org/2000/01/rdf-schema#comment> "It refers to service buildings (public or private), leisure areas, commercial areas or any other element that directly affects mobility, acting as a focus of attraction for persons or vehicles."@en .
+<https://edint.es/def/censo-locales#Facility> <http://www.w3.org/2000/01/rdf-schema#label> "Equipamiento"@es .
+<https://edint.es/def/censo-locales#Facility> <http://www.w3.org/2000/01/rdf-schema#label> "Facility"@en .
+# 
+# https://edint.es/def/censo-locales#InfrastructureElement
+<https://edint.es/def/censo-locales#InfrastructureElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/censo-locales#InfrastructureElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/geosparql#Feature> .
+<https://edint.es/def/censo-locales#InfrastructureElement> <http://www.w3.org/2000/01/rdf-schema#comment> "Representa el conjunto de todos los elementos de la infraestructura que generan movilidad y elementos urbanos tales como semáforos, señales viales, pilonas, etc."@es .
+<https://edint.es/def/censo-locales#InfrastructureElement> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the set of all infrastructure elements that generate mobility and urban elements such as traffic lights, road signs, bollards, etc."@en .
+<https://edint.es/def/censo-locales#InfrastructureElement> <http://www.w3.org/2000/01/rdf-schema#label> "Elemento de la infraestructura"@es .
+<https://edint.es/def/censo-locales#InfrastructureElement> <http://www.w3.org/2000/01/rdf-schema#label> "Infrastructure element"@en .
+# 
+# https://edint.es/def/censo-locales#Permit
+<https://edint.es/def/censo-locales#Permit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/censo-locales#Permit> <http://www.w3.org/2000/01/rdf-schema#comment> "It stands for the license of a commercial space"@en .
+<https://edint.es/def/censo-locales#Permit> <http://www.w3.org/2000/01/rdf-schema#comment> "Representa la autorización de un espacio comercial"@es .
+<https://edint.es/def/censo-locales#Permit> <http://www.w3.org/2000/01/rdf-schema#label> "Licencia"@es .
+<https://edint.es/def/censo-locales#Permit> <http://www.w3.org/2000/01/rdf-schema#label> "Permit"@en .
+# 
+# https://edint.es/def/censo-locales#Terrace
+<https://edint.es/def/censo-locales#Terrace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/censo-locales#Terrace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://edint.es/def/censo-locales#Facility> .
+<https://edint.es/def/censo-locales#Terrace> <http://www.w3.org/2000/01/rdf-schema#comment> "An open area connected to a bar, restaurant, etc., and serving as an outdoor sitting area for clients"@en .
+<https://edint.es/def/censo-locales#Terrace> <http://www.w3.org/2000/01/rdf-schema#comment> "Terreno situado delante de un café, bar, restaurante, etcétera, acotado para que los clientes puedan sentarse al aire libre."@es .
+<https://edint.es/def/censo-locales#Terrace> <http://www.w3.org/2000/01/rdf-schema#label> "Terrace"@en .
+<https://edint.es/def/censo-locales#Terrace> <http://www.w3.org/2000/01/rdf-schema#label> "Terraza"@es .
+# 
+# https://edint.es/def/censo-locales#UrbanElement
+<https://edint.es/def/censo-locales#UrbanElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/censo-locales#UrbanElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://edint.es/def/censo-locales#InfrastructureElement> .
+<https://edint.es/def/censo-locales#UrbanElement> <http://www.w3.org/2000/01/rdf-schema#comment> "Comprende el inventario de elementos urbanos tales como señales viales, semáforos, pilonas, etc."@es .
+<https://edint.es/def/censo-locales#UrbanElement> <http://www.w3.org/2000/01/rdf-schema#comment> "It includes the inventory of urban elements such as road signs, traffic lights, bollards, etc."@en .
+<https://edint.es/def/censo-locales#UrbanElement> <http://www.w3.org/2000/01/rdf-schema#label> "Elemento urbano"@es .
+<https://edint.es/def/censo-locales#UrbanElement> <http://www.w3.org/2000/01/rdf-schema#label> "Urban element"@en .
+# 
+# https://edint.es/def/zone#CommercialZone
+<https://edint.es/def/zone#CommercialZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/zone#CommercialZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://edint.es/def/zone#EconomicInterestZone> .
+# 
+# https://edint.es/def/zone#EconomicInterestZone
+<https://edint.es/def/zone#EconomicInterestZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/zone#EconomicInterestZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://edint.es/def/zone#RegulatedZone> .
+<https://edint.es/def/zone#EconomicInterestZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://edint.es/def/zone#> .
+# 
+# https://edint.es/def/zone#IndustrialZone
+<https://edint.es/def/zone#IndustrialZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/zone#IndustrialZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://edint.es/def/zone#EconomicInterestZone> .
+<https://edint.es/def/zone#IndustrialZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://edint.es/def/zone#> .
+# 
+# https://edint.es/def/zone#LeisureZone
+<https://edint.es/def/zone#LeisureZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/zone#LeisureZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://edint.es/def/zone#RegulatedZone> .
+<https://edint.es/def/zone#LeisureZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://edint.es/def/zone#> .
+# 
+# https://edint.es/def/zone#RegulatedZone
+<https://edint.es/def/zone#RegulatedZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/zone#RegulatedZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://edint.es/def/zone#> .
+# 
+# https://edint.es/def/zone#StreetVendingZone
+<https://edint.es/def/zone#StreetVendingZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/zone#StreetVendingZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://edint.es/def/zone#EconomicInterestZone> .
+<https://edint.es/def/zone#StreetVendingZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://edint.es/def/zone#> .
+# 
 # https://schema.org/Organization
 <https://schema.org/Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://schema.org/Organization> <http://www.w3.org/2000/01/rdf-schema#comment> "An organization such as a school, NGO, corporation, club, etc."@en .
@@ -756,51 +761,51 @@ _:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://lod.ine.es/clasificaciones/cnae/CNAE-2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://lod.ine.es/clasificaciones/cnae/CNAE-2025> <http://www.w3.org/2000/01/rdf-schema#label> "CNAE"@es .
 # 
-# http://vocab.linkeddata.es/datosabiertos/kos/edint/AccessType
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/AccessType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/AccessType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/AccessType> <http://www.w3.org/2000/01/rdf-schema#label> "Access type"@en .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/AccessType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo de acceso"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitStatus
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitStatus> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial permit status"@en .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitStatus> <http://www.w3.org/2000/01/rdf-schema#label> "Estado de la licencia comercial"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitType
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitType> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial permit type"@en .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo de licencia comercial"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialSpaceStatus
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialSpaceStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialSpaceStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialSpaceStatus> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial space status"@en .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialSpaceStatus> <http://www.w3.org/2000/01/rdf-schema#label> "Situación del espacio comercial"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/kos/edint/IAE
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/IAE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/IAE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/IAE> <http://www.w3.org/2000/01/rdf-schema#label> "IAE"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/kos/edint/InfrastructureType
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/InfrastructureType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/InfrastructureType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/InfrastructureType> <http://www.w3.org/2000/01/rdf-schema#label> "Infrastructure type"@en .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/InfrastructureType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo de infraestructura"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/kos/edint/TerracePeriod
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/TerracePeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/TerracePeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/TerracePeriod> <http://www.w3.org/2000/01/rdf-schema#label> "Periodo de funcionamiento de la terraza"@es .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/TerracePeriod> <http://www.w3.org/2000/01/rdf-schema#label> "Terrace period"@en .
-# 
 # http://www.geonames.org/ontology#R
 <http://www.geonames.org/ontology#R> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 # 
 # http://www.geonames.org/ontology#R.ST
 <http://www.geonames.org/ontology#R.ST> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://edint.es/kos/AccessType
+<https://edint.es/kos/AccessType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://edint.es/kos/AccessType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://edint.es/kos/AccessType> <http://www.w3.org/2000/01/rdf-schema#label> "Access type"@en .
+<https://edint.es/kos/AccessType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo de acceso"@es .
+# 
+# https://edint.es/kos/CommercialPermitStatus
+<https://edint.es/kos/CommercialPermitStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://edint.es/kos/CommercialPermitStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://edint.es/kos/CommercialPermitStatus> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial permit status"@en .
+<https://edint.es/kos/CommercialPermitStatus> <http://www.w3.org/2000/01/rdf-schema#label> "Estado de la licencia comercial"@es .
+# 
+# https://edint.es/kos/CommercialPermitType
+<https://edint.es/kos/CommercialPermitType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://edint.es/kos/CommercialPermitType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://edint.es/kos/CommercialPermitType> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial permit type"@en .
+<https://edint.es/kos/CommercialPermitType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo de licencia comercial"@es .
+# 
+# https://edint.es/kos/CommercialSpaceStatus
+<https://edint.es/kos/CommercialSpaceStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://edint.es/kos/CommercialSpaceStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://edint.es/kos/CommercialSpaceStatus> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial space status"@en .
+<https://edint.es/kos/CommercialSpaceStatus> <http://www.w3.org/2000/01/rdf-schema#label> "Situación del espacio comercial"@es .
+# 
+# https://edint.es/kos/IAE
+<https://edint.es/kos/IAE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://edint.es/kos/IAE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://edint.es/kos/IAE> <http://www.w3.org/2000/01/rdf-schema#label> "IAE"@es .
+# 
+# https://edint.es/kos/InfrastructureType
+<https://edint.es/kos/InfrastructureType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://edint.es/kos/InfrastructureType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://edint.es/kos/InfrastructureType> <http://www.w3.org/2000/01/rdf-schema#label> "Infrastructure type"@en .
+<https://edint.es/kos/InfrastructureType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo de infraestructura"@es .
+# 
+# https://edint.es/kos/TerracePeriod
+<https://edint.es/kos/TerracePeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://edint.es/kos/TerracePeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://edint.es/kos/TerracePeriod> <http://www.w3.org/2000/01/rdf-schema#label> "Periodo de funcionamiento de la terraza"@es .
+<https://edint.es/kos/TerracePeriod> <http://www.w3.org/2000/01/rdf-schema#label> "Terrace period"@en .
 # 
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

@@ -2,7 +2,7 @@
 
 <span class="markdown">
 
-<p>La Figura 1 muestra las principales entidades de la ontolog&iacute;a y las relaciones entre ellas. La ontolog&iacute;a representa, entre otras cosas, los <a href="#CommercialSpace">espacios comerciales</a>, sus <a href="#CommercialAggregation">agrupaciones</a> y sus <a href="#Terrace">terrazas</a>, ampliando as&iacute; el conjunto de <a href="http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#InfrastructureElement">elementos de infraestructura</a> contemplados en la <a href="http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#">Ontolog&iacute;a EDINT de Infraestructura</a>. Los <a href="#CommercialSpace">espacios comerciales</a> son lugares preparados para la venta de productos, prestaci&oacute;n de servicios o atenci&oacute;n al cliente, tales como tiendas, locales u oficinas. Pueden <a href="#belongToCommercialAggregation">pertenecer</a> a una <a href="#CommercialAggregation">agrupaci&oacute;n comercial</a>, que integra varios de ellos en un lugar f&iacute;sico y <a href="#hasTerrace">tener</a> una o varias <a href="#Terrace">terrazas</a>, y tambi&eacute;n <a href="#hasAccessType">tienen un tipo de acceso</a>. Como <a href="http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#Facility">equipamiento</a> y, por tanto, <a href="http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#InfrastructureElement">elemento de infraestructura</a>, un espacio comercial, una grupaci&oacute;n comercial y una terraza <a href="http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#hasInfrastructureType">tienen un tipo de elemento de infraestructura</a> y una <a href="#CommercialSpace">geolocalizaci&oacute;n</a>, y <a href="http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#belongTo">pertenecen a una divisi&oacute;n administrativa (<a href="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Municipio">municipio</a>, <a href=<"http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito">distrito</a> o <a href=<"http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Barrio">barrio</a>) (y una <a href="http://vocab.linkeddata.es/datosabiertos/def/common/zone#RegulatedZone">zona</a>).
+<p>La Figura 1 muestra las principales entidades de la ontolog&iacute;a y las relaciones entre ellas. La ontolog&iacute;a representa, entre otras cosas, los <a href="#CommercialSpace">espacios comerciales</a>, sus <a href="#CommercialAggregation">agrupaciones</a> y sus <a href="#Terrace">terrazas</a>, ampliando as&iacute; el conjunto de <a href="https://edint.es/def/infraestructura/infraestructura#InfrastructureElement">elementos de infraestructura</a> contemplados en la <a href="https://edint.es/def/infraestructura/infraestructura#">Ontolog&iacute;a EDINT de Infraestructura</a>. Los <a href="#CommercialSpace">espacios comerciales</a> son lugares preparados para la venta de productos, prestaci&oacute;n de servicios o atenci&oacute;n al cliente, tales como tiendas, locales u oficinas. Pueden <a href="#belongToCommercialAggregation">pertenecer</a> a una <a href="#CommercialAggregation">agrupaci&oacute;n comercial</a>, que integra varios de ellos en un lugar f&iacute;sico y <a href="#hasTerrace">tener</a> una o varias <a href="#Terrace">terrazas</a>, y tambi&eacute;n <a href="#hasAccessType">tienen un tipo de acceso</a>. Como <a href="https://edint.es/def/infraestructura/infraestructura#Facility">equipamiento</a> y, por tanto, <a href="https://edint.es/def/infraestructura/infraestructura#InfrastructureElement">elemento de infraestructura</a>, un espacio comercial, una grupaci&oacute;n comercial y una terraza <a href="https://edint.es/def/infraestructura/infraestructura#hasInfrastructureType">tienen un tipo de elemento de infraestructura</a> y una <a href="#CommercialSpace">geolocalizaci&oacute;n</a>, y <a href="https://edint.es/def/infraestructura/infraestructura#belongTo">pertenecen a una divisi&oacute;n administrativa (<a href="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Municipio">municipio</a>, <a href="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito">distrito</a> o <a href="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Barrio">barrio</a>) (y una <a href="https://edint.es/def/zone#RegulatedZone">zona</a>).
 </p>
 <p>Las <a href="#CommercialEntity">entidades comerciales</a> son <a href="http://schema.org/Person">personas</a> u <a href="http://schema.org/Organization">organizaciones</a> que ejercen o quieren ejercer una actividad comercial. Para ello pueden <a href="#usesSpace">usar</a> uno o m&aacute;s <a href="#CommercialSpace">espacios comerciales</a> descritos anteriormente.</p>
 <p>Las <a href="#CommercialPermit">licencias comerciales</a> <a href="#hasCommercialPermitType">tienen un tipo</a>  y un <a href="#hasCommercialPermitStatus">estado </a>asociados y <a href="#issuedTo">se emiten</a> a una <a href="#CommercialEntity">entidad comercial</a> y <a href="#appliedTo">se aplican</a> a un <a href="#CommercialSpace">espacio comercial</a> para autorizar una actividad concreta, indicada mediante un <a href="#hasCNAECode">c&oacute;digo CNAE</a> y/o uno <a href="hasIAECode">IAE</a>, Las <a href="#CommercialPermit">licencias comerciales</a> tambi&eacute;n pueden <a href="#appliedTo">aplicarse</a> a <a href="#Terrace">terrazas</a> para autorizar un uso con una <a href="http://schema.org/floorSize">superficie</a>, <a href="http://schema.org/maximumAttendeeCapacity">aforo</a>, <a href="#numberOfPermitedTables">n&uacute;mero de mesas</a> y <a href="#numberOrPermitedChairs">de sillas</a> concretos.
@@ -21,12 +21,12 @@ Figura 1. Modelo conceptual de la ontolog&iacute;a.</figcaption></center></p>
 @prefix comp: &lt;http://semweb.mmlab.be/ns/rml-compression#&gt; .
 @prefix d2rq: &lt;http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#&gt; .
 @prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
-@prefix edintcom: &lt;http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#&gt; .
-@prefix edintinf: &lt;http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#&gt; .
-@prefix edintkoacctype: &lt;http://vocab.linkeddata.es/datosabiertos/kos/edint/AccesType/&gt; .
-@prefix edintkoscomespsit: &lt;http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialSpaceStatus/&gt; .
-@prefix edintkosinf: &lt;http://vocab.linkeddata.es/datosabiertos/kos/edint/InfrastructureType/&gt; .
-@prefix edintterper: &lt;http://vocab.linkeddata.es/datosabiertos/kos/edint/TerracePeriod/&gt; .
+@prefix edintcom: &lt;https://edint.es/def/censo-locales#&gt; .
+@prefix edintinf: &lt;https://edint.es/def/infraestructura/infraestructura#&gt; .
+@prefix edintkoacctype: &lt;https://edint.es/kos/AccessType/&gt; .
+@prefix edintkoscomespsit: &lt;https://edint.es/kos/CommercialSpaceStatus/&gt; .
+@prefix edintkosinf: &lt;https://edint.es/kos/InfrastructureType/&gt; .
+@prefix edintterper: &lt;https://edint.es/kos/TerracePeriod/&gt; .
 @prefix esdir: &lt;http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#&gt; .
 @prefix ex: &lt;https://example.org/id/&gt; .
 @prefix fnml: &lt;http://semweb.mmlab.be/ns/fnml#&gt; .
@@ -40,74 +40,73 @@ Figura 1. Modelo conceptual de la ontolog&iacute;a.</figcaption></center></p>
 @prefix rml: &lt;http://semweb.mmlab.be/ns/rml#&gt; .
 @prefix rr: &lt;http://www.w3.org/ns/r2rml#&gt; .
 @prefix schema: &lt;http://schema.org/&gt; .
-@prefix tejcom: &lt;http://vocab.ciudadesabiertas.es/def/comercio/tejido-comercial#&gt; .
 @prefix void: &lt;http://rdfs.org/ns/void#&gt; .
 @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
 
-&lt;http://vocab.linkeddata.es/datosabiertos/recurso/agrupacionComercial/AGR-0001&gt; a
+&lt;https://example.org/recurso/agrupacionComercial/AGR-0001&gt; a
     edintcom:CommercialAggregation;
   dcterms:identifier "AGR-0001";
   rdfs:comment "Mercado tradicional de Madrid, con origen en 1876 y reinaugurado en 1943 tras una reforma. Tiene accesos por Alonso Cano, García de Paredes y Viriato, y combina puestos de alimentación, restauración y comercio especializado.";
   rdfs:label "Mercado de Chamberí" .
 
-&lt;http://vocab.linkeddata.es/datosabiertos/recurso/direccion-postal/28010&gt; a esdir:DireccionPostal;
+&lt;https://example.org/recurso/direccion-postal/28010&gt; a esdir:DireccionPostal;
   schema:postalCode "28010";
   rdfs:label "28010" .
 
-&lt;http://vocab.linkeddata.es/datosabiertos/recurso/entidad-comercial/ENT-0001&gt; a edintcom:CommercialEntity;
+&lt;https://example.org/recurso/entidad-comercial/ENT-0001&gt; a edintcom:CommercialEntity;
   dcterms:identifier "ENT-0001";
   schema:legalName "Cafetería Chamberí S.L.";
   schema:url "https://mercadodechamberi.es";
   edintcom:hasCNAECode &lt;http://lod.ine.es/kos/cnae/CNAE-2025/6/563000&gt;;
-  edintcom:hasIAECode &lt;http://vocab.linkeddata.es/datosabiertos/kos/edint/iae/3/673.1&gt;;
-  edintcom:usesSpace &lt;http://vocab.linkeddata.es/datosabiertos/recurso/espacio-comercial/COM-0001&gt;;
+  edintcom:hasIAECode &lt;https://edint.es/kos/iae/3/673.1&gt;;
+  edintcom:usesSpace &lt;https://example.org/recurso/espacio-comercial/COM-0001&gt;;
   rdfs:label "Cafetería Chamberí S.L." .
 
-&lt;http://vocab.linkeddata.es/datosabiertos/recurso/espacio-comercial/COM-0001&gt; a edintcom:CommercialSpace;
+&lt;https://example.org/recurso/espacio-comercial/COM-0001&gt; a edintcom:CommercialSpace;
   dcterms:identifier "COM-0001";
-  edintcom:belongsToCommercialAggregation &lt;http://vocab.linkeddata.es/datosabiertos/recurso/agrupacionComercial/AGR-0001&gt;;
+  edintcom:belongsToCommercialAggregation &lt;https://example.org/recurso/agrupacionComercial/AGR-0001&gt;;
   edintcom:hasAccessType edintkosacctype:Indoor;
   edintcom:hasCommercialSpaceStatus edintkoscomespsit:Active;
-  edintcom:hasTerrace &lt;http://vocab.linkeddata.es/datosabiertos/recurso/terraza/TER-0001&gt;;
+  edintcom:hasTerrace &lt;https://example.org/recurso/terraza/TER-0001&gt;;
   rdfs:label "Cafetería Chamberí" .
 
-&lt;http://vocab.linkeddata.es/datosabiertos/recurso/terraza/TER-0001&gt; a edintcom:Terrace;
+&lt;https://example.org/recurso/terraza/TER-0001&gt; a edintcom:Terrace;
   dcterms:identifier "TER-0001";
-  schema:address &lt;http://vocab.linkeddata.es/datosabiertos/recurso/direccion-postal/28010&gt;;
+  schema:address &lt;https://example.org/recurso/direccion-postal/28010&gt;;
   schema:floorSize "14.5";
   schema:maximumAttendeeCapacity 18;
   schema:openingHours "Tu-Sa 12:30-16:30; Tu-Sa 19:00-00:00; Su 12:30-16:30";
   edintcom:hasTerracePeriod edintterper:anual;
   edintcom:numberOfPermitedTables 6;
   edintcom:numberOfPermitedChairs 18;
-  edintinf:belongsTo &lt;http://vocab.linkeddata.es/datosabiertos/recurso/sector-publico/territorio/barrio/TRAFALGAR&gt;;
+  edintinf:belongsTo &lt;https://example.org/recurso/sector-publico/territorio/barrio/TRAFALGAR&gt;;
   edintinf:hasInfrastructureType edintkosinf:Terrace;
-  geosparql:hasGeometry &lt;http://vocab.linkeddata.es/datosabiertos/recurso/terraza/geometry/TER-0001&gt;;
+  geosparql:hasGeometry &lt;https://example.org/recurso/terraza/geometry/TER-0001&gt;;
   rdfs:comment "Zona de degustación vinculada a cafetería-pastelería dentro del Mercado de Chamberí, orientada a consumo en horario diurno y de restauración.";
   rdfs:label "Terraza Cafetería Chamberí" .
 
-&lt;http://vocab.linkeddata.es/datosabiertos/recurso/terraza/geometry/TER-0001&gt; geosparql:asWKT
+&lt;https://example.org/recurso/terraza/geometry/TER-0001&gt; geosparql:asWKT
     "POINT (-3.700200 40.434300)"^^geosparql:wktLiteral .
 
-&lt;http://vocab.linkeddata.es/datosabiertos/recurso/licencia/LIC-CAF-0001&gt; a edintcom:Permit ;
+&lt;https://example.org/recurso/licencia/LIC-CAF-0001&gt; a edintcom:Permit ;
   dcterms:identifier "LIC-CAF-0001" ;
   rdfs:label "Licencia de actividad Cafetería Chamberí" ;
   edintcom:fileCode "2021/EXP/45872" ;
-  edintcom:issuedTo &lt;http://vocab.linkeddata.es/datosabiertos/recurso/entidad-comercial/ENT-0001&gt; ;
-  edintcom:appliedTo &lt;http://vocab.linkeddata.es/datosabiertos/recurso/espacio-comercial/COM-0001&gt; ;
-  edintcom:hasCommercialPermitType http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitType/APAL ;
-  edintcom:hasCommercialPermitStatus http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitStatus/Granted ;
+  edintcom:issuedTo &lt;https://example.org/recurso/entidad-comercial/ENT-0001&gt; ;
+  edintcom:appliedTo &lt;https://example.org/recurso/espacio-comercial/COM-0001&gt; ;
+  edintcom:hasCommercialPermitType https://edint.es/kos/CommercialPermitType/APAL ;
+  edintcom:hasCommercialPermitStatus https://edint.es/kos/CommercialPermitStatus/Granted ;
   edintcom:hasCNAECode &lt;http://lod.ine.es/kos/cnae/CNAE-2025/6/563000&gt; ;
-  edintcom:hasIAECode &lt;http://vocab.linkeddata.es/datosabiertos/kos/edint/iae/3/673.1&gt; ;
+  edintcom:hasIAECode &lt;https://edint.es/kos/iae/3/673.1&gt; ;
   schema:startDate "2021-05-14T00:00:00"^^xsd:dateTime .
 
-&lt;http://vocab.linkeddata.es/datosabiertos/recurso/licencia/LIC-TER-0001&gt; a edintcom:Permit ;
+&lt;https://example.org/recurso/licencia/LIC-TER-0001&gt; a edintcom:Permit ;
   dcterms:identifier "LIC-TER-0001" ;
   rdfs:label "Autorización de terraza Cafetería Chamberí" ;
   edintcom:fileCode "2024/VEL/10328" ;
-  edintcom:appliedTo &lt;http://vocab.linkeddata.es/datosabiertos/recurso/terraza/TER-0001&gt; ;
-  edintcom:hasCommercialPermitType http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitType/APAL ;
-  edintcom:hasCommercialPermitStatus http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitStatus/Granted ;
+  edintcom:appliedTo &lt;https://example.org/recurso/terraza/TER-0001&gt; ;
+  edintcom:hasCommercialPermitType https://edint.es/kos/CommercialPermitType/APAL ;
+  edintcom:hasCommercialPermitStatus https://edint.es/kos/CommercialPermitStatus/Granted ;
   schema:startDate "2024-03-01T00:00:00"^^xsd:dateTime ;
   schema:endDate "2026-12-31T23:59:59"^^xsd:dateTime .
 
