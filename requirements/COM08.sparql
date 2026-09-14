@@ -2,7 +2,7 @@
 
 # COM08: ¿Qué tipo de licencias (APCAL, DRAACT, CAMTI, etc.) predominan en una zona?
 
-PREFIX edintcom: <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#>
+PREFIX edintcom: <https://edint.es/def/censo-locales#>
 PREFIX edintinf: <http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#>
 PREFIX schema:   <http://schema.org/>
 PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>

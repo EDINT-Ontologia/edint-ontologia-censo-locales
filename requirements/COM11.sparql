@@ -1,7 +1,7 @@
 
 # COM11: ¿Qué mercados existen en un municipio?
 
-PREFIX edintcom: <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#>
+PREFIX edintcom: <https://edint.es/def/censo-locales#>
 PREFIX edintinf: <http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#>
 PREFIX esadm:    <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#>
 PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>
@@ -23,7 +23,7 @@ ORDER BY ?marketLabel
 
 # Variante con el número de puestos/comercio de cada mercado
 
-PREFIX edintcom: <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#>
+PREFIX edintcom: <https://edint.es/def/censo-locales#>
 PREFIX edintinf: <http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#>
 PREFIX esadm:    <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#>
 PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>

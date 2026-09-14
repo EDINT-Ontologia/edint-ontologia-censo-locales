@@ -2,7 +2,7 @@
 # COM03: ¿En qué estado están los comercios de una división administrativa concreta en un momento dado?
 # El estado del comercio en una fecha concreta se considera válido si existe una licencia aplicada al espacio comercial vigente en esa fecha.
 
-PREFIX edintcom: <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#>
+PREFIX edintcom: <https://edint.es/def/censo-locales#>
 PREFIX edintinf: <http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#>
 PREFIX schema:   <http://schema.org/>
 PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>
