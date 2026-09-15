@@ -1,5 +1,5 @@
 @prefix ex: <https://example.org/id/>.
-@prefix edintcom: <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#>.
+@prefix edintcom: <https://edint.es/def/censo-locales#>.
 @prefix schema: <http://schema.org/>.
 @prefix dcterms: <http://purl.org/dc/terms/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.

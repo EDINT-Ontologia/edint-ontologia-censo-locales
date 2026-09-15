@@ -2,7 +2,7 @@
 # COM06: ¿Qué zonas presentan mayor tasa de altas y bajas comerciales?
 # Considerando zona como distrito adeministrativo
 
-PREFIX edintcom: <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#>
+PREFIX edintcom: <https://edint.es/def/censo-locales#>
 PREFIX edintinf: <http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#>
 PREFIX esadm:    <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#>
 PREFIX schema:   <http://schema.org/>

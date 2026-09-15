@@ -1,6 +1,6 @@
 prefixes:
   ex: "https://example.org/id/"
-  edintcom: "http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#"
+  edintcom: "https://edint.es/def/censo-locales#"
   schema: "http://schema.org/"
   dcterms: "http://purl.org/dc/terms/"
   xsd: "http://www.w3.org/2001/XMLSchema#"

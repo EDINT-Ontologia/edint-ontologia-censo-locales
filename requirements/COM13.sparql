@@ -2,7 +2,7 @@
 # COM13: ¿Qué actividades comerciales existen en una zona determinada?
 # Sin tener en cuenta posibles correspondencias entre códigos CNAE e IAE
 
-PREFIX edintcom: <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#>
+PREFIX edintcom: <https://edint.es/def/censo-locales#>
 PREFIX edintinf: <http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#>
 PREFIX schema:   <http://schema.org/>
 PREFIX skos:     <http://www.w3.org/2004/02/skos/core#>

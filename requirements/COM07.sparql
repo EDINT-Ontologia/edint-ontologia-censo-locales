@@ -1,7 +1,7 @@
 
 # COM07: ¿Qué licencias de actividad están asociadas a cada comercio?
 
-PREFIX edintcom: <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#>
+PREFIX edintcom: <https://edint.es/def/censo-locales#>
 PREFIX schema:   <http://schema.org/>
 PREFIX dcterms:  <http://purl.org/dc/terms/>
 PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>

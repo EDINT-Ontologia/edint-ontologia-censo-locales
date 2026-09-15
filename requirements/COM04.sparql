@@ -1,7 +1,7 @@
 
 # COM04: ¿Qué comercios contiene una agrupación comercial específica?
 
-PREFIX edintcom: <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#>
+PREFIX edintcom: <https://edint.es/def/censo-locales#>
 PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT DISTINCT

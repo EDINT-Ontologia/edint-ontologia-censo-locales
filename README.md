@@ -8,7 +8,7 @@ El propósito de esta ontología es proporcionar un vocabulario común para la r
 
 # Prefijo y espacio de nombres (Prefix and namespace)
 
-El prefijo de la ontología es: edintcom y se encuentra publicada en el espacio de nombres: [http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#](http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#)
+El prefijo de la ontología es: edintcom y se encuentra publicada en el espacio de nombres: [https://edint.es/def/censo-locales#](https://edint.es/def/censo-locales#)
 
 # Modelo conceptual (Ontology conceptualization)
 
