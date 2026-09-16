@@ -27,7 +27,7 @@
      xmlns:edintveh="https://edint.es/def/censo-vehiculos#"
      xmlns:edintzone="https://edint.es/def/zona-regulatoria#"
      xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:foaf="http://xmlns.com/foaf/0.1/">    <owl:Ontology rdf:about="https://edint.es/def/censo-locales#">
-        <owl:versionIRI rdf:resource="https://edint.es/def/censo-locales/0.1.0"/>
+        <owl:versionIRI rdf:resource="https://edint.es/def/censo-locales/0.2.1"/>
         <dcterms:created>2026-04-15</dcterms:created>
         <dcterms:creator rdf:parseType="Resource">
             <foaf:name>Daniel Doña</foaf:name>
@@ -57,7 +57,7 @@
         <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-15</dcterms:issued>
         <vann:preferredNamespacePrefix>edintcom</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri rdf:resource="https://edint.es/def/censo-locales#"/>
-        <owl:versionInfo>0.1.0</owl:versionInfo>
+        <owl:versionInfo>0.2.1</owl:versionInfo>
         <owl:priorVersion rdf:resource="https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/releases/tag/v0.2.0"/>
     <dcterms:publisher rdf:resource="https://www.femp.es/"/>
     <dcterms:bibliographicCitation xml:lang="es">Ontología EDINT del Censo de Establecimientos Comerciales. EDINT. Revision: v0.2.1.</dcterms:bibliographicCitation>
