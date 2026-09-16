@@ -25,8 +25,7 @@
      xmlns:edintcom="https://edint.es/def/censo-locales#"
      xmlns:edintinf="https://edint.es/def/infraestructura#"
      xmlns:edintveh="https://edint.es/def/censo-vehiculos#"
-     xmlns:edintzone="https://edint.es/def/zona-regulatoria#"
-     xmlns:esequip-kos="http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/">
+     xmlns:edintzone="https://edint.es/def/zona-regulatoria#">
     <owl:Ontology rdf:about="https://edint.es/def/censo-locales#">
         <owl:versionIRI rdf:resource="https://edint.es/def/censo-locales/0.1.0"/>
         <dcterms:created>2026-04-15</dcterms:created>
