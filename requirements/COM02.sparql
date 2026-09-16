@@ -2,7 +2,7 @@
 # COM02: ¿Cuál es la distribución geográfica de los establecimientos por categoría de actividad CNAE o IAE?
 
 PREFIX edintcom: <https://edint.es/def/censo-locales#>
-PREFIX edintinf: <http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#>
+PREFIX edintinf: <https://edint.es/def/infraestructura#>
 PREFIX esadm:    <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#>
 PREFIX skos:     <http://www.w3.org/2004/02/skos/core#>
 PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>

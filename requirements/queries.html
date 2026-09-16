@@ -195,7 +195,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
         </div>
         <div class="main-content">
     <section class="file-card" id="COM01_sparql"><div class="file-header">COM01.sparql</div><div class="query-block"><span class="query-title">COM01: ¿Qué establecimientos comerciales existen en una división administrativa?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">edintcom</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/censo-locales#&gt;</span>
-<span class="k">PREFIX</span> <span class="nn">edintinf</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">edintinf</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/infraestructura#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">esadm</span><span class="p">:</span>    <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span>     <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
 
@@ -228,7 +228,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 
 <span class="c"># Para una división administrativa concreta</span>
 <span class="k">PREFIX</span> <span class="nn">edintcom</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/censo-locales#&gt;</span>
-<span class="k">PREFIX</span> <span class="nn">edintinf</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">edintinf</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/infraestructura#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">esadm</span><span class="p">:</span>    <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span>     <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
 
@@ -249,7 +249,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <span class="k">ORDER BY</span> <span class="nv">?commercialSpaceLabel</span>
 </pre></div>
 </div></section><section class="file-card" id="COM02_sparql"><div class="file-header">COM02.sparql</div><div class="query-block"><span class="query-title">COM02: ¿Cuál es la distribución geográfica de los establecimientos por categoría de actividad CNAE o IAE?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">edintcom</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/censo-locales#&gt;</span>
-<span class="k">PREFIX</span> <span class="nn">edintinf</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">edintinf</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/infraestructura#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">esadm</span><span class="p">:</span>    <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">skos</span><span class="p">:</span>     <span class="nl">&lt;http://www.w3.org/2004/02/skos/core#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span>     <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
@@ -287,7 +287,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <span class="k">ORDER BY</span> <span class="nv">?adminDivisionLabel</span> <span class="nv">?activityLabel</span>
 </pre></div>
 </div></section><section class="file-card" id="COM03_sparql"><div class="file-header">COM03.sparql</div><div class="query-block"><span class="query-title">COM03: ¿En qué estado están los comercios de una división administrativa concreta en un momento dado?<br>El estado del comercio en una fecha concreta se considera válido si existe una licencia aplicada al espacio comercial vigente en esa fecha.</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">edintcom</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/censo-locales#&gt;</span>
-<span class="k">PREFIX</span> <span class="nn">edintinf</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">edintinf</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/infraestructura#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">schema</span><span class="p">:</span>   <span class="nl">&lt;http://schema.org/&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span>     <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">xsd</span><span class="p">:</span>      <span class="nl">&lt;http://www.w3.org/2001/XMLSchema#&gt;</span>
@@ -347,7 +347,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <span class="k">ORDER BY</span> <span class="nv">?commercialSpaceLabel</span>
 </pre></div>
 </div></section><section class="file-card" id="COM05_sparql"><div class="file-header">COM05.sparql</div><div class="query-block"><span class="query-title">COM05: ¿Cuántos comercios han abierto o cerrado en un periodo concreto en un distrito determinado?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">edintcom</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/censo-locales#&gt;</span>
-<span class="k">PREFIX</span> <span class="nn">edintinf</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">edintinf</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/infraestructura#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">esadm</span><span class="p">:</span>    <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">schema</span><span class="p">:</span>   <span class="nl">&lt;http://schema.org/&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">xsd</span><span class="p">:</span>      <span class="nl">&lt;http://www.w3.org/2001/XMLSchema#&gt;</span>
@@ -386,7 +386,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <span class="p">}</span>
 </pre></div>
 </div></section><section class="file-card" id="COM06_sparql"><div class="file-header">COM06.sparql</div><div class="query-block"><span class="query-title">COM06: ¿Qué zonas presentan mayor tasa de altas y bajas comerciales?<br>Considerando zona como distrito adeministrativo</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">edintcom</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/censo-locales#&gt;</span>
-<span class="k">PREFIX</span> <span class="nn">edintinf</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">edintinf</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/infraestructura#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">esadm</span><span class="p">:</span>    <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">schema</span><span class="p">:</span>   <span class="nl">&lt;http://schema.org/&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span>     <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
@@ -492,7 +492,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <span class="k">ORDER BY</span> <span class="nv">?commercialSpaceLabel</span> <span class="nv">?startDate</span>
 </pre></div>
 </div></section><section class="file-card" id="COM08_sparql"><div class="file-header">COM08.sparql</div><div class="query-block"><span class="query-title">COM08: ¿Qué tipo de licencias (APCAL, DRAACT, CAMTI, etc.) predominan en una zona?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">edintcom</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/censo-locales#&gt;</span>
-<span class="k">PREFIX</span> <span class="nn">edintinf</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">edintinf</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/infraestructura#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">schema</span><span class="p">:</span>   <span class="nl">&lt;http://schema.org/&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span>     <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">xsd</span><span class="p">:</span>      <span class="nl">&lt;http://www.w3.org/2001/XMLSchema#&gt;</span>
@@ -639,7 +639,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <span class="k">ORDER BY</span> <span class="nv">?commercialSpaceLabel</span>
 </pre></div>
 </div></section><section class="file-card" id="COM11_sparql"><div class="file-header">COM11.sparql</div><div class="query-block"><span class="query-title">COM11: ¿Qué mercados existen en un municipio?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">edintcom</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/censo-locales#&gt;</span>
-<span class="k">PREFIX</span> <span class="nn">edintinf</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">edintinf</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/infraestructura#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">esadm</span><span class="p">:</span>    <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span>     <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
 
@@ -661,7 +661,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <span class="c"># Variante con el número de puestos/comercio de cada mercado</span>
 
 <span class="k">PREFIX</span> <span class="nn">edintcom</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/censo-locales#&gt;</span>
-<span class="k">PREFIX</span> <span class="nn">edintinf</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">edintinf</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/infraestructura#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">esadm</span><span class="p">:</span>    <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span>     <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
 
@@ -715,7 +715,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <span class="c"># ORDER BY DESC(?gradoOcupacion)</span>
 </pre></div>
 </div></section><section class="file-card" id="COM13_sparql"><div class="file-header">COM13.sparql</div><div class="query-block"><span class="query-title">COM13: ¿Qué actividades comerciales existen en una zona determinada?<br>Sin tener en cuenta posibles correspondencias entre códigos CNAE e IAE</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">edintcom</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/censo-locales#&gt;</span>
-<span class="k">PREFIX</span> <span class="nn">edintinf</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">edintinf</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/infraestructura#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">schema</span><span class="p">:</span>   <span class="nl">&lt;http://schema.org/&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">skos</span><span class="p">:</span>     <span class="nl">&lt;http://www.w3.org/2004/02/skos/core#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span>     <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
