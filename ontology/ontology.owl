@@ -46,7 +46,7 @@
         <owl:versionInfo>0.1.0</owl:versionInfo>
         <owl:priorVersion rdf:resource="https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/releases/tag/v0.2.0"/>
     <dcterms:publisher rdf:resource="https://www.femp.es/"/>
-    <dcterms:bibliographicCitation xml:lang="es">Ontología para la representación de censo de locales. EDINT. Revision: v0.2.1.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation xml:lang="es">Ontología EDINT del Censo de Establecimientos Comerciales. EDINT. Revision: v0.2.1.</dcterms:bibliographicCitation>
     <schema:creativeWorkStatus xml:lang="en">Ontology Specification</schema:creativeWorkStatus>
     <dcterms:abstract xml:lang="es">El propósito de esta ontología es proporcionar un vocabulario común para la representación de las entidades y los datos principales relacionados con los establecimientos comerciales de un municipio, y sus licencias. También incluye las agrupaciones comerciales, como mercados y centros comerciales, y las terrazas asociadas a los establecimientos.</dcterms:abstract>
     <dcterms:abstract xml:lang="en">The purpose of this ontology is to provide a common vocabulary for representing the entities and main data related to commercial establishments in a municipality, and their licenses. It also includes commercial groupings, such as markets and shopping centers, and the outdoor seating areas (terraces) associated with the establishments.</dcterms:abstract>
