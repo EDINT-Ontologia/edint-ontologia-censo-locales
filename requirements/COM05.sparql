@@ -2,7 +2,7 @@
 # COM05: ¿Cuántos comercios han abierto o cerrado en un periodo concreto en un distrito determinado?
 
 PREFIX edintcom: <https://edint.es/def/censo-locales#>
-PREFIX edintinf: <http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#>
+PREFIX edintinf: <https://edint.es/def/infraestructura#>
 PREFIX esadm:    <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#>
 PREFIX schema:   <http://schema.org/>
 PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>

@@ -7,8 +7,8 @@
 @prefix edintkoacctype: <https://edint.es/kos/AccesType/>.
 @prefix edintkoscomespsit: <https://edint.es/kos/CommercialSpaceStatus/>.
 @prefix geosparql: <http://www.opengis.net/ont/geosparql#>.
-@prefix edintinf: <http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#>.
 @prefix edintkosinf: <https://edint.es/kos/InfrastructureType/>.
+@prefix edintinf: <https://edint.es/def/infraestructura#>.
 @prefix esdir: <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#>.
 @prefix tejcom: <http://vocab.ciudadesabiertas.es/def/comercio/tejido-comercial#>.
 @prefix rr: <http://www.w3.org/ns/r2rml#>.

@@ -8,8 +8,8 @@ prefixes:
   edintkoacctype: "https://edint.es/kos/AccesType/"
   edintkoscomespsit: "https://edint.es/kos/CommercialSpaceStatus/"
   geosparql: "http://www.opengis.net/ont/geosparql#"
-  edintinf: "http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#"
   edintkosinf: "https://edint.es/kos/InfrastructureType/"
+  edintinf: "https://edint.es/def/infraestructura#"
   esdir: "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#"
   tejcom: "http://vocab.ciudadesabiertas.es/def/comercio/tejido-comercial#"
 
