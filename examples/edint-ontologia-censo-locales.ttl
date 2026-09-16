@@ -3,10 +3,10 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix edintcom: <https://edint.es/def/censo-locales#> .
 @prefix edintinf: <http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#> .
-@prefix edintkoacctype: <http://vocab.linkeddata.es/datosabiertos/kos/edint/AccesType/> .
-@prefix edintkoscomespsit: <http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialSpaceStatus/> .
-@prefix edintkosinf: <http://vocab.linkeddata.es/datosabiertos/kos/edint/InfrastructureType/> .
-@prefix edintterper: <http://vocab.linkeddata.es/datosabiertos/kos/edint/TerracePeriod/> .
+@prefix edintkoacctype: <https://edint.es/kos/AccesType/> .
+@prefix edintkoscomespsit: <https://edint.es/kos/CommercialSpaceStatus/> .
+@prefix edintkosinf: <https://edint.es/kos/InfrastructureType/> .
+@prefix edintterper: <https://edint.es/kos/TerracePeriod/> .
 @prefix esdir: <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#> .
 @prefix ex: <https://example.org/id/> .
 @prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
@@ -39,7 +39,7 @@
   schema:legalName "Cafetería Chamberí S.L.";
   schema:url "https://mercadodechamberi.es";
   edintcom:hasCNAECode <http://lod.ine.es/kos/cnae/CNAE-2025/6/563000>;
-  edintcom:hasIAECode <http://vocab.linkeddata.es/datosabiertos/kos/edint/iae/3/673.1>;
+  edintcom:hasIAECode <https://edint.es/kos/iae/3/673.1>;
   edintcom:usesSpace <http://vocab.linkeddata.es/datosabiertos/recurso/espacio-comercial/COM-0001>;
   rdfs:label "Cafetería Chamberí S.L." .
 
@@ -75,10 +75,10 @@
   edintcom:fileCode "2021/EXP/45872" ;
   edintcom:issuedTo <http://vocab.linkeddata.es/datosabiertos/recurso/entidad-comercial/ENT-0001> ;
   edintcom:appliedTo <http://vocab.linkeddata.es/datosabiertos/recurso/espacio-comercial/COM-0001> ;
-  edintcom:hasCommercialPermitType http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitType/APAL ;
-  edintcom:hasCommercialPermitStatus http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitStatus/Granted ;
+  edintcom:hasCommercialPermitType <https://edint.es/kos/CommercialPermitType/APAL> ;
+  edintcom:hasCommercialPermitStatus <https://edint.es/kos/CommercialPermitStatus/Granted> ;
   edintcom:hasCNAECode <http://lod.ine.es/kos/cnae/CNAE-2025/6/563000> ;
-  edintcom:hasIAECode <http://vocab.linkeddata.es/datosabiertos/kos/edint/iae/3/673.1> ;
+  edintcom:hasIAECode <https://edint.es/kos/iae/3/673.1> ;
   schema:startDate "2021-05-14T00:00:00"^^xsd:dateTime .
 
 <http://vocab.linkeddata.es/datosabiertos/recurso/licencia/LIC-TER-0001> a edintcom:Permit ;
@@ -86,7 +86,7 @@
   rdfs:label "Autorización de terraza Cafetería Chamberí" ;
   edintcom:fileCode "2024/VEL/10328" ;
   edintcom:appliedTo <http://vocab.linkeddata.es/datosabiertos/recurso/terraza/TER-0001> ;
-  edintcom:hasCommercialPermitType http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitType/APAL ;
-  edintcom:hasCommercialPermitStatus http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitStatus/Granted ;
+  edintcom:hasCommercialPermitType <https://edint.es/kos/CommercialPermitType/APAL> ;
+  edintcom:hasCommercialPermitStatus <https://edint.es/kos/CommercialPermitStatus/Granted> ;
   schema:startDate "2024-03-01T00:00:00"^^xsd:dateTime ;
   schema:endDate "2026-12-31T23:59:59"^^xsd:dateTime .

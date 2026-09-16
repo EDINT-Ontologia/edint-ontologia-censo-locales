@@ -26,7 +26,7 @@ WHERE {
   
   # Puestos que están ocupados
   FILTER (
-    ?status = <http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialSpaceStatus/Taken>
+    ?status = <https://edint.es/kos/CommercialSpaceStatus/Taken>
   )
 }
 GROUP BY ?market ?marketLabel
