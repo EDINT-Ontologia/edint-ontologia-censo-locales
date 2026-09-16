@@ -25,7 +25,8 @@
      xmlns:edintcom="https://edint.es/def/censo-locales#"
      xmlns:edintinf="https://edint.es/def/infraestructura#"
      xmlns:edintveh="https://edint.es/def/censo-vehiculos#"
-     xmlns:edintzone="https://edint.es/def/zona-regulatoria#">
+     xmlns:edintzone="https://edint.es/def/zona-regulatoria#"
+     xmlns:bibo="http://purl.org/ontology/bibo/">
     <owl:Ontology rdf:about="https://edint.es/def/censo-locales#">
         <owl:versionIRI rdf:resource="https://edint.es/def/censo-locales/0.1.0"/>
         <dcterms:created>2026-04-15</dcterms:created>
@@ -43,7 +44,13 @@
         <vann:preferredNamespacePrefix>edintcom</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri rdf:resource="https://edint.es/def/censo-locales#"/>
         <owl:versionInfo>0.1.0</owl:versionInfo>
-    </owl:Ontology>
+        <owl:priorVersion rdf:resource="https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/releases/tag/v0.2.0"/>
+    <dcterms:publisher rdf:resource="https://www.femp.es/"/>
+    <dcterms:bibliographicCitation xml:lang="es">Ontología para la representación de censo de locales. EDINT. Revision: v0.2.1.</dcterms:bibliographicCitation>
+    <schema:creativeWorkStatus xml:lang="en">Ontology Specification</schema:creativeWorkStatus>
+    <dcterms:abstract xml:lang="es">El propósito de esta ontología es proporcionar un vocabulario común para la representación de las entidades y los datos principales relacionados con los establecimientos comerciales de un municipio, y sus licencias. También incluye las agrupaciones comerciales, como mercados y centros comerciales, y las terrazas asociadas a los establecimientos.</dcterms:abstract>
+    <dcterms:abstract xml:lang="en">The purpose of this ontology is to provide a common vocabulary for representing the entities and main data related to commercial establishments in a municipality, and their licenses. It also includes commercial groupings, such as markets and shopping centers, and the outdoor seating areas (terraces) associated with the establishments.</dcterms:abstract>
+</owl:Ontology>
     
 
 
