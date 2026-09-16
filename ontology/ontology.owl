@@ -23,9 +23,9 @@
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:esequip="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento#"
      xmlns:edintcom="https://edint.es/def/censo-locales#"
-     xmlns:edintinf="http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#"
-     xmlns:edintveh="http://vocab.linkeddata.es/datosabiertos/def/transporte/censovehiculos#"
-     xmlns:edintzone="http://vocab.linkeddata.es/datosabiertos/def/common/zone#"
+     xmlns:edintinf="https://edint.es/def/infraestructura#"
+     xmlns:edintveh="https://edint.es/def/censo-vehiculos#"
+     xmlns:edintzone="https://edint.es/def/zona-regulatoria#"
      xmlns:esequip-kos="http://vocab.linkeddata.es/datosabiertos/kos/urbanismo-infraestructuras/equipamiento/tipo-equipamiento/">
     <owl:Ontology rdf:about="http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales">
         <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales/0.1.0"/>
@@ -468,9 +468,9 @@
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#hasInfrastructureType -->
+    <!-- https://edint.es/def/infraestructura#hasInfrastructureType -->
 
-    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#hasInfrastructureType">
+    <owl:ObjectProperty rdf:about="https://edint.es/def/infraestructura#hasInfrastructureType">
         <rdfs:range>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -482,7 +482,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:range>
-        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/infraestructura#"/>
+        <rdfs:isDefinedBy rdf:resource="https://edint.es/def/infraestructura#"/>
     </owl:ObjectProperty>
     
 
@@ -901,54 +901,54 @@
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/common/zone#CommercialZone -->
+    <!-- https://edint.es/def/zona-regulatoria#CommercialZone -->
 
-    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/common/zone#CommercialZone">
-        <rdfs:subClassOf rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/common/zone#EconomicInterestZone"/>
+    <owl:Class rdf:about="https://edint.es/def/zona-regulatoria#CommercialZone">
+        <rdfs:subClassOf rdf:resource="https://edint.es/def/zona-regulatoria#EconomicInterestZone"/>
     </owl:Class>
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/common/zone#EconomicInterestZone -->
+    <!-- https://edint.es/def/zona-regulatoria#EconomicInterestZone -->
 
-    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/common/zone#EconomicInterestZone">
-        <rdfs:subClassOf rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/common/zone#RegulatedZone"/>
-        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/common/zone#"/>
+    <owl:Class rdf:about="https://edint.es/def/zona-regulatoria#EconomicInterestZone">
+        <rdfs:subClassOf rdf:resource="https://edint.es/def/zona-regulatoria#RegulatedZone"/>
+        <rdfs:isDefinedBy rdf:resource="https://edint.es/def/zona-regulatoria#"/>
     </owl:Class>
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/common/zone#IndustrialZone -->
+    <!-- https://edint.es/def/zona-regulatoria#IndustrialZone -->
 
-    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/common/zone#IndustrialZone">
-        <rdfs:subClassOf rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/common/zone#EconomicInterestZone"/>
-        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/common/zone#"/>
+    <owl:Class rdf:about="https://edint.es/def/zona-regulatoria#IndustrialZone">
+        <rdfs:subClassOf rdf:resource="https://edint.es/def/zona-regulatoria#EconomicInterestZone"/>
+        <rdfs:isDefinedBy rdf:resource="https://edint.es/def/zona-regulatoria#"/>
     </owl:Class>
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/common/zone#LeisureZone -->
+    <!-- https://edint.es/def/zona-regulatoria#LeisureZone -->
 
-    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/common/zone#LeisureZone">
-        <rdfs:subClassOf rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/common/zone#RegulatedZone"/>
-        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/common/zone#"/>
+    <owl:Class rdf:about="https://edint.es/def/zona-regulatoria#LeisureZone">
+        <rdfs:subClassOf rdf:resource="https://edint.es/def/zona-regulatoria#RegulatedZone"/>
+        <rdfs:isDefinedBy rdf:resource="https://edint.es/def/zona-regulatoria#"/>
     </owl:Class>
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/common/zone#RegulatedZone -->
+    <!-- https://edint.es/def/zona-regulatoria#RegulatedZone -->
 
-    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/common/zone#RegulatedZone">
-        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/common/zone#"/>
+    <owl:Class rdf:about="https://edint.es/def/zona-regulatoria#RegulatedZone">
+        <rdfs:isDefinedBy rdf:resource="https://edint.es/def/zona-regulatoria#"/>
     </owl:Class>
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/common/zone#StreetVendingZone -->
+    <!-- https://edint.es/def/zona-regulatoria#StreetVendingZone -->
 
-    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/common/zone#StreetVendingZone">
-        <rdfs:subClassOf rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/common/zone#EconomicInterestZone"/>
-        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/common/zone#"/>
+    <owl:Class rdf:about="https://edint.es/def/zona-regulatoria#StreetVendingZone">
+        <rdfs:subClassOf rdf:resource="https://edint.es/def/zona-regulatoria#EconomicInterestZone"/>
+        <rdfs:isDefinedBy rdf:resource="https://edint.es/def/zona-regulatoria#"/>
     </owl:Class>
     
 
@@ -1022,9 +1022,9 @@ Su nombre, que se especifica con la propiedad dct:title, es el proporcionado por
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/aparcamiento#Parking -->
+    <!-- https://edint.es/def/aparcamiento#Parking -->
 
-    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/aparcamiento#Parking">
+    <owl:Class rdf:about="https://edint.es/def/aparcamiento#Parking">
         <rdfs:subClassOf rdf:resource="https://edint.es/def/censo-locales#Facility"/>
         <rdfs:comment xml:lang="es">Aparcamiento para diferentes tipos de vehículo que incluye instalaciones o superficies de aparcamiento fuera de la vía pública o zonas de aparcamiento en la vía pública para residentes, no residentes o libres.</rdfs:comment>
         <rdfs:comment xml:lang="en">Parking for different types of vehicles, including off-street parking facilities or on-street parking zones for residents, non-residents, or free parking.</rdfs:comment>
