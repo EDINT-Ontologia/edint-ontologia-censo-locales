@@ -287,7 +287,7 @@
                     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitStatus"/>
+                        <owl:hasValue rdf:resource="https://edint.es/kos/CommercialPermitStatus"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -309,7 +309,7 @@
                     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitType"/>
+                        <owl:hasValue rdf:resource="https://edint.es/kos/CommercialPermitType"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -331,7 +331,7 @@
                     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialSpaceStatus"/>
+                        <owl:hasValue rdf:resource="https://edint.es/kos/CommercialSpaceStatus"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -353,7 +353,7 @@
                     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/edint/IAE"/>
+                        <owl:hasValue rdf:resource="https://edint.es/kos/IAE"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -387,7 +387,7 @@
                     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/edint/TerracePeriod"/>
+                        <owl:hasValue rdf:resource="https://edint.es/kos/TerracePeriod"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -477,7 +477,7 @@
                     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/edint/InfrastructureType"/>
+                        <owl:hasValue rdf:resource="https://edint.es/kos/InfrastructureType"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -1166,9 +1166,9 @@ Además de las propiedades asociadas a estas clases, y definidas en su correspon
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/AccessType -->
+    <!-- https://edint.es/kos/AccessType -->
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/AccessType">
+    <owl:NamedIndividual rdf:about="https://edint.es/kos/AccessType">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdfs:label xml:lang="en">Access type</rdfs:label>
         <rdfs:label xml:lang="es">Tipo de acceso</rdfs:label>
@@ -1176,9 +1176,9 @@ Además de las propiedades asociadas a estas clases, y definidas en su correspon
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitStatus -->
+    <!-- https://edint.es/kos/CommercialPermitStatus -->
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitStatus">
+    <owl:NamedIndividual rdf:about="https://edint.es/kos/CommercialPermitStatus">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdfs:label xml:lang="en">Commercial permit status</rdfs:label>
         <rdfs:label xml:lang="es">Estado de la licencia comercial</rdfs:label>
@@ -1186,9 +1186,9 @@ Además de las propiedades asociadas a estas clases, y definidas en su correspon
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitType -->
+    <!-- https://edint.es/kos/CommercialPermitType -->
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitType">
+    <owl:NamedIndividual rdf:about="https://edint.es/kos/CommercialPermitType">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdfs:label xml:lang="en">Commercial permit type</rdfs:label>
         <rdfs:label xml:lang="es">Tipo de licencia comercial</rdfs:label>
@@ -1196,9 +1196,9 @@ Además de las propiedades asociadas a estas clases, y definidas en su correspon
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialSpaceStatus -->
+    <!-- https://edint.es/kos/CommercialSpaceStatus -->
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialSpaceStatus">
+    <owl:NamedIndividual rdf:about="https://edint.es/kos/CommercialSpaceStatus">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdfs:label xml:lang="en">Commercial space status</rdfs:label>
         <rdfs:label xml:lang="es">Situación del espacio comercial</rdfs:label>
@@ -1206,18 +1206,18 @@ Además de las propiedades asociadas a estas clases, y definidas en su correspon
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/IAE -->
+    <!-- https://edint.es/kos/IAE -->
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/IAE">
+    <owl:NamedIndividual rdf:about="https://edint.es/kos/IAE">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdfs:label xml:lang="es">IAE</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/InfrastructureType -->
+    <!-- https://edint.es/kos/InfrastructureType -->
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/InfrastructureType">
+    <owl:NamedIndividual rdf:about="https://edint.es/kos/InfrastructureType">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdfs:label xml:lang="en">Infrastructure type</rdfs:label>
         <rdfs:label xml:lang="es">Tipo de infraestructura</rdfs:label>
@@ -1225,9 +1225,9 @@ Además de las propiedades asociadas a estas clases, y definidas en su correspon
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/TerracePeriod -->
+    <!-- https://edint.es/kos/TerracePeriod -->
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/TerracePeriod">
+    <owl:NamedIndividual rdf:about="https://edint.es/kos/TerracePeriod">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdfs:label xml:lang="es">Periodo de funcionamiento de la terraza</rdfs:label>
         <rdfs:label xml:lang="en">Terrace period</rdfs:label>

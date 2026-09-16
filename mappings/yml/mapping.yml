@@ -4,12 +4,12 @@ prefixes:
   schema: "http://schema.org/"
   dcterms: "http://purl.org/dc/terms/"
   xsd: "http://www.w3.org/2001/XMLSchema#"
-  edintterper: "http://vocab.linkeddata.es/datosabiertos/kos/edint/TerracePeriod/"
-  edintkoacctype: "http://vocab.linkeddata.es/datosabiertos/kos/edint/AccesType/"
-  edintkoscomespsit: "http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialSpaceStatus/"
+  edintterper: "https://edint.es/kos/TerracePeriod/"
+  edintkoacctype: "https://edint.es/kos/AccesType/"
+  edintkoscomespsit: "https://edint.es/kos/CommercialSpaceStatus/"
   geosparql: "http://www.opengis.net/ont/geosparql#"
+  edintkosinf: "https://edint.es/kos/InfrastructureType/"
   edintinf: "https://edint.es/def/infraestructura#"
-  edintkosinf: "http://vocab.linkeddata.es/datosabiertos/kos/edint/InfrastructureType/"
   esdir: "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#"
   tejcom: "http://vocab.ciudadesabiertas.es/def/comercio/tejido-comercial#"
 
@@ -31,7 +31,7 @@ mappings:
       - [schema:url, $(web)]
       - [edintcom:usesSpace, "http://vocab.linkeddata.es/datosabiertos/recurso/espacio-comercial/$(espacio-comercial_id)~iri"]
       - [edintcom:hasCNAECode,"http://lod.ine.es/kos/cnae/CNAE-2025/$(cnae_nivel)/$(cnae_codigo)~iri"] # example:http://lod.ine.es/kos/cnae/CNAE-2025/6/17520
-      - [edintcom:hasIAECode,"http://vocab.linkeddata.es/datosabiertos/kos/edint/iae/$(iae_nivel)/$(iae_codigo)~iri"]
+      - [edintcom:hasIAECode,"https://edint.es/kos/iae/$(iae_nivel)/$(iae_codigo)~iri"]
 
   espacio-comercial:
     sources:
@@ -103,10 +103,10 @@ mappings:
       - [rdfs:label, $(licencia_cafeteria_label)]
       - [edintcom:fileCode, $(licencia_cafeteria_expediente)]
       - [edintcom:appliedTo, "http://vocab.linkeddata.es/datosabiertos/recurso/espacio-comercial/$(espacio-comercial_id)~iri"]
-      - [edintcom:hasCommercialPermitType, "http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitType/$(licencia_cafeteria_tipo)~iri"]
-      - [edintcom:hasCommercialPermitStatus, "http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitStatus/(licencia_cafeteria_estado)~iri"]
+      - [edintcom:hasCommercialPermitType, "https://edint.es/kos/CommercialPermitType/$(licencia_cafeteria_tipo)~iri"]
+      - [edintcom:hasCommercialPermitStatus, "https://edint.es/kos/CommercialPermitStatus/(licencia_cafeteria_estado)~iri"]
       - [edintcom:hasCNAECode, "http://lod.ine.es/kos/cnae/CNAE-2025/$(cnae_nivel)/$(cnae_codigo)~iri"]
-      - [edintcom:hasIAECode, "http://vocab.linkeddata.es/datosabiertos/kos/edint/iae/$(iae_nivel)/$(iae_codigo)~iri"]
+      - [edintcom:hasIAECode, "https://edint.es/kos/iae/$(iae_nivel)/$(iae_codigo)~iri"]
       - [schema:startDate, $(licencia_cafeteria_fecha_inicio), xsd:dateTime]
 
   licencia_terraza:
@@ -119,7 +119,7 @@ mappings:
       - [rdfs:label, $(licencia_terraza_label)]
       - [edintcom:fileCode, $(licencia_terraza_expediente)]
       - [edintcom:appliedTo, "http://vocab.linkeddata.es/datosabiertos/recurso/terraza/$(terraza_id)~iri"]
-      - [edintcom:hasCommercialPermitType, "http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitType/$(licencia_terraza_tipo)~iri"]
-      - [edintcom:hasCommercialPermitStatus, "http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitStatus/$(licencia_terraza_estado)~iri"]
+      - [edintcom:hasCommercialPermitType, "https://edint.es/kos/CommercialPermitType/$(licencia_terraza_tipo)~iri"]
+      - [edintcom:hasCommercialPermitStatus, "https://edint.es/kos/CommercialPermitStatus/$(licencia_terraza_estado)~iri"]
       - [schema:startDate, $(licencia_terraza_fecha_inicio), xsd:dateTime]
       - [schema:endDate, $(licencia_terraza_fecha_fin), xsd:dateTime]

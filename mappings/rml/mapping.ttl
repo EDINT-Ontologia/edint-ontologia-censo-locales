@@ -3,12 +3,12 @@
 @prefix schema: <http://schema.org/>.
 @prefix dcterms: <http://purl.org/dc/terms/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix edintterper: <http://vocab.linkeddata.es/datosabiertos/kos/edint/TerracePeriod/>.
-@prefix edintkoacctype: <http://vocab.linkeddata.es/datosabiertos/kos/edint/AccesType/>.
-@prefix edintkoscomespsit: <http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialSpaceStatus/>.
+@prefix edintterper: <https://edint.es/kos/TerracePeriod/>.
+@prefix edintkoacctype: <https://edint.es/kos/AccesType/>.
+@prefix edintkoscomespsit: <https://edint.es/kos/CommercialSpaceStatus/>.
 @prefix geosparql: <http://www.opengis.net/ont/geosparql#>.
+@prefix edintkosinf: <https://edint.es/kos/InfrastructureType/>.
 @prefix edintinf: <https://edint.es/def/infraestructura#>.
-@prefix edintkosinf: <http://vocab.linkeddata.es/datosabiertos/kos/edint/InfrastructureType/>.
 @prefix esdir: <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#>.
 @prefix tejcom: <http://vocab.ciudadesabiertas.es/def/comercio/tejido-comercial#>.
 @prefix rr: <http://www.w3.org/ns/r2rml#>.
@@ -117,7 +117,7 @@
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:template "http://vocab.linkeddata.es/datosabiertos/kos/edint/iae/{iae_nivel}/{iae_codigo}";
+			rr:template "https://edint.es/kos/iae/{iae_nivel}/{iae_codigo}";
 			rr:termType rr:IRI
 		];
 	].
@@ -194,7 +194,7 @@
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:template "http://vocab.linkeddata.es/datosabiertos/kos/edint/AccesType/{tipo_acceso}";
+			rr:template "https://edint.es/kos/AccesType/{tipo_acceso}";
 		];
 	];
 	rr:predicateObjectMap [
@@ -204,7 +204,7 @@
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:template "http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialSpaceStatus/{situacion_espacio_comercial}";
+			rr:template "https://edint.es/kos/CommercialSpaceStatus/{situacion_espacio_comercial}";
 		];
 	].
 
@@ -333,7 +333,7 @@
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:template "http://vocab.linkeddata.es/datosabiertos/kos/edint/TerracePeriod/{periodo_funcionamiento}";
+			rr:template "https://edint.es/kos/TerracePeriod/{periodo_funcionamiento}";
 			rr:termType rr:IRI
 		];
 	];
