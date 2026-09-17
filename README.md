@@ -11,7 +11,7 @@ El propósito de esta ontología es proporcionar un vocabulario común para la r
 
 # Prefijo y espacio de nombres (Prefix and namespace)
 
-El prefijo de la ontología es: edintcom y se encuentra publicada en el espacio de nombres: [https://edint.es/def/censo-locales#](https://edint.es/def/censo-locales#)
+El prefijo de esta ontología es `edintcom` y se publica bajo el espacio de nombres https://edint.es/def/censo-locales#
 
 # Modelo conceptual (Ontology conceptualization)
 
