@@ -68,6 +68,7 @@
         <schema:affiliation>Federación Española de Municipios y Provincias</schema:affiliation>
     </dcterms:publisher>
     <dcterms:bibliographicCitation xml:lang="es">Ontología EDINT del Censo de Establecimientos Comerciales. EDINT. Revision: v0.2.1.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation xml:lang="en">EDINT Commercial Establishment Census Ontology. EDINT. Revision: v0.2.1.</dcterms:bibliographicCitation>
     <schema:creativeWorkStatus xml:lang="en">Ontology Specification</schema:creativeWorkStatus>
     <dcterms:abstract xml:lang="es">El propósito de esta ontología es proporcionar un vocabulario común para la representación de las entidades y los datos principales relacionados con los establecimientos comerciales de un municipio, y sus licencias. También incluye las agrupaciones comerciales, como mercados y centros comerciales, y las terrazas asociadas a los establecimientos.</dcterms:abstract>
     <dcterms:abstract xml:lang="en">The purpose of this ontology is to provide a common vocabulary for representing the entities and main data related to commercial establishments in a municipality, and their licenses. It also includes commercial groupings, such as markets and shopping centers, and the outdoor seating areas (terraces) associated with the establishments.</dcterms:abstract>
