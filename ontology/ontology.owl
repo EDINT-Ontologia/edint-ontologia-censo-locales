@@ -28,7 +28,6 @@
      xmlns:edintzone="https://edint.es/def/zona-regulatoria#"
      xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:foaf="http://xmlns.com/foaf/0.1/">    <owl:Ontology rdf:about="https://edint.es/def/censo-locales#">
         <owl:versionIRI rdf:resource="https://edint.es/def/censo-locales/0.2.1"/>
-        <dcterms:created>2026-04-15</dcterms:created>
         <dcterms:creator rdf:parseType="Resource">
             <foaf:name>Daniel Doña</foaf:name>
             <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
@@ -54,10 +53,12 @@
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <dcterms:title xml:lang="es">Ontología EDINT del Censo de Establecimientos Comerciales</dcterms:title>
         <dcterms:title xml:lang="en">EDINT Commercial Establishment Census Ontology</dcterms:title>
-        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-15</dcterms:issued>
         <vann:preferredNamespacePrefix>edintcom</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri rdf:resource="https://edint.es/def/censo-locales#"/>
         <owl:versionInfo>0.2.1</owl:versionInfo>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-15</dcterms:created>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-17</dcterms:issued>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-17</dcterms:modified>
         <owl:priorVersion rdf:resource="https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/releases/tag/v0.2.0"/>
     <dcterms:publisher rdf:parseType="Resource">
         <foaf:name>FEMP</foaf:name>
