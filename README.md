@@ -1,5 +1,8 @@
 # Ontología EDINT de Establecimiento Comercial (EDINT Commercial Establishment Ontology)
 
+![Prefijo](https://img.shields.io/badge/prefijo-edintcom-informational)
+[![Licencia](https://img.shields.io/badge/licencia-CC%20BY--SA%204.0-lightgrey)](LICENSE)
+
 La ontología de Establecimiento Comercial representa los datos de los espacios comerciales, sus agrupaciones y sus licencias.
 
 # Propósito y alcance de la ontología (Purpose and scope of the ontology)
