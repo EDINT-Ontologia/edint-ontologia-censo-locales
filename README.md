@@ -1,4 +1,4 @@
-# Ontología EDINT de Establecimiento Comercial (EDINT Commercial Establishment Ontology)
+# Ontología EDINT del Censo de Establecimientos Comerciales
 
 [![Documentación](https://img.shields.io/badge/documentaci%C3%B3n-edint.es-blue)](https://edint.es/def/censo-locales)
 ![Prefijo](https://img.shields.io/badge/prefijo-edintcom-informational)
