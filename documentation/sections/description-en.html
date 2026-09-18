@@ -1,8 +1,8 @@
-<h2 id="desc" class="list">Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<h2 id="desc" class="list">Commercial Establishment Census: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 
-<span class="markdown">
 
-<p>Figure 1 shows the main entities of the ontology and the relationships among them. The ontology represents, among other things, <a href="#CommercialSpace">commercial spaces</a>, their <a href="#CommercialAggregation">aggregations</a>, and their <a href="#Terrace">terraces</a>, thereby extending the set of <a href="http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#InfrastructureElement">infrastructure elements</a> considered in the <a href="http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#">EDINT Infrastructure Ontology</a>. <a href="#CommercialSpace">Commercial spaces</a> are places prepared for the sale of products, the provision of services, or customer service, such as shops or offices. They may <a href="#belongToCommercialAggregation">belong</a> to a <a href="#CommercialAggregation">commercial aggregation</a>, which brings several of them together in a physical location, and <a href="#hasTerrace">have</a> one or more <a href="#Terrace">terraces</a>, and they also <a href="#hasAccessType">have an access type</a>. As <a href="http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#Facility">facilities</a> and, therefore, <a href="http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#InfrastructureElement">infrastructure elements</a>, a commercial space, a commercial aggregation, and a terrace <a href="http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#hasInfrastructureType">have an infrastructure element type</a> and a <a href="#CommercialSpace">geolocation</a>, and <a href="http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#belongTo">belong to an administrative division</a> (<a href="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Municipio">municipality</a>, <a href="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito">district</a>, or <a href="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Barrio">neighborhood</a>) (and a <a href="http://vocab.linkeddata.es/datosabiertos/def/common/zone#RegulatedZone">zone</a>).
+
+<p>Figure 1 shows the main entities of the ontology and the relationships among them. The ontology represents, among other things, <a href="#CommercialSpace">commercial spaces</a>, their <a href="#CommercialAggregation">aggregations</a>, and their <a href="#Terrace">terraces</a>, thereby extending the set of <a href="https://edint.es/def/infraestructura#InfrastructureElement">infrastructure elements</a> considered in the <a href="https://edint.es/def/infraestructura#">EDINT Infrastructure Ontology</a>. <a href="#CommercialSpace">Commercial spaces</a> are places prepared for the sale of products, the provision of services, or customer service, such as shops or offices. They may <a href="#belongToCommercialAggregation">belong</a> to a <a href="#CommercialAggregation">commercial aggregation</a>, which brings several of them together in a physical location, and <a href="#hasTerrace">have</a> one or more <a href="#Terrace">terraces</a>, and they also <a href="#hasAccessType">have an access type</a>. As <a href="https://edint.es/def/infraestructura#Facility">facilities</a> and, therefore, <a href="https://edint.es/def/infraestructura#InfrastructureElement">infrastructure elements</a>, a commercial space, a commercial aggregation, and a terrace <a href="https://edint.es/def/infraestructura#hasInfrastructureType">have an infrastructure element type</a> and a <a href="#CommercialSpace">geolocation</a>, and <a href="https://edint.es/def/infraestructura#belongTo">belong to an administrative division</a> (<a href="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Municipio">municipality</a>, <a href="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito">district</a>, or <a href="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Barrio">neighborhood</a>) (and a <a href="https://edint.es/def/zona-regulatoria#RegulatedZone">zone</a>).
 </p>
 <p><a href="#CommercialEntity">Commercial entities</a> are <a href="http://schema.org/Person">persons</a> or <a href="http://schema.org/Organization">organizations</a> that carry out or intend to carry out a commercial activity. For this purpose, they may <a href="#usesSpace">use</a> one or more <a href="#CommercialSpace">commercial spaces</a> described above.</p>
 
@@ -23,12 +23,12 @@ Figure 1. Conceptual model of the ontology.
 @prefix comp: &lt;http://semweb.mmlab.be/ns/rml-compression#&gt; .
 @prefix d2rq: &lt;http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#&gt; .
 @prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
-@prefix edintcom: &lt;http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#&gt; .
-@prefix edintinf: &lt;http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#&gt; .
-@prefix edintkoacctype: &lt;http://vocab.linkeddata.es/datosabiertos/kos/edint/AccesType/&gt; .
-@prefix edintkoscomespsit: &lt;http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialSpaceStatus/&gt; .
-@prefix edintkosinf: &lt;http://vocab.linkeddata.es/datosabiertos/kos/edint/InfrastructureType/&gt; .
-@prefix edintterper: &lt;http://vocab.linkeddata.es/datosabiertos/kos/edint/TerracePeriod/&gt; .
+@prefix edintcom: &lt;https://edint.es/def/censo-locales#&gt; .
+@prefix edintinf: &lt;https://edint.es/def/infraestructura#&gt; .
+@prefix edintkoacctype: &lt;https://edint.es/kos/AccesType/&gt; .
+@prefix edintkoscomespsit: &lt;https://edint.es/kos/CommercialSpaceStatus/&gt; .
+@prefix edintkosinf: &lt;https://edint.es/kos/InfrastructureType/&gt; .
+@prefix edintterper: &lt;https://edint.es/kos/TerracePeriod/&gt; .
 @prefix esdir: &lt;http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#&gt; .
 @prefix ex: &lt;https://example.org/id/&gt; .
 @prefix fnml: &lt;http://semweb.mmlab.be/ns/fnml#&gt; .
@@ -61,7 +61,7 @@ Figure 1. Conceptual model of the ontology.
   schema:legalName "Cafetería Chamberí S.L.";
   schema:url "https://mercadodechamberi.es";
   edintcom:hasCNAECode &lt;http://lod.ine.es/kos/cnae/CNAE-2025/6/563000&gt;;
-  edintcom:hasIAECode &lt;http://vocab.linkeddata.es/datosabiertos/kos/edint/iae/3/673.1&gt;;
+  edintcom:hasIAECode &lt;https://edint.es/kos/iae/3/673.1&gt;;
   edintcom:usesSpace &lt;http://vocab.linkeddata.es/datosabiertos/recurso/espacio-comercial/COM-0001&gt;;
   rdfs:label "Cafetería Chamberí S.L." .
 
@@ -97,10 +97,10 @@ Figure 1. Conceptual model of the ontology.
   edintcom:fileCode "2021/EXP/45872" ;
   edintcom:issuedTo &lt;http://vocab.linkeddata.es/datosabiertos/recurso/entidad-comercial/ENT-0001&gt; ;
   edintcom:appliedTo &lt;http://vocab.linkeddata.es/datosabiertos/recurso/espacio-comercial/COM-0001&gt; ;
-  edintcom:hasCommercialPermitType http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitType/APAL ;
-  edintcom:hasCommercialPermitStatus http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitStatus/Granted ;
+  edintcom:hasCommercialPermitType https://edint.es/kos/CommercialPermitType/APAL ;
+  edintcom:hasCommercialPermitStatus https://edint.es/kos/CommercialPermitStatus/Granted ;
   edintcom:hasCNAECode &lt;http://lod.ine.es/kos/cnae/CNAE-2025/6/563000&gt; ;
-  edintcom:hasIAECode &lt;http://vocab.linkeddata.es/datosabiertos/kos/edint/iae/3/673.1&gt; ;
+  edintcom:hasIAECode &lt;https://edint.es/kos/iae/3/673.1&gt; ;
   schema:startDate "2021-05-14T00:00:00"^^xsd:dateTime .
 
 &lt;http://vocab.linkeddata.es/datosabiertos/recurso/licencia/LIC-TER-0001&gt; a edintcom:Permit ;
@@ -108,8 +108,8 @@ Figure 1. Conceptual model of the ontology.
   rdfs:label "Autorización de terraza Cafetería Chamberí" ;
   edintcom:fileCode "2024/VEL/10328" ;
   edintcom:appliedTo &lt;http://vocab.linkeddata.es/datosabiertos/recurso/terraza/TER-0001&gt; ;
-  edintcom:hasCommercialPermitType http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitType/APAL ;
-  edintcom:hasCommercialPermitStatus http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitStatus/Granted ;
+  edintcom:hasCommercialPermitType https://edint.es/kos/CommercialPermitType/APAL ;
+  edintcom:hasCommercialPermitStatus https://edint.es/kos/CommercialPermitStatus/Granted ;
   schema:startDate "2024-03-01T00:00:00"^^xsd:dateTime ;
   schema:endDate "2026-12-31T23:59:59"^^xsd:dateTime .
 
@@ -120,4 +120,4 @@ Figure 1. Conceptual model of the ontology.
         matchBrackets: true
     });
 </script>
-</span>
+

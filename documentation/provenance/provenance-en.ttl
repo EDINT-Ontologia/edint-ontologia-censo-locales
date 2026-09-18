@@ -2,17 +2,20 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix : <> .
-<http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#> a prov:Entity;
-	 dc:title "Ontología de Establecimiento Comercial";
+<https://edint.es/def/censo-locales/0.2.1> a prov:Entity;
+	 dc:title "EDINT Commercial Establishment Census Ontology";
 	 prov:wasAttributedTo :agent0;
 	 prov:wasAttributedTo :agent1;
 	 prov:wasAttributedTo :agent2;
 	 prov:wasAttributedTo :agent3;
+	 prov:wasAttributedTo :agent4;
 	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
-	 prov:specializationOf <http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#>;
-	 prov:wasGeneratedAt "Date created";
+	 prov:specializationOf <https://edint.es/def/censo-locales>;
+	 prov:wasRevisionOf <https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/releases/tag/v0.2.0>;
+	 prov:wasGeneratedAt "2026-04-15";
 .
-:agent0 a prov:Agent; foaf:name "Daniel Doña".
-:agent1 a prov:Agent; foaf:name "Edna Ruckhaus".
+:agent0 a prov:Agent; foaf:name "Socorro Bernardos".
+:agent1 a prov:Agent; foaf:name "Oscar Corcho".
 :agent2 a prov:Agent; foaf:name "Lucía Sánchez".
-:agent3 a prov:Agent; foaf:name "Oscar Corcho".
+:agent3 a prov:Agent; foaf:name "Edna Ruckhaus".
+:agent4 a prov:Agent; foaf:name "Daniel Doña".
