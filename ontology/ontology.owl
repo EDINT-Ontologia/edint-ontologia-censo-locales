@@ -54,6 +54,8 @@
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <dcterms:title xml:lang="es">Ontología EDINT del Censo de Establecimientos Comerciales</dcterms:title>
         <dcterms:title xml:lang="en">EDINT Commercial Establishment Census Ontology</dcterms:title>
+        <rdfs:label xml:lang="es">Censo de Establecimientos Comerciales</rdfs:label>
+        <rdfs:label xml:lang="en">Commercial Establishment Census</rdfs:label>
         <vann:preferredNamespacePrefix>edintcom</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri rdf:resource="https://edint.es/def/censo-locales#"/>
         <owl:versionInfo>0.2.1</owl:versionInfo>
