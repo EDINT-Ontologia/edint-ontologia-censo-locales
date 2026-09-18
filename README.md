@@ -1,4 +1,4 @@
-# Ontología EDINT del Censo de Establecimientos Comerciales
+# Ontología EDINT de Establecimiento Comercial (EDINT Commercial Establishment Ontology)
 
 La ontología de Establecimiento Comercial representa los datos de los espacios comerciales, sus agrupaciones y sus licencias.
 
