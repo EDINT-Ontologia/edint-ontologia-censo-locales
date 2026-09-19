@@ -306,7 +306,7 @@
 <https://edint.es/kos/iae/Epigrafe/11113> <http://www.w3.org/2004/02/skos/core#notation> "11113" .
 <https://edint.es/kos/iae/Grupo> <http://www.w3.org/2004/02/skos/core#member> <https://edint.es/kos/iae/Grupo/1952> .
 <https://edint.es/kos/iae/Epigrafe/14682> <http://www.w3.org/2004/02/skos/core#prefLabel> "FAB. MOBILIARIO MADERA ESCOLAR Y OFICINA"@es .
-<https://edint.es/kos/iae/Epigrafe/18193> <http://www.w3.org/2004/02/skos/core#prefLabel> "ESTABLEC.FINANCIEROS CREDITO \\"PRESTAMOS\\""@es .
+<https://edint.es/kos/iae/Epigrafe/18193> <http://www.w3.org/2004/02/skos/core#prefLabel> "ESTABLEC.FINANCIEROS CREDITO \"PRESTAMOS\""@es .
 <https://edint.es/kos/iae/Grupo/2227> <http://www.w3.org/2004/02/skos/core#notation> "2227" .
 <https://edint.es/kos/iae/Agrupacion/122> <http://www.w3.org/2004/02/skos/core#inScheme> <https://edint.es/kos/iae> .
 <https://edint.es/kos/iae/Epigrafe/13997> <http://www.w3.org/2004/02/skos/core#prefLabel> "MAQUINAS DE RELOJ MONTADAS"@es .
@@ -1899,7 +1899,7 @@
 <https://edint.es/kos/iae/Epigrafe/19364> <http://www.w3.org/2004/02/skos/core#inScheme> <https://edint.es/kos/iae> .
 <https://edint.es/kos/iae/Epigrafe/11221> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://edint.es/kos/iae/Grupo> <http://www.w3.org/2004/02/skos/core#member> <https://edint.es/kos/iae/Grupo/1429> .
-<https://edint.es/kos/iae/Epigrafe/18542> <http://www.w3.org/2004/02/skos/core#prefLabel> "ALQUILER AUTOMOVILES EN \\"RENTING\\""@es .
+<https://edint.es/kos/iae/Epigrafe/18542> <http://www.w3.org/2004/02/skos/core#prefLabel> "ALQUILER AUTOMOVILES EN \"RENTING\""@es .
 <https://edint.es/kos/iae/Epigrafe/11114> <http://www.w3.org/2004/02/skos/core#broader> <https://edint.es/kos/iae/Grupo/1111> .
 <https://edint.es/kos/iae/Epigrafe/12491> <http://www.w3.org/2004/02/skos/core#prefLabel> "FAB. PTOS. ASFALTICOS"@es .
 <https://edint.es/kos/iae/Epigrafe/14622> <http://www.w3.org/2004/02/skos/core#broader> <https://edint.es/kos/iae/Grupo/1462> .
@@ -2146,7 +2146,7 @@
 <https://edint.es/kos/iae/Epigrafe/14542> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://edint.es/kos/iae/Grupo/1981> <http://www.w3.org/2004/02/skos/core#prefLabel> "JARD., PARQ.ATRACC. Y ACUAT. Y PIST.PAT."@es .
 <https://edint.es/kos/iae/Grupo/1122> <http://www.w3.org/2004/02/skos/core#broader> <https://edint.es/kos/iae/Agrupacion/112> .
-<https://edint.es/kos/iae/Epigrafe/16598> <http://www.w3.org/2004/02/skos/core#prefLabel> "COM.MEN.\\"SEX-SHOP\\""@es .
+<https://edint.es/kos/iae/Epigrafe/16598> <http://www.w3.org/2004/02/skos/core#prefLabel> "COM.MEN.\"SEX-SHOP\""@es .
 <https://edint.es/kos/iae/Epigrafe/17334> <http://www.w3.org/2004/02/skos/core#inScheme> <https://edint.es/kos/iae> .
 <https://edint.es/kos/iae/Epigrafe> <http://www.w3.org/2004/02/skos/core#member> <https://edint.es/kos/iae/Epigrafe/17561> .
 <https://edint.es/kos/iae/Epigrafe/12522> <http://www.w3.org/2004/02/skos/core#broader> <https://edint.es/kos/iae/Grupo/1252> .
@@ -5794,7 +5794,7 @@
 <https://edint.es/kos/iae/Epigrafe/18313> <http://www.w3.org/2004/02/skos/core#notation> "18313" .
 <https://edint.es/kos/iae/Grupo/1681> <http://www.w3.org/2004/02/skos/core#prefLabel> "HOSPEDAJE EN HOTELES Y MOTELES"@es .
 <https://edint.es/kos/iae/Epigrafe/13551> <http://www.w3.org/2004/02/skos/core#broader> <https://edint.es/kos/iae/Grupo/1355> .
-<https://edint.es/kos/iae/Epigrafe/18194> <http://www.w3.org/2004/02/skos/core#prefLabel> "ESTABLEC.FINANCIEROS CREDITO \\"FACTORING\\""@es .
+<https://edint.es/kos/iae/Epigrafe/18194> <http://www.w3.org/2004/02/skos/core#prefLabel> "ESTABLEC.FINANCIEROS CREDITO \"FACTORING\""@es .
 <https://edint.es/kos/iae/Epigrafe> <http://www.w3.org/2004/02/skos/core#member> <https://edint.es/kos/iae/Epigrafe/17411> .
 <https://edint.es/kos/iae/Epigrafe/12412> <http://www.w3.org/2004/02/skos/core#broader> <https://edint.es/kos/iae/Grupo/1241> .
 <https://edint.es/kos/iae/Agrupacion> <http://www.w3.org/2004/02/skos/core#member> <https://edint.es/kos/iae/Agrupacion/196> .
@@ -6129,7 +6129,7 @@
 <https://edint.es/kos/iae/Grupo/1989> <http://www.w3.org/2004/02/skos/core#broader> <https://edint.es/kos/iae/Agrupacion/198> .
 <https://edint.es/kos/iae/Epigrafe/13459> <http://www.w3.org/2004/02/skos/core#broader> <https://edint.es/kos/iae/Grupo/1345> .
 <https://edint.es/kos/iae/Epigrafe/13139> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://edint.es/kos/iae/Epigrafe/18195> <http://www.w3.org/2004/02/skos/core#prefLabel> "ESTABLEC.FINANCIEROS CREDITO \\"ARRENDAM.\\""@es .
+<https://edint.es/kos/iae/Epigrafe/18195> <http://www.w3.org/2004/02/skos/core#prefLabel> "ESTABLEC.FINANCIEROS CREDITO \"ARRENDAM.\""@es .
 <https://edint.es/kos/iae/Agrupacion/261> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://edint.es/kos/iae/Grupo/1507> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://edint.es/kos/iae/Grupo/1965> <http://www.w3.org/2004/02/skos/core#prefLabel> "ESPECTACULOS (EXCEPTO CINE Y DEPORTES)"@es .
