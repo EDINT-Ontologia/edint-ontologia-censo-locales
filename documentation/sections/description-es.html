@@ -1,8 +1,8 @@
-<h2 id="desc" class="list">Ontología EDINT de Establecimiento Comercial: Descripci&oacute;n <span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></span></h2>
+<h2 id="desc" class="list">Censo de Establecimientos Comerciales: Descripci&oacute;n <span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></span></h2>
 
-<span class="markdown">
 
-<p>La Figura 1 muestra las principales entidades de la ontolog&iacute;a y las relaciones entre ellas. La ontolog&iacute;a representa, entre otras cosas, los <a href="#CommercialSpace">espacios comerciales</a>, sus <a href="#CommercialAggregation">agrupaciones</a> y sus <a href="#Terrace">terrazas</a>, ampliando as&iacute; el conjunto de <a href="http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#InfrastructureElement">elementos de infraestructura</a> contemplados en la <a href="http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#">Ontolog&iacute;a EDINT de Infraestructura</a>. Los <a href="#CommercialSpace">espacios comerciales</a> son lugares preparados para la venta de productos, prestaci&oacute;n de servicios o atenci&oacute;n al cliente, tales como tiendas, locales u oficinas. Pueden <a href="#belongToCommercialAggregation">pertenecer</a> a una <a href="#CommercialAggregation">agrupaci&oacute;n comercial</a>, que integra varios de ellos en un lugar f&iacute;sico y <a href="#hasTerrace">tener</a> una o varias <a href="#Terrace">terrazas</a>, y tambi&eacute;n <a href="#hasAccessType">tienen un tipo de acceso</a>. Como <a href="http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#Facility">equipamiento</a> y, por tanto, <a href="http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#InfrastructureElement">elemento de infraestructura</a>, un espacio comercial, una grupaci&oacute;n comercial y una terraza <a href="http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#hasInfrastructureType">tienen un tipo de elemento de infraestructura</a> y una <a href="#CommercialSpace">geolocalizaci&oacute;n</a>, y <a href="http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#belongTo">pertenecen a una divisi&oacute;n administrativa (<a href="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Municipio">municipio</a>, <a href=<"http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito">distrito</a> o <a href=<"http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Barrio">barrio</a>) (y una <a href="http://vocab.linkeddata.es/datosabiertos/def/common/zone#RegulatedZone">zona</a>).
+
+<p>La Figura 1 muestra las principales entidades de la ontolog&iacute;a y las relaciones entre ellas. La ontolog&iacute;a representa, entre otras cosas, los <a href="#CommercialSpace">espacios comerciales</a>, sus <a href="#CommercialAggregation">agrupaciones</a> y sus <a href="#Terrace">terrazas</a>, ampliando as&iacute; el conjunto de <a href="https://edint.es/def/infraestructura#InfrastructureElement">elementos de infraestructura</a> contemplados en la <a href="https://edint.es/def/infraestructura#">Ontolog&iacute;a EDINT de Infraestructura</a>. Los <a href="#CommercialSpace">espacios comerciales</a> son lugares preparados para la venta de productos, prestaci&oacute;n de servicios o atenci&oacute;n al cliente, tales como tiendas, locales u oficinas. Pueden <a href="#belongToCommercialAggregation">pertenecer</a> a una <a href="#CommercialAggregation">agrupaci&oacute;n comercial</a>, que integra varios de ellos en un lugar f&iacute;sico y <a href="#hasTerrace">tener</a> una o varias <a href="#Terrace">terrazas</a>, y tambi&eacute;n <a href="#hasAccessType">tienen un tipo de acceso</a>. Como <a href="https://edint.es/def/infraestructura#Facility">equipamiento</a> y, por tanto, <a href="https://edint.es/def/infraestructura#InfrastructureElement">elemento de infraestructura</a>, un espacio comercial, una grupaci&oacute;n comercial y una terraza <a href="https://edint.es/def/infraestructura#hasInfrastructureType">tienen un tipo de elemento de infraestructura</a> y una <a href="#CommercialSpace">geolocalizaci&oacute;n</a>, y <a href="https://edint.es/def/infraestructura#belongTo">pertenecen a una divisi&oacute;n administrativa (<a href="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Municipio">municipio</a>, <a href=<"http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Distrito">distrito</a> o <a href=<"http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#Barrio">barrio</a>) (y una <a href="https://edint.es/def/zona-regulatoria#RegulatedZone">zona</a>).
 </p>
 <p>Las <a href="#CommercialEntity">entidades comerciales</a> son <a href="http://schema.org/Person">personas</a> u <a href="http://schema.org/Organization">organizaciones</a> que ejercen o quieren ejercer una actividad comercial. Para ello pueden <a href="#usesSpace">usar</a> uno o m&aacute;s <a href="#CommercialSpace">espacios comerciales</a> descritos anteriormente.</p>
 <p>Las <a href="#CommercialPermit">licencias comerciales</a> <a href="#hasCommercialPermitType">tienen un tipo</a>  y un <a href="#hasCommercialPermitStatus">estado </a>asociados y <a href="#issuedTo">se emiten</a> a una <a href="#CommercialEntity">entidad comercial</a> y <a href="#appliedTo">se aplican</a> a un <a href="#CommercialSpace">espacio comercial</a> para autorizar una actividad concreta, indicada mediante un <a href="#hasCNAECode">c&oacute;digo CNAE</a> y/o uno <a href="hasIAECode">IAE</a>, Las <a href="#CommercialPermit">licencias comerciales</a> tambi&eacute;n pueden <a href="#appliedTo">aplicarse</a> a <a href="#Terrace">terrazas</a> para autorizar un uso con una <a href="http://schema.org/floorSize">superficie</a>, <a href="http://schema.org/maximumAttendeeCapacity">aforo</a>, <a href="#numberOfPermitedTables">n&uacute;mero de mesas</a> y <a href="#numberOrPermitedChairs">de sillas</a> concretos.
@@ -21,12 +21,12 @@ Figura 1. Modelo conceptual de la ontolog&iacute;a.</figcaption></center></p>
 @prefix comp: &lt;http://semweb.mmlab.be/ns/rml-compression#&gt; .
 @prefix d2rq: &lt;http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#&gt; .
 @prefix dcterms: &lt;http://purl.org/dc/terms/&gt; .
-@prefix edintcom: &lt;http://vocab.linkeddata.es/datosabiertos/def/comercio/censo-locales#&gt; .
-@prefix edintinf: &lt;http://vocab.linkeddata.es/datosabiertos/def/urbanismos-infraestructuras/infraestructura#&gt; .
-@prefix edintkoacctype: &lt;http://vocab.linkeddata.es/datosabiertos/kos/edint/AccesType/&gt; .
-@prefix edintkoscomespsit: &lt;http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialSpaceStatus/&gt; .
-@prefix edintkosinf: &lt;http://vocab.linkeddata.es/datosabiertos/kos/edint/InfrastructureType/&gt; .
-@prefix edintterper: &lt;http://vocab.linkeddata.es/datosabiertos/kos/edint/TerracePeriod/&gt; .
+@prefix edintcom: &lt;https://edint.es/def/censo-locales#&gt; .
+@prefix edintinf: &lt;https://edint.es/def/infraestructura#&gt; .
+@prefix edintkoacctype: &lt;https://edint.es/kos/AccesType/&gt; .
+@prefix edintkoscomespsit: &lt;https://edint.es/kos/CommercialSpaceStatus/&gt; .
+@prefix edintkosinf: &lt;https://edint.es/kos/InfrastructureType/&gt; .
+@prefix edintterper: &lt;https://edint.es/kos/TerracePeriod/&gt; .
 @prefix esdir: &lt;http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#&gt; .
 @prefix ex: &lt;https://example.org/id/&gt; .
 @prefix fnml: &lt;http://semweb.mmlab.be/ns/fnml#&gt; .
@@ -59,7 +59,7 @@ Figura 1. Modelo conceptual de la ontolog&iacute;a.</figcaption></center></p>
   schema:legalName "Cafetería Chamberí S.L.";
   schema:url "https://mercadodechamberi.es";
   edintcom:hasCNAECode &lt;http://lod.ine.es/kos/cnae/CNAE-2025/6/563000&gt;;
-  edintcom:hasIAECode &lt;http://vocab.linkeddata.es/datosabiertos/kos/edint/iae/3/673.1&gt;;
+  edintcom:hasIAECode &lt;https://edint.es/kos/iae/3/673.1&gt;;
   edintcom:usesSpace &lt;http://vocab.linkeddata.es/datosabiertos/recurso/espacio-comercial/COM-0001&gt;;
   rdfs:label "Cafetería Chamberí S.L." .
 
@@ -95,10 +95,10 @@ Figura 1. Modelo conceptual de la ontolog&iacute;a.</figcaption></center></p>
   edintcom:fileCode "2021/EXP/45872" ;
   edintcom:issuedTo &lt;http://vocab.linkeddata.es/datosabiertos/recurso/entidad-comercial/ENT-0001&gt; ;
   edintcom:appliedTo &lt;http://vocab.linkeddata.es/datosabiertos/recurso/espacio-comercial/COM-0001&gt; ;
-  edintcom:hasCommercialPermitType http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitType/APAL ;
-  edintcom:hasCommercialPermitStatus http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitStatus/Granted ;
+  edintcom:hasCommercialPermitType https://edint.es/kos/CommercialPermitType/APAL ;
+  edintcom:hasCommercialPermitStatus https://edint.es/kos/CommercialPermitStatus/Granted ;
   edintcom:hasCNAECode &lt;http://lod.ine.es/kos/cnae/CNAE-2025/6/563000&gt; ;
-  edintcom:hasIAECode &lt;http://vocab.linkeddata.es/datosabiertos/kos/edint/iae/3/673.1&gt; ;
+  edintcom:hasIAECode &lt;https://edint.es/kos/iae/3/673.1&gt; ;
   schema:startDate "2021-05-14T00:00:00"^^xsd:dateTime .
 
 &lt;http://vocab.linkeddata.es/datosabiertos/recurso/licencia/LIC-TER-0001&gt; a edintcom:Permit ;
@@ -106,8 +106,8 @@ Figura 1. Modelo conceptual de la ontolog&iacute;a.</figcaption></center></p>
   rdfs:label "Autorización de terraza Cafetería Chamberí" ;
   edintcom:fileCode "2024/VEL/10328" ;
   edintcom:appliedTo &lt;http://vocab.linkeddata.es/datosabiertos/recurso/terraza/TER-0001&gt; ;
-  edintcom:hasCommercialPermitType http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitType/APAL ;
-  edintcom:hasCommercialPermitStatus http://vocab.linkeddata.es/datosabiertos/kos/edint/CommercialPermitStatus/Granted ;
+  edintcom:hasCommercialPermitType https://edint.es/kos/CommercialPermitType/APAL ;
+  edintcom:hasCommercialPermitStatus https://edint.es/kos/CommercialPermitStatus/Granted ;
   schema:startDate "2024-03-01T00:00:00"^^xsd:dateTime ;
   schema:endDate "2026-12-31T23:59:59"^^xsd:dateTime .
 
@@ -118,4 +118,4 @@ Figura 1. Modelo conceptual de la ontolog&iacute;a.</figcaption></center></p>
         matchBrackets: true
     });
 </script>
-</span>
+
