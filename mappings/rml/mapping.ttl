@@ -10,7 +10,6 @@
 @prefix edintkosinf: <https://edint.es/kos/InfrastructureType/>.
 @prefix edintinf: <https://edint.es/def/infraestructura#>.
 @prefix esdir: <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#>.
-@prefix tejcom: <http://vocab.ciudadesabiertas.es/def/comercio/tejido-comercial#>.
 @prefix rr: <http://www.w3.org/ns/r2rml#>.
 @prefix rml: <http://semweb.mmlab.be/ns/rml#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
@@ -24,7 +23,18 @@
 @prefix fnml: <http://semweb.mmlab.be/ns/fnml#>.
 @prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#>.
 @base <http://example.com/ns#>.
+@prefix map: <http://mapping.example.com/resource/> .
 
+map:person_000 a foaf:Person ;
+    rdfs:label "Jhon Toledo" ;
+    foaf:mbox <mailto:ja.toledo@upm.es> .
+
+map:rules_000 schema:contributor map:person_000 ;
+    rdf:type schema:Dataset ;
+    schema:version "1.0.0" ;
+    schema:title "Mappings RML para transformar datos del censo de locales a RDF (Ontología EDINT Censo de Locales)" ;
+    schema:dateCreated "20-04-2026" ;
+    schema:description "Este conjunto de mappings RML transforma datos del censo de locales comerciales a RDF, utilizando la ontología EDINT Censo de Locales. El objetivo es generar un grafo RDF interoperable para representar las entidades principales relacionadas con los establecimientos comerciales de un municipio y sus licencias, facilitando su reutilización e integración en sistemas semánticos." .
 
 <entidad_comercial_0> a rr:TriplesMap;
 
@@ -32,11 +42,10 @@
 		a rml:LogicalSource;
 		rml:source "entidades_comerciales.csv";
 		rml:referenceFormulation ql:CSV
-
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "http://vocab.linkeddata.es/datosabiertos/recurso/entidad-comercial/{entidad_id}";
+		rr:template "https://example.org/recurso/entidad-comercial/{entidad_id}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -95,7 +104,7 @@
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:template "http://vocab.linkeddata.es/datosabiertos/recurso/espacio-comercial/{espacio-comercial_id}";
+			rr:template "https://example.org/recurso/espacio-comercial/{espacio-comercial_id}";
 			rr:termType rr:IRI
 		];
 	];
@@ -129,11 +138,10 @@
 		a rml:LogicalSource;
 		rml:source "entidades_comerciales.csv";
 		rml:referenceFormulation ql:CSV
-
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "http://vocab.linkeddata.es/datosabiertos/recurso/espacio-comercial/{espacio-comercial_id}";
+		rr:template "https://example.org/recurso/espacio-comercial/{espacio-comercial_id}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -172,7 +180,7 @@
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:template "http://vocab.linkeddata.es/datosabiertos/recurso/terraza/{terraza_id}";
+			rr:template "https://example.org/recurso/terraza/{terraza_id}";
 			rr:termType rr:IRI
 		];
 	];
@@ -183,7 +191,7 @@
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:template "http://vocab.linkeddata.es/datosabiertos/recurso/agrupacionComercial/{agrupacion_id}";
+			rr:template "https://example.org/recurso/agrupacionComercial/{agrupacion_id}";
 			rr:termType rr:IRI
 		];
 	];
@@ -215,11 +223,10 @@
 		a rml:LogicalSource;
 		rml:source "entidades_comerciales.csv";
 		rml:referenceFormulation ql:CSV
-
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "http://vocab.linkeddata.es/datosabiertos/recurso/terraza/{terraza_id}";
+		rr:template "https://example.org/recurso/terraza/{terraza_id}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -278,7 +285,7 @@
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:template "http://vocab.linkeddata.es/datosabiertos/recurso/direccion-postal/{codigo_postal}";
+			rr:template "https://example.org/recurso/direccion-postal/{codigo_postal}";
 			rr:termType rr:IRI
 		];
 	];
@@ -289,7 +296,7 @@
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:template "http://vocab.linkeddata.es/datosabiertos/recurso/terraza/geometry/{terraza_id}";
+			rr:template "https://example.org/recurso/terraza/geometry/{terraza_id}";
 			rr:termType rr:IRI
 		];
 	];
@@ -300,7 +307,7 @@
 		];
 		rr:objectMap [
 			a rr:ObjectMap;
-			rr:template "http://vocab.linkeddata.es/datosabiertos/recurso/sector-publico/territorio/barrio/{barrio_id}";
+			rr:template "https://example.org/recurso/sector-publico/territorio/barrio/{barrio_id}";
 			rr:termType rr:IRI
 		];
 	];
@@ -388,11 +395,10 @@
 		a rml:LogicalSource;
 		rml:source "entidades_comerciales.csv";
 		rml:referenceFormulation ql:CSV
-
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "http://vocab.linkeddata.es/datosabiertos/recurso/terraza/geometry/{terraza_id}";
+		rr:template "https://example.org/recurso/terraza/geometry/{terraza_id}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -413,11 +419,10 @@
 		a rml:LogicalSource;
 		rml:source "entidades_comerciales.csv";
 		rml:referenceFormulation ql:CSV
-
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "http://vocab.linkeddata.es/datosabiertos/recurso/agrupacionComercial/{agrupacion_id}";
+		rr:template "https://example.org/recurso/agrupacionComercial/{agrupacion_id}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
@@ -467,11 +472,10 @@
 		a rml:LogicalSource;
 		rml:source "entidades_comerciales.csv";
 		rml:referenceFormulation ql:CSV
-
 	];
 	rr:subjectMap [
 		a rr:SubjectMap;
-		rr:template "http://vocab.linkeddata.es/datosabiertos/recurso/direccion-postal/{codigo_postal}";
+		rr:template "https://example.org/recurso/direccion-postal/{codigo_postal}";
 	];
 	rr:predicateObjectMap [
 		rr:predicateMap [
