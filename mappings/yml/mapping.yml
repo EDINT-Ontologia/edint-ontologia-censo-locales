@@ -11,7 +11,6 @@ prefixes:
   edintkosinf: "https://edint.es/kos/InfrastructureType/"
   edintinf: "https://edint.es/def/infraestructura#"
   esdir: "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal#"
-  tejcom: "http://vocab.ciudadesabiertas.es/def/comercio/tejido-comercial#"
 
 
 sources:
@@ -22,43 +21,43 @@ mappings:
   entidad_comercial:
     sources:
       - entidades
-    s: http://vocab.linkeddata.es/datosabiertos/recurso/entidad-comercial/$(entidad_id)
+    s: https://example.org/recurso/entidad-comercial/$(entidad_id)
     po:
       - [a, edintcom:CommercialEntity]
       - [dcterms:identifier, $(entidad_id)]
       - [rdfs:label, $(nombre)]
       - [schema:legalName, $(razon_social)]
       - [schema:url, $(web)]
-      - [edintcom:usesSpace, "http://vocab.linkeddata.es/datosabiertos/recurso/espacio-comercial/$(espacio-comercial_id)~iri"]
+      - [edintcom:usesSpace, "https://example.org/recurso/espacio-comercial/$(espacio-comercial_id)~iri"]
       - [edintcom:hasCNAECode,"http://lod.ine.es/kos/cnae/CNAE-2025/$(cnae_nivel)/$(cnae_codigo)~iri"] # example:http://lod.ine.es/kos/cnae/CNAE-2025/6/17520
       - [edintcom:hasIAECode,"https://edint.es/kos/iae/$(iae_nivel)/$(iae_codigo)~iri"]
 
   espacio-comercial:
     sources:
       - entidades
-    s: http://vocab.linkeddata.es/datosabiertos/recurso/espacio-comercial/$(espacio-comercial_id)
+    s: https://example.org/recurso/espacio-comercial/$(espacio-comercial_id)
     po:
       - [a, edintcom:CommercialSpace]
       - [dcterms:identifier, $(espacio-comercial_id)]
       - [rdfs:label, $(espacio_nombre)]
-      - [edintcom:hasTerrace, "http://vocab.linkeddata.es/datosabiertos/recurso/terraza/$(terraza_id)~iri"]
-      - [edintcom:belongsToCommercialAggregation, "http://vocab.linkeddata.es/datosabiertos/recurso/agrupacionComercial/$(agrupacion_id)~iri"]
+      - [edintcom:hasTerrace, "https://example.org/recurso/terraza/$(terraza_id)~iri"]
+      - [edintcom:belongsToCommercialAggregation, "https://example.org/recurso/agrupacionComercial/$(agrupacion_id)~iri"]
       - [edintcom:hasAccessType, edintkoacctype:$(tipo_acceso)] # StreetDoor, Indoor, Floor
       - [edintcom:hasCommercialSpaceStatus, edintkoscomespsit:$(situacion_espacio_comercial)] # Active , Closed ,ShutDown ,Free ,UnderConstruction
 
   terraza:
     sources:
       - entidades
-    s: http://vocab.linkeddata.es/datosabiertos/recurso/terraza/$(terraza_id)
+    s: https://example.org/recurso/terraza/$(terraza_id)
     po:
       - [a, edintcom:Terrace]
       - [dcterms:identifier, $(terraza_id)]
       - [rdfs:label, $(terraza_nombre)]
       - [rdfs:comment, $(terraza_descripcion)]
       - [schema:openingHours, $(terraza_horario)]
-      - [schema:address, http://vocab.linkeddata.es/datosabiertos/recurso/direccion-postal/$(codigo_postal)~iri]
-      - [geosparql:hasGeometry, http://vocab.linkeddata.es/datosabiertos/recurso/terraza/geometry/$(terraza_id)~iri]
-      - [edintinf:belongsTo, http://vocab.linkeddata.es/datosabiertos/recurso/sector-publico/territorio/barrio/$(barrio_id)~iri]
+      - [schema:address, https://example.org/recurso/direccion-postal/$(codigo_postal)~iri]
+      - [geosparql:hasGeometry, https://example.org/recurso/terraza/geometry/$(terraza_id)~iri]
+      - [edintinf:belongsTo, https://example.org/recurso/sector-publico/territorio/barrio/$(barrio_id)~iri]
       - [edintinf:hasInfrastructureType, edintkosinf:Terrace~iri]
       - [schema:maximumAttendeeCapacity, $(terraza_aforo), xsd:integer]
       - [edintcom:hasTerracePeriod, "edintterper:$(periodo_funcionamiento)~iri"] # anual, estacional
@@ -70,13 +69,13 @@ mappings:
   terraza-geometry:
     sources:
       - entidades
-    s: http://vocab.linkeddata.es/datosabiertos/recurso/terraza/geometry/$(terraza_id)
+    s: https://example.org/recurso/terraza/geometry/$(terraza_id)
     po:
       - [geosparql:asWKT, $(terraza_wkt), geosparql:wktLiteral]
   agrupacionComercial:
     sources:
       - entidades
-    s: http://vocab.linkeddata.es/datosabiertos/recurso/agrupacionComercial/$(agrupacion_id)
+    s: https://example.org/recurso/agrupacionComercial/$(agrupacion_id)
     po:
       - [a, edintcom:CommercialAggregation]
       - [dcterms:identifier, $(agrupacion_id)]
@@ -87,39 +86,8 @@ mappings:
   postalAddress:
     sources:
       - entidades
-    s: http://vocab.linkeddata.es/datosabiertos/recurso/direccion-postal/$(codigo_postal)
+    s: https://example.org/recurso/direccion-postal/$(codigo_postal)
     po:
       - [a, esdir:DireccionPostal] # Reutilizado de Callejero
       - [rdfs:label, $(codigo_postal)]
       - [schema:postalCode, $(codigo_postal)]
-
-  licencia_actividad:
-    sources:
-      - entidades
-    s: http://vocab.linkeddata.es/datosabiertos/recurso/licencia/$(licencia_cafeteria_id)
-    po:
-      - [a, edintcom:Permit]
-      - [dcterms:identifier, $(licencia_cafeteria_id)]
-      - [rdfs:label, $(licencia_cafeteria_label)]
-      - [edintcom:fileCode, $(licencia_cafeteria_expediente)]
-      - [edintcom:appliedTo, "http://vocab.linkeddata.es/datosabiertos/recurso/espacio-comercial/$(espacio-comercial_id)~iri"]
-      - [edintcom:hasCommercialPermitType, "https://edint.es/kos/CommercialPermitType/$(licencia_cafeteria_tipo)~iri"]
-      - [edintcom:hasCommercialPermitStatus, "https://edint.es/kos/CommercialPermitStatus/(licencia_cafeteria_estado)~iri"]
-      - [edintcom:hasCNAECode, "http://lod.ine.es/kos/cnae/CNAE-2025/$(cnae_nivel)/$(cnae_codigo)~iri"]
-      - [edintcom:hasIAECode, "https://edint.es/kos/iae/$(iae_nivel)/$(iae_codigo)~iri"]
-      - [schema:startDate, $(licencia_cafeteria_fecha_inicio), xsd:dateTime]
-
-  licencia_terraza:
-    sources:
-      - entidades
-    s: http://vocab.linkeddata.es/datosabiertos/recurso/licencia/$(licencia_terraza_id)
-    po:
-      - [a, edintcom:Permit]
-      - [dcterms:identifier, $(licencia_terraza_id)]
-      - [rdfs:label, $(licencia_terraza_label)]
-      - [edintcom:fileCode, $(licencia_terraza_expediente)]
-      - [edintcom:appliedTo, "http://vocab.linkeddata.es/datosabiertos/recurso/terraza/$(terraza_id)~iri"]
-      - [edintcom:hasCommercialPermitType, "https://edint.es/kos/CommercialPermitType/$(licencia_terraza_tipo)~iri"]
-      - [edintcom:hasCommercialPermitStatus, "https://edint.es/kos/CommercialPermitStatus/$(licencia_terraza_estado)~iri"]
-      - [schema:startDate, $(licencia_terraza_fecha_inicio), xsd:dateTime]
-      - [schema:endDate, $(licencia_terraza_fecha_fin), xsd:dateTime]
