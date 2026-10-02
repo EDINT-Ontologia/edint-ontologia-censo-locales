@@ -35,8 +35,8 @@ WHERE {
   OPTIONAL { ?permit edintcom:hasCommercialPermitStatus ?permitStatus }
   OPTIONAL { ?permit schema:startDate ?startDate }
   OPTIONAL { ?permit schema:endDate ?endDate }
-  OPTIONAL { ?permit edintcom:hasCNAECode ?cnae )
-  OPTIONAL { ?permit edintcom:hasIAECode ?iae )
+  OPTIONAL { ?permit edintcom:hasCNAECode ?cnae }
+  OPTIONAL { ?permit edintcom:hasIAECode ?iae }
 
   OPTIONAL { ?commercialSpace rdfs:label ?commercialSpaceLabel }
   OPTIONAL { ?permitType skos:prefLabel ?permitTypeLabel }

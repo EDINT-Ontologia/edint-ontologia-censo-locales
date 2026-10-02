@@ -3,6 +3,7 @@
 # Hay que tener en cuenta se puede tratar de establecimientos que sean quioscos (y tengan licencia sin caducar) o de establecimientos que tengan terraza con licencia sin caducar
 
 PREFIX edintcom: <https://edint.es/def/censo-locales#>
+PREFIX edintinf: <https://edint.es/def/infraestructura#>
 PREFIX schema:   <http://schema.org/>
 PREFIX skos:     <http://www.w3.org/2004/02/skos/core#>
 PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>
