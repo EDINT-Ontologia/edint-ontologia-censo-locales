@@ -9,7 +9,10 @@
 @prefix ex: <https://example.org/recurso/> .
 @prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix formats: <http://www.w3.org/ns/formats/> .
+@prefix esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#> .
 @prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -35,12 +38,13 @@ ex:ENT-0001 a edintcom:CommercialEntity;
   edintcom:usesSpace ex:COM-0001;
   rdfs:label "Cafetería Chamberí S.L." .
 
-ex:COM-0001 a edintcom:CommercialSpace;
+ex:COM-0001 a edintcom:CommercialSpace, edintinf:InfrastructureElement;
   dcterms:identifier "COM-0001";
   edintcom:belongsToCommercialAggregation ex:AGR-0001;
-  edintcom:hasAccessType edintkoacctype:Indoor;
+  # edintcom:hasAccessType edintkoacctype:Indoor;
   edintcom:hasCommercialSpaceStatus edintkoscomespsit:Active;
   edintcom:hasTerrace ex:TER-0001;
+  edintinf:belongsTo ex:TRAFALGAR;
   rdfs:label "Cafetería Chamberí" .
 
 ex:TER-0001 a edintcom:Terrace;
@@ -50,15 +54,19 @@ ex:TER-0001 a edintcom:Terrace;
   schema:maximumAttendeeCapacity 18;
   schema:openingHours "Tu-Sa 12:30-16:30; Tu-Sa 19:00-00:00; Su 12:30-16:30";
   edintcom:hasTerracePeriod edintterper:anual;
-  edintcom:numeroMesasAutorizadas 6;
-  edintcom:numeroSillasAutorizadas 18;
+  # edintcom:numeroMesasAutorizadas 6;
+  # edintcom:numeroSillasAutorizadas 18;
   edintinf:belongsTo ex:TRAFALGAR;
   edintinf:hasInfrastructureType edintkosinf:Terrace;
   geosparql:hasGeometry ex:TER-0001-geometry;
   rdfs:comment "Zona de degustación vinculada a cafetería-pastelería dentro del Mercado de Chamberí, orientada a consumo en horario diurno y de restauración.";
   rdfs:label "Terraza Cafetería Chamberí" .
 
-ex:TER-0001-geometry geosparql:asWKT
+ex:TRAFALGAR a esadm:Barrio;
+  rdfs:label "Barrio de Trafalgar" .
+
+ex:TER-0001-geometry a geo:Geometry ;
+    geosparql:asWKT
     "POINT (-3.700200 40.434300)"^^geosparql:wktLiteral .
 
 ex:LIC-CAF-0001 a edintcom:Permit ;
@@ -71,7 +79,7 @@ ex:LIC-CAF-0001 a edintcom:Permit ;
   edintcom:hasCommercialPermitStatus <https://edint.es/kos/CommercialPermitStatus/Granted> ;
   edintcom:hasCNAECode <http://lod.ine.es/kos/cnae/CNAE-2025/6/563000> ;
   edintcom:hasIAECode <https://edint.es/kos/iae/3/673.1> ;
-  schema:startDate "2021-05-14T00:00:00"^^xsd:dateTime .
+  schema:startDate "2021-05-14T00:00:00+00:00"^^xsd:dateTime .
 
 ex:LIC-TER-0001 a edintcom:Permit ;
   dcterms:identifier "LIC-TER-0001" ;
@@ -80,5 +88,10 @@ ex:LIC-TER-0001 a edintcom:Permit ;
   edintcom:appliedTo ex:TER-0001 ;
   edintcom:hasCommercialPermitType <https://edint.es/kos/CommercialPermitType/APAL> ;
   edintcom:hasCommercialPermitStatus <https://edint.es/kos/CommercialPermitStatus/Granted> ;
-  schema:startDate "2024-03-01T00:00:00"^^xsd:dateTime ;
-  schema:endDate "2026-12-31T23:59:59"^^xsd:dateTime .
+  schema:startDate "2024-03-01T00:00:00+00:00"^^xsd:dateTime ;
+  schema:endDate "2026-12-31T23:59:59+00:00"^^xsd:dateTime .
+
+# Labels de los conceptos KOS referenciados por el ejemplo (el grafo de
+# ejemplos es autocontenido; el KOS completo vive en kos/).
+<https://edint.es/kos/CommercialPermitType/APAL> skos:prefLabel "Autorización de ocupación de vía pública"@es , "Public road occupation permit"@en .
+<https://edint.es/kos/InfrastructureType/Terrace> skos:prefLabel "Terraza"@es , "Terrace"@en .
