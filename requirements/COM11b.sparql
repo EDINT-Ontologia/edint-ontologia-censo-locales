@@ -1,0 +1,24 @@
+
+# COM11b: Variante de COM11 con el número de puestos/comercios de cada mercado
+
+PREFIX edintcom: <https://edint.es/def/censo-locales#>
+PREFIX edintinf: <https://edint.es/def/infraestructura#>
+PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT
+  ?market
+  ?marketLabel
+  (COUNT(DISTINCT ?commercialSpace) AS ?numComercios)
+WHERE {
+  ?market a edintcom:CommercialAggregation ;
+          edintinf:belongsTo <URI-MUNICIPIO> . #Por ejemplo, <http://datos.ejemplo.es/recurso/municipio/Madrid> .
+
+  OPTIONAL {
+    ?commercialSpace a edintcom:CommercialSpace ;
+                     edintcom:belongsToCommercialAggregation ?market .
+  }
+
+  OPTIONAL { ?market rdfs:label ?marketLabel }
+}
+GROUP BY ?market ?marketLabel
+ORDER BY DESC(?numComercios)

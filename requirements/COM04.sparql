@@ -10,7 +10,7 @@ SELECT DISTINCT
 WHERE {
   ?commercialSpace a edintcom:CommercialSpace ;
                    edintcom:belongsToCommercialAggregation
-                     <URI-AGRUPACIÓN-COMERCIAL> . #Por ejemplo, <http://datos.ejemplo.es/recurso/agrupacion-comercial/MercadoCentral>
+                     <URI-AGRUPACION-COMERCIAL> . #Por ejemplo, <http://datos.ejemplo.es/recurso/agrupacion-comercial/MercadoCentral>
 
   OPTIONAL {
     ?commercialSpace rdfs:label ?commercialSpaceLabel .

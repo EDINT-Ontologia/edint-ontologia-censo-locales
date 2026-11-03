@@ -17,7 +17,7 @@ WHERE {
   # Espacios comerciales de la división administrativa concreta
   ?commercialSpace a edintcom:CommercialSpace ;
                    a edintinf:InfrastructureElement ;
-                   edintinf:belongsTo <URI-DIVISIÓN-ADM> ;
+                   edintinf:belongsTo <URI-DIVISION-ADM> ;
                    edintcom:hasCommercialSpaceStatus ?spaceStatus .
 
   # Licencia aplicada al espacio
@@ -29,9 +29,9 @@ WHERE {
 
   # Momento temporal de interés
   FILTER (
-    "FECHA-INICIO"^^xsd:dateTime >= ?startDate &&
+    <FECHA-INICIO> >= ?startDate &&
     ( !BOUND(?endDate) ||
-      "FECHA-FINAL"^^xsd:dateTime <= ?endDate )
+      <FECHA-FINAL> <= ?endDate )
   )
 
   OPTIONAL { ?commercialSpace rdfs:label ?commercialSpaceLabel }
