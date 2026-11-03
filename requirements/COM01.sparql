@@ -17,10 +17,12 @@ WHERE {
                    a edintinf:InfrastructureElement ;
                    edintinf:belongsTo ?adminDivision .
 
-  FILTER (?adminDivision IN (
+  # La división administrativa debe estar tipada como municipio, distrito o barrio
+  ?adminDivision a ?admType .
+  FILTER (?admType IN (
     esadm:Municipio,
     esadm:Distrito,
-	esadm:Barrio
+    esadm:Barrio
   ))
   
   OPTIONAL {
@@ -32,25 +34,3 @@ WHERE {
 }
 ORDER BY ?commercialSpaceLabel
 
-
-# Para una división administrativa concreta
-PREFIX edintcom: <https://edint.es/def/censo-locales#>
-PREFIX edintinf: <https://edint.es/def/infraestructura#>
-PREFIX esadm:    <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#>
-PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>
-
-SELECT DISTINCT
-       ?commercialSpace
-       ?commercialSpaceLabel
-WHERE {
-  # Establecimientos comerciales como elementos de infraestructura
-  ?commercialSpace a edintcom:CommercialSpace ;
-                   a edintinf:InfrastructureElement ;
-                   edintinf:belongsTo 
-                     <URI-DIVISIÓN> . #Por ejemplo, <http://datos.ejemplo.es/recurso/distrito/Centro>
-
-  OPTIONAL {
-    ?commercialSpace rdfs:label ?commercialSpaceLabel .
-  }
-}
-ORDER BY ?commercialSpaceLabel
