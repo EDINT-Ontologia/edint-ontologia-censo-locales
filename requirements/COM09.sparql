@@ -29,8 +29,8 @@ WHERE {
 
   # Periodo temporal de interés
   FILTER (
-    ?startDate <= "FECHA-INICIO-PERIODO"^^xsd:dateTime &&
-    ( !BOUND(?endDate) || ?endDate >= "FECHA-FIN-PERIODO"^^xsd:dateTime )
+    ?startDate <= <FECHA-INICIO-PERIODO> &&
+    ( !BOUND(?endDate) || ?endDate >= <FECHA-FIN-PERIODO> )
   )
 
   OPTIONAL { ?commercialSpace rdfs:label ?commercialSpaceLabel }
