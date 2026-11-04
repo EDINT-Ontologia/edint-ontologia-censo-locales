@@ -1,0 +1,30 @@
+
+# COM14: ¿Qué actividades comerciales existen en una zona determinada?
+# Teniendo en cuenta posibles correspondencias entre códigos CNAE e IAE:
+# una misma licencia puede llevar tanto el código CNAE como el IAE de la actividad.
+
+PREFIX edintcom: <https://edint.es/def/censo-locales#>
+PREFIX edintinf: <https://edint.es/def/infraestructura#>
+PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT
+       ?commercialSpace
+       ?commercialSpaceLabel
+       ?cnaeCode
+       ?iaeCode
+WHERE {
+  ?commercialSpace a edintcom:CommercialSpace ;
+                   edintinf:belongsTo
+                     <URI-DIVISION> . #Por ejemplo, <http://datos.ejemplo.es/recurso/distrito/Centro>
+
+  # La licencia del espacio recoge ambos códigos de la misma actividad
+  ?permit a edintcom:Permit ;
+          edintcom:appliedTo ?commercialSpace ;
+          edintcom:hasCNAECode ?cnaeCode ;
+          edintcom:hasIAECode ?iaeCode .
+
+  OPTIONAL {
+    ?commercialSpace rdfs:label ?commercialSpaceLabel .
+  }
+}
+ORDER BY ?commercialSpaceLabel ?cnaeCode

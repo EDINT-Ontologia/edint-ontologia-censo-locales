@@ -1,0 +1,23 @@
+
+# COM01b: Variante de COM01 para una división administrativa concreta
+# ¿Qué establecimientos comerciales existen en una división administrativa concreta?
+
+PREFIX edintcom: <https://edint.es/def/censo-locales#>
+PREFIX edintinf: <https://edint.es/def/infraestructura#>
+PREFIX rdfs:     <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT
+       ?commercialSpace
+       ?commercialSpaceLabel
+WHERE {
+  # Establecimientos comerciales como elementos de infraestructura
+  ?commercialSpace a edintcom:CommercialSpace ;
+                   a edintinf:InfrastructureElement ;
+                   edintinf:belongsTo
+                     <URI-DIVISION> . #Por ejemplo, <http://datos.ejemplo.es/recurso/distrito/Centro>
+
+  OPTIONAL {
+    ?commercialSpace rdfs:label ?commercialSpaceLabel .
+  }
+}
+ORDER BY ?commercialSpaceLabel

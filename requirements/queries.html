@@ -190,7 +190,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
                 <h2>Censo Vehículos</h2>
             </div>
             <ul>
-    <li><a href="#COM01_sparql">COM01.sparql</a></li><li><a href="#COM02_sparql">COM02.sparql</a></li><li><a href="#COM03_sparql">COM03.sparql</a></li><li><a href="#COM04_sparql">COM04.sparql</a></li><li><a href="#COM05_sparql">COM05.sparql</a></li><li><a href="#COM06_sparql">COM06.sparql</a></li><li><a href="#COM07_sparql">COM07.sparql</a></li><li><a href="#COM08_sparql">COM08.sparql</a></li><li><a href="#COM09_sparql">COM09.sparql</a></li><li><a href="#COM10_sparql">COM10.sparql</a></li><li><a href="#COM11_sparql">COM11.sparql</a></li><li><a href="#COM12_sparql">COM12.sparql</a></li><li><a href="#COM13_sparql">COM13.sparql</a></li>
+    <li><a href="#COM01_sparql">COM01.sparql</a></li><li><a href="#COM02_sparql">COM02.sparql</a></li><li><a href="#COM03_sparql">COM03.sparql</a></li><li><a href="#COM04_sparql">COM04.sparql</a></li><li><a href="#COM05_sparql">COM05.sparql</a></li><li><a href="#COM06_sparql">COM06.sparql</a></li><li><a href="#COM07_sparql">COM07.sparql</a></li><li><a href="#COM08_sparql">COM08.sparql</a></li><li><a href="#COM09_sparql">COM09.sparql</a></li><li><a href="#COM10_sparql">COM10.sparql</a></li><li><a href="#COM11_sparql">COM11.sparql</a></li><li><a href="#COM12_sparql">COM12.sparql</a></li><li><a href="#COM13_sparql">COM13.sparql</a></li><li><a href="#COM14_sparql">COM14.sparql</a></li>
             </ul>
         </div>
         <div class="main-content">
@@ -760,7 +760,32 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <span class="k">GROUP BY</span> <span class="nv">?activityType</span> <span class="nv">?activityCode</span> <span class="nv">?activityLabel</span>
 <span class="k">ORDER BY</span> <span class="nv">?activityType</span> <span class="k">DESC</span><span class="p">(</span><span class="nv">?numLicenciasVigentes</span><span class="p">)</span> <span class="nv">?activityLabel</span>
 </pre></div>
-</div></section>
+</div></section></div></section><section class="file-card" id="COM14_sparql"><div class="file-header">COM14.sparql</div><div class="query-block"><span class="query-title">COM14: ¿Qué actividades comerciales existen en una zona determinada?<br>Teniendo en cuenta posibles correspondencias entre códigos CNAE e IAE (una misma licencia puede llevar ambos códigos)</span><div class="sparql-code"><pre><span></span>PREFIX edintcom: &lt;https://edint.es/def/censo-locales#&gt;
+PREFIX edintinf: &lt;https://edint.es/def/infraestructura#&gt;
+PREFIX rdfs:     &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+
+SELECT DISTINCT
+       ?commercialSpace
+       ?commercialSpaceLabel
+       ?cnaeCode
+       ?iaeCode
+WHERE {
+  ?commercialSpace a edintcom:CommercialSpace ;
+                   edintinf:belongsTo
+                     &lt;URI-DIVISION&gt; . #Por ejemplo, &lt;http://datos.ejemplo.es/recurso/distrito/Centro&gt;
+
+  ?permit a edintcom:Permit ;
+          edintcom:appliedTo ?commercialSpace ;
+          edintcom:hasCNAECode ?cnaeCode ;
+          edintcom:hasIAECode ?iaeCode .
+
+  OPTIONAL {
+    ?commercialSpace rdfs:label ?commercialSpaceLabel .
+  }
+}
+ORDER BY ?commercialSpaceLabel ?cnaeCode
+</pre></div>
+
         </div>
     </body>
     </html>

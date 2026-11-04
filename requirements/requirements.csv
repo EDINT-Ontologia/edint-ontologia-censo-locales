@@ -15,4 +15,4 @@ COM10,UPM,v0.1.0,¿Qué establecimientos comerciales disponen de autorización d
 COM11,UPM,v0.1.0,¿Qué mercados existen en un municipio?,,Proposed,,,,,,
 COM12,UPM,v0.1.0,¿Qué mercados existen en un municipio?,,Proposed,¿Generalizar para otros tipos de agrupaciones comerciales?,,,,,
 COM13,UPM,v0.1.0,¿Cuál es el número de puestos por mercado y su grado de ocupación?,,Proposed,puesto no ocupado si no hay licencia asociada a él o si situación es libre o en reforma,,,,,
-COM14,UPM,v0.1.0,¿Qué actividades comerciales existen en una zona determinada?,,Proposed,¿Códigos de actividad de espacios comerciales?,,,,,
+COM14,UPM,v0.1.0,¿Qué actividades comerciales existen en una zona determinada?,,Proposed,Variante de COM13 teniendo en cuenta posibles correspondencias entre códigos CNAE e IAE,,,,,
