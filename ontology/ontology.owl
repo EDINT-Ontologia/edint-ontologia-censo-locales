@@ -547,6 +547,29 @@
         <rdfs:comment xml:lang="es">Relaciona una entidad, principalmente un espacio, campaña o evento comercial, con la zona en la que está.</rdfs:comment>
         <rdfs:label xml:lang="en">located in zone</rdfs:label>
         <rdfs:label xml:lang="es">situado en zona</rdfs:label>
+        <rdfs:domain rdf:resource="https://edint.es/def/censo-locales#CommercialSpace"/>
+        <rdfs:range rdf:resource="https://edint.es/def/zona-regulatoria#RegulatedZone"/>       
+    </owl:ObjectProperty>
+
+    <!-- https://edint.es/def/zona-regulatoria/hasRegulatedZoneType -->
+
+    <owl:ObjectProperty rdf:about="https://edint.es/def/zona-regulatoria/hasRegulatedZoneType">
+        <rdfs:domain rdf:resource="https://edint.es/def/zona-regulatoria#RegulatedZone"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+                        <owl:hasValue rdf:resource="https://edint.es/def/zona-regulatoria#RegulatedZoneType"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:comment xml:lang="es">Vincula una zona regulada a su clasificación de tipo del esquema de conceptos SKOS RegulatedZoneType.</rdfs:comment>
+        <rdfs:comment xml:lang="en">inks a regulated zone to its type classification from the RegulatedZoneType SKOS concept scheme.</rdfs:comment>
+        <rdfs:label xml:lang="en">has regulated zone type</rdfs:label>
+        <rdfs:label xml:lang="es">tiene tipo de zona regulada</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1029,54 +1052,9 @@
     </owl:Class>
     
 
-
-    <!-- https://edint.es/def/zona-regulatoria#CommercialZone -->
-
-    <owl:Class rdf:about="https://edint.es/def/zona-regulatoria#CommercialZone">
-        <rdfs:subClassOf rdf:resource="https://edint.es/def/zona-regulatoria#EconomicInterestZone"/>
-    </owl:Class>
-    
-
-
-    <!-- https://edint.es/def/zona-regulatoria#EconomicInterestZone -->
-
-    <owl:Class rdf:about="https://edint.es/def/zona-regulatoria#EconomicInterestZone">
-        <rdfs:subClassOf rdf:resource="https://edint.es/def/zona-regulatoria#RegulatedZone"/>
-        <rdfs:isDefinedBy rdf:resource="https://edint.es/def/zona-regulatoria#"/>
-    </owl:Class>
-    
-
-
-    <!-- https://edint.es/def/zona-regulatoria#IndustrialZone -->
-
-    <owl:Class rdf:about="https://edint.es/def/zona-regulatoria#IndustrialZone">
-        <rdfs:subClassOf rdf:resource="https://edint.es/def/zona-regulatoria#EconomicInterestZone"/>
-        <rdfs:isDefinedBy rdf:resource="https://edint.es/def/zona-regulatoria#"/>
-    </owl:Class>
-    
-
-
-    <!-- https://edint.es/def/zona-regulatoria#LeisureZone -->
-
-    <owl:Class rdf:about="https://edint.es/def/zona-regulatoria#LeisureZone">
-        <rdfs:subClassOf rdf:resource="https://edint.es/def/zona-regulatoria#RegulatedZone"/>
-        <rdfs:isDefinedBy rdf:resource="https://edint.es/def/zona-regulatoria#"/>
-    </owl:Class>
-    
-
-
     <!-- https://edint.es/def/zona-regulatoria#RegulatedZone -->
 
     <owl:Class rdf:about="https://edint.es/def/zona-regulatoria#RegulatedZone">
-        <rdfs:isDefinedBy rdf:resource="https://edint.es/def/zona-regulatoria#"/>
-    </owl:Class>
-    
-
-
-    <!-- https://edint.es/def/zona-regulatoria#StreetVendingZone -->
-
-    <owl:Class rdf:about="https://edint.es/def/zona-regulatoria#StreetVendingZone">
-        <rdfs:subClassOf rdf:resource="https://edint.es/def/zona-regulatoria#EconomicInterestZone"/>
         <rdfs:isDefinedBy rdf:resource="https://edint.es/def/zona-regulatoria#"/>
     </owl:Class>
     
@@ -1283,8 +1261,12 @@ Además de las propiedades asociadas a estas clases, y definidas en su correspon
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+    <!-- https://edint.es/def/zona-regulatoria#RegulatedZoneType -->
 
+    <owl:NamedIndividual rdf:about="https://edint.es/def/zona-regulatoria#RegulatedZoneType">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    </owl:NamedIndividual>
+    
 
     <!-- http://lod.ine.es/clasificaciones/cnae/CNAE-2025 -->
 
