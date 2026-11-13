@@ -27,7 +27,7 @@
      xmlns:edintveh="https://edint.es/def/censo-vehiculos#"
      xmlns:edintzone="https://edint.es/def/zona-regulatoria#"
      xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:widoco="https://w3id.org/widoco/vocab#">    <owl:Ontology rdf:about="https://edint.es/def/censo-locales#">
+     xmlns:widoco="https://w3id.org/widoco/vocab#">    <owl:Ontology rdf:about="https://edint.es/def/censo-locales">
         <owl:versionIRI rdf:resource="https://edint.es/def/censo-locales/0.2.1"/>
         <dcterms:creator rdf:parseType="Resource">
             <foaf:name>Daniel Doña</foaf:name>
@@ -57,7 +57,7 @@
         <rdfs:label xml:lang="es">Censo de Establecimientos Comerciales</rdfs:label>
         <rdfs:label xml:lang="en">Commercial Establishment Census</rdfs:label>
         <vann:preferredNamespacePrefix>edintcom</vann:preferredNamespacePrefix>
-        <vann:preferredNamespaceUri rdf:resource="https://edint.es/def/censo-locales#"/>
+        <vann:preferredNamespaceUri>https://edint.es/def/censo-locales#</vann:preferredNamespaceUri>
         <owl:versionInfo>0.2.1</owl:versionInfo>
         <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-15</dcterms:created>
         <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-17</dcterms:issued>
