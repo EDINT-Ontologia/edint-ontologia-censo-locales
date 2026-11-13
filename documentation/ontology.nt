@@ -1,101 +1,101 @@
-<https://edint.es/def/censo-locales#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://edint.es/def/censo-locales#> <http://www.w3.org/2002/07/owl#versionIRI> <https://edint.es/def/censo-locales/0.2.1> .
-<https://edint.es/def/censo-locales#> <http://purl.org/dc/terms/abstract> "El propósito de esta ontología es proporcionar un vocabulario común para la representación de las entidades y los datos principales relacionados con los establecimientos comerciales de un municipio, y sus licencias. También incluye las agrupaciones comerciales, como mercados y centros comerciales, y las terrazas asociadas a los establecimientos."@es .
-<https://edint.es/def/censo-locales#> <http://purl.org/dc/terms/abstract> "The purpose of this ontology is to provide a common vocabulary for representing the entities and main data related to commercial establishments in a municipality, and their licenses. It also includes commercial groupings, such as markets and shopping centers, and the outdoor seating areas (terraces) associated with the establishments."@en .
-<https://edint.es/def/censo-locales#> <http://purl.org/dc/terms/bibliographicCitation> "EDINT Commercial Establishment Census Ontology. EDINT. Revision: v0.2.1."@en .
-<https://edint.es/def/censo-locales#> <http://purl.org/dc/terms/bibliographicCitation> "Ontología EDINT del Censo de Establecimientos Comerciales. EDINT. Revisión: v0.2.1."@es .
-<https://edint.es/def/censo-locales#> <http://purl.org/dc/terms/created> "2026-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://edint.es/def/censo-locales#> <http://purl.org/dc/terms/creator> _:genid1 .
+<https://edint.es/def/censo-locales> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://edint.es/def/censo-locales> <http://www.w3.org/2002/07/owl#versionIRI> <https://edint.es/def/censo-locales/0.2.1> .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/abstract> "El propósito de esta ontología es proporcionar un vocabulario común para la representación de las entidades y los datos principales relacionados con los establecimientos comerciales de un municipio, y sus licencias. También incluye las agrupaciones comerciales, como mercados y centros comerciales, y las terrazas asociadas a los establecimientos."@es .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/abstract> "The purpose of this ontology is to provide a common vocabulary for representing the entities and main data related to commercial establishments in a municipality, and their licenses. It also includes commercial groupings, such as markets and shopping centers, and the outdoor seating areas (terraces) associated with the establishments."@en .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/bibliographicCitation> "EDINT Commercial Establishment Census Ontology. EDINT. Revision: v0.2.1."@en .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/bibliographicCitation> "Ontología EDINT del Censo de Establecimientos Comerciales. EDINT. Revisión: v0.2.1."@es .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/created> "2026-04-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/creator> _:genid1 .
 _:genid1 <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 _:genid1 <http://xmlns.com/foaf/0.1/name> "Socorro Bernardos" .
-<https://edint.es/def/censo-locales#> <http://purl.org/dc/terms/creator> _:genid2 .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/creator> _:genid2 .
 _:genid2 <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 _:genid2 <http://xmlns.com/foaf/0.1/name> "Oscar Corcho" .
-<https://edint.es/def/censo-locales#> <http://purl.org/dc/terms/creator> _:genid3 .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/creator> _:genid3 .
 _:genid3 <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 _:genid3 <http://xmlns.com/foaf/0.1/name> "Lucía Sánchez" .
-<https://edint.es/def/censo-locales#> <http://purl.org/dc/terms/creator> _:genid4 .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/creator> _:genid4 .
 _:genid4 <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 _:genid4 <http://xmlns.com/foaf/0.1/name> "Edna Ruckhaus" .
-<https://edint.es/def/censo-locales#> <http://purl.org/dc/terms/creator> _:genid5 .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/creator> _:genid5 .
 _:genid5 <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 _:genid5 <http://xmlns.com/foaf/0.1/name> "Daniel Doña" .
-<https://edint.es/def/censo-locales#> <http://purl.org/dc/terms/description> "El propósito de esta ontología es proporcionar un vocabulario común para la representación de las entidades y los datos principales relacionados con los establecimientos comerciales de un municipio y sus licencias."@es .
-<https://edint.es/def/censo-locales#> <http://purl.org/dc/terms/description> "The purpose of this ontology is to provide a common vocabulary for representing the main entities and data related to a municipality's commecial spaces and their permits."@en .
-<https://edint.es/def/censo-locales#> <http://purl.org/dc/terms/issued> "2026-09-17"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://edint.es/def/censo-locales#> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
-<https://edint.es/def/censo-locales#> <http://purl.org/dc/terms/modified> "2026-09-17"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://edint.es/def/censo-locales#> <http://purl.org/dc/terms/publisher> _:genid6 .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/description> "El propósito de esta ontología es proporcionar un vocabulario común para la representación de las entidades y los datos principales relacionados con los establecimientos comerciales de un municipio y sus licencias."@es .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/description> "The purpose of this ontology is to provide a common vocabulary for representing the main entities and data related to a municipality's commecial spaces and their permits."@en .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/issued> "2026-09-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by-sa/4.0/> .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/modified> "2026-09-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/publisher> _:genid6 .
 _:genid6 <https://schema.org/affiliation> "Federación Española de Municipios y Provincias" .
 _:genid6 <http://xmlns.com/foaf/0.1/name> "FEMP" .
 _:genid6 <http://xmlns.com/foaf/0.1/homepage> <https://www.femp.es/> .
-<https://edint.es/def/censo-locales#> <http://purl.org/dc/terms/title> "EDINT Commercial Establishment Census Ontology"@en .
-<https://edint.es/def/censo-locales#> <http://purl.org/dc/terms/title> "Ontología EDINT del Censo de Establecimientos Comerciales"@es .
-<https://edint.es/def/censo-locales#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "edintcom" .
-<https://edint.es/def/censo-locales#> <http://purl.org/vocab/vann/preferredNamespaceUri> <https://edint.es/def/censo-locales#> .
-<https://edint.es/def/censo-locales#> <http://www.w3.org/2000/01/rdf-schema#label> "Censo de Establecimientos Comerciales"@es .
-<https://edint.es/def/censo-locales#> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial Establishment Census"@en .
-<https://edint.es/def/censo-locales#> <http://www.w3.org/2002/07/owl#priorVersion> <https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/releases/tag/v0.2.0> .
-<https://edint.es/def/censo-locales#> <http://www.w3.org/2002/07/owl#versionInfo> "0.2.1" .
-<https://edint.es/def/censo-locales#> <https://schema.org/codeRepository> <https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales> .
-<https://edint.es/def/censo-locales#> <https://schema.org/creativeWorkStatus> "Ontology Specification"@en .
-<https://edint.es/def/censo-locales#> <https://schema.org/funding> "Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)" .
-<https://edint.es/def/censo-locales#> <https://w3id.org/widoco/vocab#jsonldSerialization> "ontology.jsonld" .
-<https://edint.es/def/censo-locales#> <https://w3id.org/widoco/vocab#ntSerialization> "ontology.nt" .
-<https://edint.es/def/censo-locales#> <https://w3id.org/widoco/vocab#rdfxmlSerialization> "ontology.rdf" .
-<https://edint.es/def/censo-locales#> <https://w3id.org/widoco/vocab#turtleSerialization> "ontology.ttl" .
-<https://edint.es/def/censo-locales#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid7 .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/title> "EDINT Commercial Establishment Census Ontology"@en .
+<https://edint.es/def/censo-locales> <http://purl.org/dc/terms/title> "Ontología EDINT del Censo de Establecimientos Comerciales"@es .
+<https://edint.es/def/censo-locales> <http://purl.org/vocab/vann/preferredNamespacePrefix> "edintcom" .
+<https://edint.es/def/censo-locales> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://edint.es/def/censo-locales#" .
+<https://edint.es/def/censo-locales> <http://www.w3.org/2000/01/rdf-schema#label> "Censo de Establecimientos Comerciales"@es .
+<https://edint.es/def/censo-locales> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial Establishment Census"@en .
+<https://edint.es/def/censo-locales> <http://www.w3.org/2002/07/owl#priorVersion> <https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales/releases/tag/v0.2.0> .
+<https://edint.es/def/censo-locales> <http://www.w3.org/2002/07/owl#versionInfo> "0.2.1" .
+<https://edint.es/def/censo-locales> <https://schema.org/codeRepository> <https://github.com/EDINT-Ontologia/edint-ontologia-censo-locales> .
+<https://edint.es/def/censo-locales> <https://schema.org/creativeWorkStatus> "Ontology Specification"@en .
+<https://edint.es/def/censo-locales> <https://schema.org/funding> "Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)" .
+<https://edint.es/def/censo-locales> <https://w3id.org/widoco/vocab#jsonldSerialization> "ontology.jsonld" .
+<https://edint.es/def/censo-locales> <https://w3id.org/widoco/vocab#ntSerialization> "ontology.nt" .
+<https://edint.es/def/censo-locales> <https://w3id.org/widoco/vocab#rdfxmlSerialization> "ontology.rdf" .
+<https://edint.es/def/censo-locales> <https://w3id.org/widoco/vocab#turtleSerialization> "ontology.ttl" .
+<https://edint.es/def/censo-locales> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid7 .
 _:genid7 <https://w3id.org/widoco/vocab#vocabularyIRI> <https://edint.es/def/zona-regulatoria> .
 _:genid7 <http://www.w3.org/2000/01/rdf-schema#label> "Zonas Regulatorias (edintzone)"@es .
 _:genid7 <http://www.w3.org/2000/01/rdf-schema#label> "Regulated Zones (edintzone)"@en .
-<https://edint.es/def/censo-locales#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid8 .
+<https://edint.es/def/censo-locales> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid8 .
 _:genid8 <https://w3id.org/widoco/vocab#vocabularyIRI> <https://edint.es/def/infraestructura> .
 _:genid8 <http://www.w3.org/2000/01/rdf-schema#label> "Infrastructure (edintinf)"@en .
 _:genid8 <http://www.w3.org/2000/01/rdf-schema#label> "Infraestructura (edintinf)"@es .
-<https://edint.es/def/censo-locales#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid9 .
+<https://edint.es/def/censo-locales> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid9 .
 _:genid9 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://www.opengis.net/ont/geosparql> .
 _:genid9 <http://www.w3.org/2000/01/rdf-schema#label> "GeoSPARQL"@es .
 _:genid9 <http://www.w3.org/2000/01/rdf-schema#label> "GeoSPARQL"@en .
-<https://edint.es/def/censo-locales#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid10 .
-_:genid10 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://www.geonames.org/ontology> .
-_:genid10 <http://www.w3.org/2000/01/rdf-schema#label> "GeoNames"@es .
-_:genid10 <http://www.w3.org/2000/01/rdf-schema#label> "GeoNames"@en .
-<https://edint.es/def/censo-locales#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid11 .
-_:genid11 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal> .
-_:genid11 <http://www.w3.org/2000/01/rdf-schema#label> "Postal Address (esdir)"@en .
-_:genid11 <http://www.w3.org/2000/01/rdf-schema#label> "Dirección Postal (esdir)"@es .
-<https://edint.es/def/censo-locales#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid12 .
-_:genid12 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero> .
-_:genid12 <http://www.w3.org/2000/01/rdf-schema#label> "Street catalogue (escjr)"@en .
-_:genid12 <http://www.w3.org/2000/01/rdf-schema#label> "Callejero (escjr)"@es .
-<https://edint.es/def/censo-locales#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid13 .
-_:genid13 <https://w3id.org/widoco/vocab#vocabularyIRI> <https://edint.es/def/aparcamiento> .
-_:genid13 <http://www.w3.org/2000/01/rdf-schema#label> "Parking (edintapar)"@en .
-_:genid13 <http://www.w3.org/2000/01/rdf-schema#label> "Aparcamiento (edintapar)"@es .
-<https://edint.es/def/censo-locales#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid14 .
-_:genid14 <https://w3id.org/widoco/vocab#vocabularyIRI> <https://datos.ign.es/def/geo_core> .
-_:genid14 <http://www.w3.org/2000/01/rdf-schema#label> "geo_core (IGN)"@es .
-_:genid14 <http://www.w3.org/2000/01/rdf-schema#label> "geo_core (IGN)"@en .
-<https://edint.es/def/censo-locales#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid15 .
-_:genid15 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://www.w3.org/2006/time> .
-_:genid15 <http://www.w3.org/2000/01/rdf-schema#label> "OWL-Time"@es .
-_:genid15 <http://www.w3.org/2000/01/rdf-schema#label> "OWL-Time"@en .
-<https://edint.es/def/censo-locales#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid16 .
-_:genid16 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://www.opengis.net/ont/sf> .
-_:genid16 <http://www.w3.org/2000/01/rdf-schema#label> "OGC Simple Features"@es .
-_:genid16 <http://www.w3.org/2000/01/rdf-schema#label> "OGC Simple Features"@en .
-<https://edint.es/def/censo-locales#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid17 .
-_:genid17 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio> .
-_:genid17 <http://www.w3.org/2000/01/rdf-schema#label> "Territory (esadm)"@en .
-_:genid17 <http://www.w3.org/2000/01/rdf-schema#label> "Territorio (esadm)"@es .
-<https://edint.es/def/censo-locales#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid18 .
-_:genid18 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.ciudadesabiertas.es/def/transporte/trafico> .
-_:genid18 <http://www.w3.org/2000/01/rdf-schema#label> "Tráfico (Ciudades Abiertas)"@es .
-_:genid18 <http://www.w3.org/2000/01/rdf-schema#label> "Traffic (Ciudades Abiertas)"@en .
-<https://edint.es/def/censo-locales#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid19 .
-_:genid19 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> .
-_:genid19 <http://www.w3.org/2000/01/rdf-schema#label> "Public Bicycles (Ciudades Abiertas)"@en .
-_:genid19 <http://www.w3.org/2000/01/rdf-schema#label> "Bicicleta Pública (Ciudades Abiertas)"@es .
+<https://edint.es/def/censo-locales> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid10 .
+_:genid10 <https://w3id.org/widoco/vocab#vocabularyIRI> <https://edint.es/def/aparcamiento> .
+_:genid10 <http://www.w3.org/2000/01/rdf-schema#label> "Parking (edintapar)"@en .
+_:genid10 <http://www.w3.org/2000/01/rdf-schema#label> "Aparcamiento (edintapar)"@es .
+<https://edint.es/def/censo-locales> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid11 .
+_:genid11 <https://w3id.org/widoco/vocab#vocabularyIRI> <https://datos.ign.es/def/geo_core> .
+_:genid11 <http://www.w3.org/2000/01/rdf-schema#label> "geo_core (IGN)"@es .
+_:genid11 <http://www.w3.org/2000/01/rdf-schema#label> "geo_core (IGN)"@en .
+<https://edint.es/def/censo-locales> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid12 .
+_:genid12 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://www.w3.org/2006/time> .
+_:genid12 <http://www.w3.org/2000/01/rdf-schema#label> "OWL-Time"@es .
+_:genid12 <http://www.w3.org/2000/01/rdf-schema#label> "OWL-Time"@en .
+<https://edint.es/def/censo-locales> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid13 .
+_:genid13 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://www.opengis.net/ont/sf> .
+_:genid13 <http://www.w3.org/2000/01/rdf-schema#label> "OGC Simple Features"@es .
+_:genid13 <http://www.w3.org/2000/01/rdf-schema#label> "OGC Simple Features"@en .
+<https://edint.es/def/censo-locales> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid14 .
+_:genid14 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero> .
+_:genid14 <http://www.w3.org/2000/01/rdf-schema#label> "Street catalogue (escjr)"@en .
+_:genid14 <http://www.w3.org/2000/01/rdf-schema#label> "Callejero (escjr)"@es .
+<https://edint.es/def/censo-locales> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid15 .
+_:genid15 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio> .
+_:genid15 <http://www.w3.org/2000/01/rdf-schema#label> "Territory (esadm)"@en .
+_:genid15 <http://www.w3.org/2000/01/rdf-schema#label> "Territorio (esadm)"@es .
+<https://edint.es/def/censo-locales> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid16 .
+_:genid16 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.ciudadesabiertas.es/def/transporte/trafico> .
+_:genid16 <http://www.w3.org/2000/01/rdf-schema#label> "Tráfico (Ciudades Abiertas)"@es .
+_:genid16 <http://www.w3.org/2000/01/rdf-schema#label> "Traffic (Ciudades Abiertas)"@en .
+<https://edint.es/def/censo-locales> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid17 .
+_:genid17 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.ciudadesabiertas.es/def/transporte/bicicleta-publica> .
+_:genid17 <http://www.w3.org/2000/01/rdf-schema#label> "Public Bicycles (Ciudades Abiertas)"@en .
+_:genid17 <http://www.w3.org/2000/01/rdf-schema#label> "Bicicleta Pública (Ciudades Abiertas)"@es .
+<https://edint.es/def/censo-locales> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid18 .
+_:genid18 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://www.geonames.org/ontology> .
+_:genid18 <http://www.w3.org/2000/01/rdf-schema#label> "GeoNames"@es .
+_:genid18 <http://www.w3.org/2000/01/rdf-schema#label> "GeoNames"@en .
+<https://edint.es/def/censo-locales> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid19 .
+_:genid19 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/direccion-postal> .
+_:genid19 <http://www.w3.org/2000/01/rdf-schema#label> "Postal Address (esdir)"@en .
+_:genid19 <http://www.w3.org/2000/01/rdf-schema#label> "Dirección Postal (esdir)"@es .
 # 
 # 
 # #################################################################
