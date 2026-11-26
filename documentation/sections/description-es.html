@@ -44,67 +44,67 @@ Figura 1. Modelo conceptual de la ontolog&iacute;a.</figcaption></center></p>
 @prefix void: &lt;http://rdfs.org/ns/void#&gt; .
 @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
 
-&lt;http://example.org/recurso/agrupacionComercial/AGR-0001&gt; a
+&lt;https://example.org/recurso/agrupacionComercial/AGR-0001&gt; a
     edintcom:CommercialAggregation;
   dcterms:identifier "AGR-0001";
   rdfs:comment "Mercado tradicional de Madrid, con origen en 1876 y reinaugurado en 1943 tras una reforma. Tiene accesos por Alonso Cano, García de Paredes y Viriato, y combina puestos de alimentación, restauración y comercio especializado.";
   rdfs:label "Mercado de Chamberí" .
 
-&lt;http://example.org/recurso/direccion-postal/28010&gt; a esdir:DireccionPostal;
+&lt;https://example.org/recurso/direccion-postal/28010&gt; a esdir:DireccionPostal;
   schema:postalCode "28010";
   rdfs:label "28010" .
 
-&lt;http://example.org/recurso/entidad-comercial/ENT-0001&gt; a edintcom:CommercialEntity;
+&lt;https://example.org/recurso/entidad-comercial/ENT-0001&gt; a edintcom:CommercialEntity;
   dcterms:identifier "ENT-0001";
   schema:legalName "Cafetería Chamberí S.L.";
   schema:url "https://mercadodechamberi.es";
   edintcom:hasCNAECode &lt;http://lod.ine.es/kos/cnae/CNAE-2025/6/563000&gt;;
   edintcom:hasIAECode &lt;https://edint.es/kos/iae/3/673.1&gt;;
-  edintcom:usesSpace &lt;http://example.org/recurso/espacio-comercial/COM-0001&gt;;
+  edintcom:usesSpace &lt;https://example.org/recurso/espacio-comercial/COM-0001&gt;;
   rdfs:label "Cafetería Chamberí S.L." .
 
-&lt;http://example.org/recurso/espacio-comercial/COM-0001&gt; a edintcom:CommercialSpace;
+&lt;https://example.org/recurso/espacio-comercial/COM-0001&gt; a edintcom:CommercialSpace;
   dcterms:identifier "COM-0001";
-  edintcom:belongsToCommercialAggregation &lt;http://example.org/recurso/agrupacionComercial/AGR-0001&gt;;
+  edintcom:belongsToCommercialAggregation &lt;https://example.org/recurso/agrupacionComercial/AGR-0001&gt;;
   edintcom:hasCommercialSpaceStatus edintkoscomespsit:Active;
-  edintcom:hasTerrace &lt;http://example.org/recurso/terraza/TER-0001&gt;;
+  edintcom:hasTerrace &lt;https://example.org/recurso/terraza/TER-0001&gt;;
   rdfs:label "Cafetería Chamberí" .
 
-&lt;http://example.org/recurso/terraza/TER-0001&gt; a edintcom:Terrace;
+&lt;https://example.org/recurso/terraza/TER-0001&gt; a edintcom:Terrace;
   dcterms:identifier "TER-0001";
-  schema:address &lt;http://example.org/recurso/direccion-postal/28010&gt;;
+  schema:address &lt;https://example.org/recurso/direccion-postal/28010&gt;;
   schema:floorSize "14.5";
   schema:maximumAttendeeCapacity 18;
   schema:openingHours "Tu-Sa 12:30-16:30; Tu-Sa 19:00-00:00; Su 12:30-16:30";
   edintcom:hasTerracePeriod edintterper:anual;
   edintcom:numberOfPermitedTables 6;
   edintcom:numberOfPermitedChairs 18;
-  edintinf:belongsTo &lt;http://example.org/recurso/sector-publico/territorio/barrio/TRAFALGAR&gt;;
+  edintinf:belongsTo &lt;https://example.org/recurso/sector-publico/territorio/barrio/TRAFALGAR&gt;;
   edintinf:hasInfrastructureType edintkosinf:Terrace;
-  geosparql:hasGeometry &lt;http://example.org/recurso/terraza/geometry/TER-0001&gt;;
+  geosparql:hasGeometry &lt;https://example.org/recurso/terraza/geometry/TER-0001&gt;;
   rdfs:comment "Zona de degustación vinculada a cafetería-pastelería dentro del Mercado de Chamberí, orientada a consumo en horario diurno y de restauración.";
   rdfs:label "Terraza Cafetería Chamberí" .
 
-&lt;http://example.org/recurso/terraza/geometry/TER-0001&gt; geosparql:asWKT
+&lt;https://example.org/recurso/terraza/geometry/TER-0001&gt; geosparql:asWKT
     "POINT (-3.700200 40.434300)"^^geosparql:wktLiteral .
 
-&lt;http://example.org/recurso/licencia/LIC-CAF-0001&gt; a edintcom:Permit ;
+&lt;https://example.org/recurso/licencia/LIC-CAF-0001&gt; a edintcom:Permit ;
   dcterms:identifier "LIC-CAF-0001" ;
   rdfs:label "Licencia de actividad Cafetería Chamberí" ;
   edintcom:fileCode "2021/EXP/45872" ;
-  edintcom:issuedTo &lt;http://example.org/recurso/entidad-comercial/ENT-0001&gt; ;
-  edintcom:appliedTo &lt;http://example.org/recurso/espacio-comercial/COM-0001&gt; ;
+  edintcom:issuedTo &lt;https://example.org/recurso/entidad-comercial/ENT-0001&gt; ;
+  edintcom:appliedTo &lt;https://example.org/recurso/espacio-comercial/COM-0001&gt; ;
   edintcom:hasCommercialPermitType https://edint.es/kos/CommercialPermitType/APAL ;
   edintcom:hasCommercialPermitStatus https://edint.es/kos/CommercialPermitStatus/Granted ;
   edintcom:hasCNAECode &lt;http://lod.ine.es/kos/cnae/CNAE-2025/6/563000&gt; ;
   edintcom:hasIAECode &lt;https://edint.es/kos/iae/3/673.1&gt; ;
   schema:startDate "2021-05-14T00:00:00"^^xsd:dateTime .
 
-&lt;http://example.org/recurso/licencia/LIC-TER-0001&gt; a edintcom:Permit ;
+&lt;https://example.org/recurso/licencia/LIC-TER-0001&gt; a edintcom:Permit ;
   dcterms:identifier "LIC-TER-0001" ;
   rdfs:label "Autorización de terraza Cafetería Chamberí" ;
   edintcom:fileCode "2024/VEL/10328" ;
-  edintcom:appliedTo &lt;http://example.org/recurso/terraza/TER-0001&gt; ;
+  edintcom:appliedTo &lt;https://example.org/recurso/terraza/TER-0001&gt; ;
   edintcom:hasCommercialPermitType https://edint.es/kos/CommercialPermitType/APAL ;
   edintcom:hasCommercialPermitStatus https://edint.es/kos/CommercialPermitStatus/Granted ;
   schema:startDate "2024-03-01T00:00:00"^^xsd:dateTime ;
