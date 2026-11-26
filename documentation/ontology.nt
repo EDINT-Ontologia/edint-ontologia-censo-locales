@@ -471,6 +471,8 @@ _:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 # 
 # https://edint.es/def/censo-locales#locatedInZone
 <https://edint.es/def/censo-locales#locatedInZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://edint.es/def/censo-locales#locatedInZone> <http://www.w3.org/2000/01/rdf-schema#domain> <https://edint.es/def/censo-locales#CommercialSpace> .
+<https://edint.es/def/censo-locales#locatedInZone> <http://www.w3.org/2000/01/rdf-schema#range> <https://edint.es/def/zona-regulatoria#RegulatedZone> .
 <https://edint.es/def/censo-locales#locatedInZone> <http://www.w3.org/2000/01/rdf-schema#comment> "It relates en entity, especially a commercial space, event or campaign, to the zone where it is."@en .
 <https://edint.es/def/censo-locales#locatedInZone> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona una entidad, principalmente un espacio, campaña o evento comercial, con la zona en la que está."@es .
 <https://edint.es/def/censo-locales#locatedInZone> <http://www.w3.org/2000/01/rdf-schema#label> "located in zone"@en .
@@ -498,6 +500,26 @@ _:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 _:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
 _:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 <https://edint.es/def/infraestructura#hasInfrastructureType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://edint.es/def/infraestructura#> .
+# 
+# https://edint.es/def/zona-regulatoria/hasRegulatedZoneType
+<https://edint.es/def/zona-regulatoria/hasRegulatedZoneType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://edint.es/def/zona-regulatoria/hasRegulatedZoneType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://edint.es/def/zona-regulatoria#RegulatedZone> .
+<https://edint.es/def/zona-regulatoria/hasRegulatedZoneType> <http://www.w3.org/2000/01/rdf-schema#range> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid48 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid50 .
+_:genid50 <http://www.w3.org/2002/07/owl#hasValue> <https://edint.es/def/zona-regulatoria#RegulatedZoneType> .
+_:genid50 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://edint.es/def/zona-regulatoria/hasRegulatedZoneType> <http://www.w3.org/2000/01/rdf-schema#comment> "Vincula una zona regulada a su clasificación de tipo del esquema de conceptos SKOS RegulatedZoneType."@es .
+<https://edint.es/def/zona-regulatoria/hasRegulatedZoneType> <http://www.w3.org/2000/01/rdf-schema#comment> "inks a regulated zone to its type classification from the RegulatedZoneType SKOS concept scheme."@en .
+<https://edint.es/def/zona-regulatoria/hasRegulatedZoneType> <http://www.w3.org/2000/01/rdf-schema#label> "has regulated zone type"@en .
+<https://edint.es/def/zona-regulatoria/hasRegulatedZoneType> <http://www.w3.org/2000/01/rdf-schema#label> "tiene tipo de zona regulada"@es .
 # 
 # 
 # 
@@ -714,14 +736,14 @@ _:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 # http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.geonames.org/ontology#Feature> .
-<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid48 .
-_:genid48 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#R> .
-_:genid48 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureClass> .
-_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid49 .
-_:genid49 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#R.ST> .
-_:genid49 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureCode> .
-_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid52 .
+_:genid52 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#R> .
+_:genid52 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureClass> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid53 .
+_:genid53 <http://www.w3.org/2002/07/owl#hasValue> <http://www.geonames.org/ontology#R.ST> .
+_:genid53 <http://www.w3.org/2002/07/owl#onProperty> <http://www.geonames.org/ontology#featureCode> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://purl.org/dc/terms/issued> "2013-03-28"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://www.w3.org/2000/01/rdf-schema#comment> "Vía de comunicación construida para la circulación. \nEn su definición según el modelo de direcciones de la Administración General del Estado, Incluye calles, carreteras de todo tipo, caminos, vías de agua, pantalanes, etc. Asimismo, incluye la pseudovía., es decir todo aquello que complementa o sustituye a la vía.\nEn nuestro caso, este término se utiliza para hacer referencia a las vías urbanas.\n\nPor esta razón, se utiliza geonames:R.ST como valor principal de la propiedad geonames:featureCode, dejando de lado otras opciones como R.PRMN (promenade), R.TRL (trail). Quizás en el futuro haya que relajar un poco esta opción, sobre todo, por ejemplo, para ciudades con costa y paseo marítimo."@es .
 <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#Via> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero> .
@@ -779,15 +801,15 @@ _:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # https://edint.es/def/censo-locales#CommercialEntity
 <https://edint.es/def/censo-locales#CommercialEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://edint.es/def/censo-locales#CommercialEntity> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid50 .
-_:genid50 <http://www.w3.org/2002/07/owl#unionOf> _:genid52 .
-_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid51 .
-_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://schema.org/Organization> .
-_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://schema.org/Person> .
-_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/censo-locales#CommercialEntity> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid54 .
+_:genid54 <http://www.w3.org/2002/07/owl#unionOf> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid55 .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://schema.org/Organization> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://schema.org/Person> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://edint.es/def/censo-locales#CommercialEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "Person and/or organization that plays an economic activity and that is assigned the permit of a commercial space."@en .
 <https://edint.es/def/censo-locales#CommercialEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "Ppersona u organización que realiza una actividad económica y a quien se asigna la licencia de un espacio comercial"@es .
 <https://edint.es/def/censo-locales#CommercialEntity> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial entity"@en .
@@ -840,33 +862,9 @@ _:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://edint.es/def/censo-locales#UrbanElement> <http://www.w3.org/2000/01/rdf-schema#label> "Elemento urbano"@es .
 <https://edint.es/def/censo-locales#UrbanElement> <http://www.w3.org/2000/01/rdf-schema#label> "Urban element"@en .
 # 
-# https://edint.es/def/zona-regulatoria#CommercialZone
-<https://edint.es/def/zona-regulatoria#CommercialZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://edint.es/def/zona-regulatoria#CommercialZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://edint.es/def/zona-regulatoria#EconomicInterestZone> .
-# 
-# https://edint.es/def/zona-regulatoria#EconomicInterestZone
-<https://edint.es/def/zona-regulatoria#EconomicInterestZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://edint.es/def/zona-regulatoria#EconomicInterestZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://edint.es/def/zona-regulatoria#RegulatedZone> .
-<https://edint.es/def/zona-regulatoria#EconomicInterestZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://edint.es/def/zona-regulatoria#> .
-# 
-# https://edint.es/def/zona-regulatoria#IndustrialZone
-<https://edint.es/def/zona-regulatoria#IndustrialZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://edint.es/def/zona-regulatoria#IndustrialZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://edint.es/def/zona-regulatoria#EconomicInterestZone> .
-<https://edint.es/def/zona-regulatoria#IndustrialZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://edint.es/def/zona-regulatoria#> .
-# 
-# https://edint.es/def/zona-regulatoria#LeisureZone
-<https://edint.es/def/zona-regulatoria#LeisureZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://edint.es/def/zona-regulatoria#LeisureZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://edint.es/def/zona-regulatoria#RegulatedZone> .
-<https://edint.es/def/zona-regulatoria#LeisureZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://edint.es/def/zona-regulatoria#> .
-# 
 # https://edint.es/def/zona-regulatoria#RegulatedZone
 <https://edint.es/def/zona-regulatoria#RegulatedZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://edint.es/def/zona-regulatoria#RegulatedZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://edint.es/def/zona-regulatoria#> .
-# 
-# https://edint.es/def/zona-regulatoria#StreetVendingZone
-<https://edint.es/def/zona-regulatoria#StreetVendingZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://edint.es/def/zona-regulatoria#StreetVendingZone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://edint.es/def/zona-regulatoria#EconomicInterestZone> .
-<https://edint.es/def/zona-regulatoria#StreetVendingZone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://edint.es/def/zona-regulatoria#> .
 # 
 # https://schema.org/Organization
 <https://schema.org/Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -894,6 +892,10 @@ _:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # 
 # http://www.geonames.org/ontology#R.ST
 <http://www.geonames.org/ontology#R.ST> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://edint.es/def/zona-regulatoria#RegulatedZoneType
+<https://edint.es/def/zona-regulatoria#RegulatedZoneType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://edint.es/def/zona-regulatoria#RegulatedZoneType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 # 
 # https://edint.es/kos/AccessType
 <https://edint.es/kos/AccessType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
