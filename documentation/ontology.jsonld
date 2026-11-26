@@ -285,21 +285,13 @@
   } ]
 }, {
   "@id" : "_:genid48",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://www.geonames.org/ontology#R"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.geonames.org/ontology#featureClass"
-  } ]
-}, {
-  "@id" : "_:genid49",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://www.geonames.org/ontology#R.ST"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://www.geonames.org/ontology#featureCode"
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }, {
+      "@id" : "_:genid50"
+    } ]
   } ]
 }, {
   "@id" : "_:genid5",
@@ -311,6 +303,33 @@
   } ]
 }, {
   "@id" : "_:genid50",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "https://edint.es/def/zona-regulatoria#RegulatedZoneType"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#inScheme"
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "http://www.geonames.org/ontology#R"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.geonames.org/ontology#featureClass"
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "http://www.geonames.org/ontology#R.ST"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.geonames.org/ontology#featureCode"
+  } ]
+}, {
+  "@id" : "_:genid54",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
@@ -796,9 +815,9 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.geonames.org/ontology#Feature"
   }, {
-    "@id" : "_:genid48"
+    "@id" : "_:genid52"
   }, {
-    "@id" : "_:genid49"
+    "@id" : "_:genid53"
   } ]
 }, {
   "@id" : "http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#contienePortal",
@@ -1305,7 +1324,7 @@
     "@value" : "Entidad comercial"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid50"
+    "@id" : "_:genid54"
   } ]
 }, {
   "@id" : "https://edint.es/def/censo-locales#CommercialSpace",
@@ -1666,12 +1685,18 @@
     "@language" : "es",
     "@value" : "Relaciona una entidad, principalmente un espacio, campaña o evento comercial, con la zona en la que está."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://edint.es/def/censo-locales#CommercialSpace"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "located in zone"
   }, {
     "@language" : "es",
     "@value" : "situado en zona"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://edint.es/def/zona-regulatoria#RegulatedZone"
   } ]
 }, {
   "@id" : "https://edint.es/def/censo-locales#maintenanceDate",
@@ -1777,52 +1802,39 @@
     "@id" : "_:genid44"
   } ]
 }, {
-  "@id" : "https://edint.es/def/zona-regulatoria#CommercialZone",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://edint.es/def/zona-regulatoria#EconomicInterestZone"
-  } ]
-}, {
-  "@id" : "https://edint.es/def/zona-regulatoria#EconomicInterestZone",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://edint.es/def/zona-regulatoria#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://edint.es/def/zona-regulatoria#RegulatedZone"
-  } ]
-}, {
-  "@id" : "https://edint.es/def/zona-regulatoria#IndustrialZone",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://edint.es/def/zona-regulatoria#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://edint.es/def/zona-regulatoria#EconomicInterestZone"
-  } ]
-}, {
-  "@id" : "https://edint.es/def/zona-regulatoria#LeisureZone",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://edint.es/def/zona-regulatoria#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://edint.es/def/zona-regulatoria#RegulatedZone"
-  } ]
-}, {
   "@id" : "https://edint.es/def/zona-regulatoria#RegulatedZone",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://edint.es/def/zona-regulatoria#"
   } ]
 }, {
-  "@id" : "https://edint.es/def/zona-regulatoria#StreetVendingZone",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "https://edint.es/def/zona-regulatoria#"
+  "@id" : "https://edint.es/def/zona-regulatoria#RegulatedZoneType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+  } ]
+}, {
+  "@id" : "https://edint.es/def/zona-regulatoria/hasRegulatedZoneType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Vincula una zona regulada a su clasificación de tipo del esquema de conceptos SKOS RegulatedZoneType."
+  }, {
+    "@language" : "en",
+    "@value" : "inks a regulated zone to its type classification from the RegulatedZoneType SKOS concept scheme."
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://edint.es/def/zona-regulatoria#EconomicInterestZone"
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://edint.es/def/zona-regulatoria#RegulatedZone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has regulated zone type"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene tipo de zona regulada"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid48"
   } ]
 }, {
   "@id" : "https://edint.es/kos/AccessType",
